@@ -16,6 +16,9 @@
 \usepackage{circuitikz}
 \usepackage{indentfirst}
 \usepackage{verbatimbox}
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+\graphicspath{ {./images/} }
 
 \hypersetup{
     colorlinks = true,
@@ -35,6 +38,24 @@
 \date{2020}
 
 \begin{document}
+
+	\lstset{language=Matlab,%
+		frame=single,  
+    		%basicstyle=\color{red},
+    		breaklines=true,%
+    		morekeywords={matlab2tikz},
+    		keywordstyle=\color{blue},%
+    		morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+   		 identifierstyle=\color{black},%
+    		stringstyle=\color{mylilas},
+    		commentstyle=\color{mygreen},%
+    		showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    		numbers=left,%
+    		numberstyle={\tiny \color{black}},% size of the numbers
+    		numbersep=9pt, % this defines how far the numbers are from the text
+    		emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    		%emph=[2]{word1,word2}, emphstyle=[2]{style},    
+	}
 	
 	\maketitle
 	\newpage
@@ -124,21 +145,53 @@
 	\textcolor{blue}{Question 3.11:} \textbf{Draw the sensor+amplifier schematic using the CAD schematic software} \textcolor{blue}{https://www.tinycad.net/}
 	
 	FALTA ESQUEMA\\
-
+	\newpage
 	\textcolor{blue}{Question 3.12:} \textbf{Obtain in the lab 10 measurement points along the measurement range. Draw its graphical representation, calculate and plot the linear regression and the linearity error (lineal regression straight line – measured points). }
 	
-	ES FA AL LABORATORI, SINO ES MOLT COMPLICAT\\
+	\begin{table}[H]
+	\centering
+	\begin{tabular}{||c c ||} 
+	 \hline
+		 Preassure[Atm] & Voltage[$V$] \\ [0.5ex] 
+	 \hline\hline
+	 	0 		& 1.96 \\
+		 0.1 		& 1.97  \\ 
+		 0.15 	& 1.98  \\ 
+		 0.2 		&  1.99\\
+		 0.25 	& 1.995  \\ 
+		 0.3 		& 2.00 \\
+		 0.35 	& 2.003  \\ 
+		 0.4 		& 2.01 \\
+		 0.45 	& 2.013  \\ 
+		 0.5 		& 2.019 \\ [1ex] 
+	 \hline
+	\end{tabular}
+	\caption{Voltage output respect to Preassure input}
+	\end{table}
+	
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics{ExcelGraph2.png}
+	\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=105mm]{MatlabGraph1.jpg}
+	\end{center}
+	\end{figure}
+	
+	\lstinputlisting{codiMatlab.m}
+	
 
 	\textcolor{blue}{Question 3.13:}  \textbf{Calculate the digital data range provided by the acquisition circuit in measurements from 0 to 3m of water depth. Consider that the 10 bit A/D converter of the Arduino assigns 0 to a 0V input and 1023 (210-1) to a 5V input.}
 	
-	FALTA EL EXERCICI 12 PER A PODER CALCULAR LA PRESSIO A 3M DEL AIGUA(ES FA AL LABORATORI)\\
-	
-	We know that the pressure on the surface of the water is 1 atm so we will have an output of:
+	The expected values from the arduino measurement acquisition should be inside the interval
 	\[
-		\frac{3.06\cdot1023}{5} = 626V
+		[\frac{V_0}{5}\cdot1023, \frac{V_{0.3}}{5}\cdot1023] = [\frac{1.96}{5}\cdot1023, \frac{2.00}{5}\cdot1023] = [401.0,409.2]
 	\]
-
-
+	
 	\textcolor{blue}{Question 3.14:} \textbf{Explain briefly what is the purpose of the following functions, used in the sketch of Fig. 4.5: Serial.begin(), analogRead(), Serial.println() and delay(). }
 	\begin{itemize}
 		\item \textbf{Serial.begin():} Sets the data rate in bits per second for serial data transmission.
@@ -151,7 +204,28 @@
 
 	\textcolor{blue}{Question 3.15:}  \textbf{While acquiring measures with the Arduino, smoothly increase the pressure to simulate a depth change from 0 m to 3 m. Do the measurement results displayed on the serial monitor match with the theoretical ones obtained in Question 3.13? If not, explain why. NOTE: If you are at home, use the potentiometer or the temperature sensor instead of the pressure sensor.}
 
-	ES FA AL LABORATORI, SINO ES MOLT COMPLICAT\\
+	\begin{table}[H]
+	\centering
+	\begin{tabular}{||c c ||} 
+	 \hline
+		 Preassure[Atm] & Arduino output \\ [0.5ex] 
+	 \hline\hline
+	 	 0 		& 391  \\
+		 0.1 		& 392  \\ 
+		 0.15 	& 392  \\ 
+		 0.2 		& 393  \\
+		 0.25 	& 394  \\ 
+		 0.3 		& 395  \\
+		 0.35 	& 396  \\ 
+		 0.4 		& 397  \\
+		 0.45 	& 399  \\ 
+		 0.5 		& 399  \\ [1ex] 
+	 \hline
+	\end{tabular}
+	\caption{Arduino output respect to Preassure input}
+	\end{table}
+	
+	FALTA EXPLICAR PERQUE NO ES IGUAL A LA PREGUNTA 3.13\\
 
 	\textcolor{blue}{Question 3.16:} \textbf{Include a picture of the initial and final Gantt diagrams of WP3, making a reflexion about the progress and explaining any delay in the development of the tasks. }
 	
