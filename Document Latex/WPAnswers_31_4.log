@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  8 OCT 2020 23:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  15 OCT 2020 16:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**ENTIC_WP.tex
-(./ENTIC_WP.tex
+**WPAnswers_31_4.tex
+(./WPAnswers_31_4.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -994,8 +994,8 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 26.
 LaTeX Warning: Unused global option(s):
     [a4papre].
 
-(./ENTIC_WP.aux)
-\openout1 = `ENTIC_WP.aux'.
+(./WPAnswers_31_4.aux)
+\openout1 = `WPAnswers_31_4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
@@ -1017,7 +1017,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 0.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Info: Redefining \l on input line 40.
@@ -1040,9 +1041,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 40.
 LaTeX Info: Redefining \pageref on input line 40.
 LaTeX Info: Redefining \nameref on input line 40.
- (./ENTIC_WP.out) (./ENTIC_WP.out)
+ (./WPAnswers_31_4.out) (./WPAnswers_31_4.out)
 \@outlinefile=\write6
-\openout6 = `ENTIC_WP.out'.
+\openout6 = `WPAnswers_31_4.out'.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
@@ -1141,125 +1142,173 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+4.
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--123
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
+<./images/WP1-1-10-2020.jpg, id=79, 555.57562pt x 182.93344pt>
+File: ./images/WP1-1-10-2020.jpg Graphic file (type jpg)
+<use ./images/WP1-1-10-2020.jpg>
+Package pdftex.def Info: ./images/WP1-1-10-2020.jpg  used on input line 137.
+(pdftex.def)             Requested size: 426.79134pt x 140.5298pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 137--138
+ [] 
+ []
+
+[4 <./images/WP1-1-10-2020.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[4]
-<./images/ExcelGraph2.png, id=68, 363.3575pt x 218.8175pt>
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 161.
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
+
+ []
+
+[5]
+<./images/Cirquit1WP2.png, id=91, 468.75125pt x 565.11125pt>
+File: ./images/Cirquit1WP2.png Graphic file (type png)
+<use ./images/Cirquit1WP2.png>
+Package pdftex.def Info: ./images/Cirquit1WP2.png  used on input line 169.
+(pdftex.def)             Requested size: 227.62204pt x 274.4063pt.
+ [6 <./images/Cirquit1WP2.png>]
+<./images/Cirquit2WP2.png, id=98, 998.73125pt x 557.08125pt>
+File: ./images/Cirquit2WP2.png Graphic file (type png)
+<use ./images/Cirquit2WP2.png>
+Package pdftex.def Info: ./images/Cirquit2WP2.png  used on input line 178.
+(pdftex.def)             Requested size: 426.79134pt x 238.0612pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 178--179
+ [] 
+ []
+
+[7 <./images/Cirquit2WP2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[9]
+<./images/CirquitWP3.png, id=116, 630.355pt x 363.3575pt>
+File: ./images/CirquitWP3.png Graphic file (type png)
+<use ./images/CirquitWP3.png>
+Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 271.
+(pdftex.def)             Requested size: 298.75394pt x 172.21404pt.
+ [10 <./images/CirquitWP3.png>]
+<./images/ExcelGraph2.png, id=122, 363.3575pt x 218.8175pt>
 File: ./images/ExcelGraph2.png Graphic file (type png)
 <use ./images/ExcelGraph2.png>
-Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 175.
+Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 302.
 (pdftex.def)             Requested size: 363.3566pt x 218.81696pt.
-<./images/MatlabGraph1.jpg, id=70, 1124.2pt x 843.15pt>
+<./images/MatlabGraph1.jpg, id=123, 1124.2pt x 843.15pt>
 File: ./images/MatlabGraph1.jpg Graphic file (type jpg)
 <use ./images/MatlabGraph1.jpg>
-Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 181.
+Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 308.
 (pdftex.def)             Requested size: 298.75394pt x 224.06409pt.
- [5pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
+ [11pdfTeX warning (ext4): destination with the same identifier (name{table.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.311 	
+        <./images/ExcelGraph2.png>]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 312.
+ (./codiMatlab.m) [12 <./images/MatlabGraph1.jpg>] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+
+ []
+
+<./images/WP3-8-10-2020.jpg, id=158, 551.81157pt x 174.6525pt>
+File: ./images/WP3-8-10-2020.jpg Graphic file (type jpg)
+<use ./images/WP3-8-10-2020.jpg>
+Package pdftex.def Info: ./images/WP3-8-10-2020.jpg  used on input line 361.
+(pdftex.def)             Requested size: 426.79134pt x 135.08778pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 361--362
+ [] 
+ []
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.184 	
-        <./images/ExcelGraph2.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 185.
- (./codiMatlab.m
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-8.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) [6 <./images/MatlabGraph1.jpg>] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.2}) h
-as been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.234 \end{document}
-                    ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
- (./ENTIC_WP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
-Package rerunfilecheck Info: File `ENTIC_WP.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 234.
+l.370 	
+        <./images/WP3-8-10-2020.jpg>] [15] [16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 413.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 413.
+ (./WPAnswers_31_4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 413.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 413.
+Package rerunfilecheck Info: File `WPAnswers_31_4.out' has not changed.
+(rerunfilecheck)             Checksum: AB2DD58DB72C751610B9CBBF758A47DD;541.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 413.
  ) 
 Here is how much of TeX's memory you used:
- 42850 strings out of 480608
- 969493 string characters out of 5903630
- 1708252 words of memory out of 5000000
- 58070 multiletter control sequences out of 15000+600000
- 591421 words of font info for 79 fonts, out of 8000000 for 9000
+ 42905 strings out of 480608
+ 970568 string characters out of 5903630
+ 1708310 words of memory out of 5000000
+ 58107 multiletter control sequences out of 15000+600000
+ 597640 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,103p,950b,1862s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
-/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
-020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2020/texmf-dist
-/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
-lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.p
-fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-
-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
-ype1/public/lm/lmsy10.pfb>
-Output written on ENTIC_WP.pdf (8 pages, 216215 bytes).
+ 64i,12n,103p,956b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+20/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2020/texmf-dis
+t/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/en
+c/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
+/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
+Output written on WPAnswers_31_4.pdf (16 pages, 762507 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 224 PDF objects out of 1000 (max. 8388607)
+ 159 compressed objects within 2 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 
