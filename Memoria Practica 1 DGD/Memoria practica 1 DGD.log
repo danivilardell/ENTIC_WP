@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  21 OCT 2020 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  21 OCT 2020 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1139,7 +1139,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<./images/CA2_4_a_8.jpeg, id=56, 725.71124pt x 221.82875pt>
+<./images/CA2_4_a_8.jpeg, id=67, 725.71124pt x 221.82875pt>
 File: ./images/CA2_4_a_8.jpeg Graphic file (type jpg)
 <use ./images/CA2_4_a_8.jpeg>
 Package pdftex.def Info: ./images/CA2_4_a_8.jpeg  used on input line 54.
@@ -1150,39 +1150,45 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 54--55
  []
 
 [3 <./images/CA2_4_a_8.jpeg>] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
- (./Memoria practica 1 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+44.
 
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
 
-Package rerunfilecheck Warning: File `"Memoria practica 1 DGD".out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `"Memoria practica 1 DGD".out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  D24B07316EB4BB1244791C5F64D13E91;207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
+(./Memoria practica 1 DGD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
+Package rerunfilecheck Info: File `"Memoria practica 1 DGD".out' has not change
+d.
+(rerunfilecheck)             Checksum: B1A15119D852B6423928308E9F9394BD;354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
  ) 
 Here is how much of TeX's memory you used:
- 41907 strings out of 480608
- 959273 string characters out of 5903630
- 1447118 words of memory out of 5000000
- 57160 multiletter control sequences out of 15000+600000
- 589923 words of font info for 73 fonts, out of 8000000 for 9000
+ 41945 strings out of 480608
+ 960165 string characters out of 5903630
+ 1447138 words of memory out of 5000000
+ 57192 multiletter control sequences out of 15000+600000
+ 590298 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,6n,103p,966b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/
-texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/lm/lmr17.pfb>
-Output written on "Memoria practica 1 DGD.pdf" (5 pages, 185572 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
+cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
+20/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-d
+ist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/lm/lmsy10.pfb>
+Output written on "Memoria practica 1 DGD.pdf" (6 pages, 217332 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 18 named destinations out of 1000 (max. 500000)
+ 186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
