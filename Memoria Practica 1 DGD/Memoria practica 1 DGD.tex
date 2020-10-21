@@ -162,7 +162,7 @@
 	\begin{center}
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=150mm]{ConvCA2_4aMOD.jpeg}
+		\includegraphics[width=100mm]{ConvCA2_4aMOD.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -209,6 +209,92 @@
 	\item$2^A\cdot2^B$ si selop $=11$
 	\end{itemize}
 	
-	Cal tenir en compte en primer lloc que la sortida es de 8 bits, i per tant la sortida $2^A\cdot2^B$ no podra mostrar totes les sortides possibles. Tenint en compte que com la sortida es en CA2, nomes disposem de 7 bits i per tant nomes podrem representar totes aquelles sortides tals que $A+B \leqslant 7$. 
+	Cal tenir en compte en primer lloc que la sortida es de 8 bits, i per tant la sortida $2^A\cdot2^B$ no podra mostrar totes les sortides possibles. Tenint en compte que com la sortida es en CA2, nomes disposem de 7 bits i per tant nomes podrem representar totes aquelles sortides tals que $A+B \leqslant 7$. A mes a mes, com que nomes podem representar nombres enters, la suma de $A+B \geqslant 0$. 
+	
+	Vist aixo ara cal pensar com farem el diseny del cirquit. En el nostre cas primer escollirem quins dos nombres multiplicar, es a dir, si selop es 00, escollirem per una banda $A$ i per altra banda $B$. Si selop es 01 escollirem $A$ i $A$, si selop es 10 escollirem $B$ i $B$. Finalment si selop es 11, com que no ens importa el resultat del producte ja que la sortida vindra d'un altre component que fara el calcul $2^A\cdot2^B$, multiplicarem $0\cdot 0$.
+	
+	Per a fer la seleccio primer fem un multiplexor 2x1, que usarem per a construir altres components mes grans.
+	
+	\textbf{\large{Multiplexor 2x1}}
+	
+	Aquest component es ben senzill, te tres entrades de 1 bit: $A$, $B$, i $X$. Si $X=0$ la sortida sera $A$, si $X=1$ la sortida sera $B$.
+	
+	\begin{center}
+		FOTO COMPONENT
+		
+		FOTO SIMULACIO
+	\end{center}
+	
+	\textbf{\large{Multiplexor 4x1}}
+	
+	Aquest es igual de senzill que l'anterior. Se li donen sis entrades, quatre de informació i dos de seleccio. En funcio de les de seleccio s'extreu una  o una altre de les de informacio per la sortida.
+	
+	\begin{center}
+		FOTO COMPONENT
+		
+		FOTO SIMULACIO
+	\end{center}
+	
+	\textbf{\large{Selector mult}}
+	
+	Amb el multiplexor 4x1 ja en vam tenir prou per a disenyar el component que s'encarregaria de seleccionar i retornar els dos nombres que s'estan multiplicant. La entrada del component son dos nombres de 4 bits A i B, i selop, de dos bits. 
+	
+	Per a construir el primer nombre de la sortida usarem els multiplexors, a les entrades els hi posarem $A$[i], $A$[i], $B$[i] i 0 on i es cada xifre. La sortida la dirigirem al digit $i$ del vector de 4 bits de la sortida. A la entrada de seleccio hi posarem selop. Per tant si selop és $00$ el primer component que treura serà $A$, si es $01$ treura $A$, si es $10$ treurà $B$ i 0 si es 11, per la rao comentada abans.
+	
+	La segona sortida sera construida de la mateixa forma pero a la entrada del multiplexor se li posara $B$[i], $A$[i], $B$[i] i 0.
+	
+	\begin{center}
+		FOTO COMPONENT
+		
+		FOTO SIMULACIO
+	\end{center}
+	
+	\textbf{\large{Elevador}}
+	
+	Aquest component te la funcio de donades dos entrades $A$ i $B$ si $A + B < 7$ o $A + B  < 0$ treure dos sortides, una que sigui 0 i l'altre serà 1, aquesta segona sera la que permetrà que el led s'ilumini. Si la suma està dins dels valors permesos, la primera sortida serà $2^A\cdot2^B$ i la segona sortida sera 0, ja que en aquest cas el bit no s'haurà d'iluminar.
+	
+	Aquest component ha estat fet amb vhdl per comoditat.
+	
+	\begin{center}
+		FOTO COMPONENT
+		
+		FOTO SIMULACIO
+	\end{center}
+	
+	\textbf{\large{Multiplexor 2x1 per entrades de 4 bits}}
+	
+	Aquest component ens servira per a simplificar el diseny final de la calculadora. Fa el seguent: Donats dos nombres de 4 bits $A$ i $B$ i un nombre de seleccio de 2 bits selop, si selop es 00, 01 o 10 la sortida sera $A$, si selop es 11 la sortida es $B$.
+	
+	\begin{center}
+		FOTO COMPONENT
+	\end{center}
+	
+	\textbf{\large{Calculadora}}
+	
+	Aquest component serà el que ens fara el calcul. Donades 3 entrades, $A$, $B$ i selop primer es passaran les tres entrades per el component selector mult, que ens retornara quins dos nombres multiplicar. Aquestes dos sortides amb la ajuda de CA2 4 - 8 bits passarem les 2 sortides de 4 a 8 bits en CA2. Aquestes sortides s'introduiran al multiplicador que ens retornarà el seu producte en CA2. 
+	
+	Per altra banda, introduirem $A$ i $B$ al elevador del que hi haurà dos sortides. La segona d'elles ens informarà si s'ha de iluminar el led en el cas de que selop fos 11. Per a veure si es 11 o no usarem un multiplexor de 1 bit on les tres primeres entrades estaran conectades a terra i la última entrada estarà conectada a la sortida del bit d'error del elevador. Les entrades de seleccio seran selop. La sortida del multiplexor ens dirà si s'haurà d'iluminar el bit d'error o no.
+	
+	Ara usarem un multiplexor 2x1 per entrades de 4 bits a on se li posarà la sortida del multiplicador a la primera entrada, la sortida del elevador a la segona entrada i selop a les entrades de selecció. La sortida d'aquest component sera el valor buscat.
+	
+	\begin{center}
+		FOTO COMPONENT
+		
+		FOTO SIMULACIO
+	\end{center}
+	
+	\textbf{\large{Simulador calculadora}}
+	
+	Aquest component es el que enviarem a la placa, per tant te l'objectiu de llegir les entrades dels pins i mostrar els resultats per pantalla.
+	
+	Consta de tres entrades, $A$ $B$ i selop. De la matexa manera que en la segona part de la practica es mostraran les entrades $A$ i $B$ a la placa. 
+	
+	Les entrades s'introduiran dins del component calculadora. Aquest ens extreura el calcul per una banda, que despres de passarlo per el conversor de nombre de 8 bits en CA2 a BCD de 7 segments l'enviarem a la sortida per a que sigui mostrat a la placa. Per altra banda ens extreura si ca encendre el bit d'error en el calcul o no, que enviarem també al la placa directament.
+	
+	\begin{center}
+		FOTO COMPONENT
+	\end{center}
+	
+	
 	
 \end{document}
