@@ -364,19 +364,37 @@ alt amb "Set as Top-Level Entity".\\
 	
 	Aquest component es ben senzill, te tres entrades de 1 bit: $A$, $B$, i $X$. Si $X=0$ la sortida sera $A$, si $X=1$ la sortida sera $B$.
 	
-	\begin{center}
-		FOTO COMPONENT
-		
-		FOTO SIMULACIO
+		\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multiplexor2_1.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\end{center}
 	
+	\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{simulaciofeta.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\end{center}
 	\textbf{\large{Multiplexor 4x1}}
 	
 	Aquest es igual de senzill que l'anterior. Se li donen sis entrades, quatre de informació i dos de seleccio. En funcio de les de seleccio s'extreu una  o una altre de les de informacio per la sortida.
 	
 	\begin{center}
-		FOTO COMPONENT
 		
+		\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multiplexor4_1.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\end{center}
 		FOTO SIMULACIO
 	\end{center}
 	
@@ -388,10 +406,12 @@ alt amb "Set as Top-Level Entity".\\
 	
 	La segona sortida sera construida de la mateixa forma pero a la entrada del multiplexor se li posara $B$[i], $A$[i], $B$[i] i 0.
 	
-	\begin{center}
-		FOTO COMPONENT
-		
-		FOTO SIMULACIO
+		\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{selectormult.jpeg}
+		\end{center}
+	\end{figure}
 	\end{center}
 	
 	\textbf{\large{Elevador}}
@@ -401,9 +421,11 @@ alt amb "Set as Top-Level Entity".\\
 	Aquest component ha estat fet amb vhdl per comoditat.
 	
 	\begin{center}
-		FOTO COMPONENT
-		
-		FOTO SIMULACIO
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{selectormult.jpeg}
+		\end{center}
+	\end{figure}
 	\end{center}
 	
 	\textbf{\large{Multiplexor 2x1 per entrades de 4 bits}}
@@ -423,7 +445,14 @@ alt amb "Set as Top-Level Entity".\\
 	Ara usarem un multiplexor 2x1 per entrades de 4 bits a on se li posarà la sortida del multiplicador a la primera entrada, la sortida del elevador a la segona entrada i selop a les entrades de selecció. La sortida d'aquest component sera el valor buscat.
 	
 	\begin{center}
-		FOTO COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{calculadora.jpeg}
+		\end{center}
+	\end{figure}
+	\end{center}
+	\begin{center}
+		
 		
 		FOTO SIMULACIO
 	\end{center}
@@ -437,8 +466,13 @@ alt amb "Set as Top-Level Entity".\\
 	Les entrades s'introduiran dins del component calculadora. Aquest ens extreura el calcul per una banda, que despres de passarlo per el conversor de nombre de 8 bits en CA2 a BCD de 7 segments l'enviarem a la sortida per a que sigui mostrat a la placa. Per altra banda ens extreura si ca encendre el bit d'error en el calcul o no, que enviarem també al la placa directament.
 	
 	\begin{center}
-		FOTO COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{simuladorcalc.jpeg}
+		\end{center}
+	\end{figure}
 	\end{center}
+	\begin{center}
 	
 	
 	
