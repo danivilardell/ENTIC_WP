@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  21 OCT 2020 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  21 OCT 2020 14:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1139,7 +1139,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<./images/CA2_4_a_8.jpeg, id=56, 725.71124pt x 221.82875pt>
+<./images/CA2_4_a_8.jpeg, id=63, 725.71124pt x 221.82875pt>
 File: ./images/CA2_4_a_8.jpeg Graphic file (type jpg)
 <use ./images/CA2_4_a_8.jpeg>
 Package pdftex.def Info: ./images/CA2_4_a_8.jpeg  used on input line 54.
@@ -1149,40 +1149,166 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 54--55
  [] 
  []
 
-[3 <./images/CA2_4_a_8.jpeg>] [4] [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 138.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 138.
- (./Memoria practica 1 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 138.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 138.
+<./images/CA2_4A8simul.jpeg, id=64, 916.42375pt x 126.4725pt>
+File: ./images/CA2_4A8simul.jpeg Graphic file (type jpg)
+<use ./images/CA2_4A8simul.jpeg>
+Package pdftex.def Info: ./images/CA2_4A8simul.jpeg  used on input line 59.
+(pdftex.def)             Requested size: 426.79134pt x 58.8998pt.
 
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 59--60
+ [] 
+ []
 
-Package rerunfilecheck Warning: File `"Memoria practica 1 DGD".out' has changed
-.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+<./images/MULT8x1.jpeg, id=65, 628.3475pt x 215.80624pt>
+File: ./images/MULT8x1.jpeg Graphic file (type jpg)
+<use ./images/MULT8x1.jpeg>
+Package pdftex.def Info: ./images/MULT8x1.jpeg  used on input line 70.
+(pdftex.def)             Requested size: 426.79134pt x 146.58165pt.
 
-Package rerunfilecheck Info: Checksums for `"Memoria practica 1 DGD".out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  D24B07316EB4BB1244791C5F64D13E91;207.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 138.
- ) 
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 70--71
+ [] 
+ []
+
+[3 <./images/CA2_4_a_8.jpeg> <./images/CA2_4A8simul.jpeg>]
+<./images/MULT8x1simul.jpeg, id=70, 996.72375pt x 157.58875pt>
+File: ./images/MULT8x1simul.jpeg Graphic file (type jpg)
+<use ./images/MULT8x1simul.jpeg>
+Package pdftex.def Info: ./images/MULT8x1simul.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 426.79134pt x 67.47809pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 78--79
+ [] 
+ []
+
+<./images/MULT_+SUM.jpeg, id=71, 1100.11pt x 236.885pt>
+File: ./images/MULT_+SUM.jpeg Graphic file (type jpg)
+<use ./images/MULT_+SUM.jpeg>
+Package pdftex.def Info: ./images/MULT_+SUM.jpeg  used on input line 91.
+(pdftex.def)             Requested size: 426.79134pt x 91.90042pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 91--92
+ [] 
+ []
+
+[4 <./images/MULT8x1.jpeg> <./images/MULT8x1simul.jpeg> <./images/MULT_+SUM.jpe
+g>]
+<./images/multbin8bits.jpeg, id=76, 1139.25626pt x 525.965pt>
+File: ./images/multbin8bits.jpeg Graphic file (type jpg)
+<use ./images/multbin8bits.jpeg>
+Package pdftex.def Info: ./images/multbin8bits.jpeg  used on input line 105.
+(pdftex.def)             Requested size: 426.79134pt x 197.03574pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 105--106
+ [] 
+ []
+
+<./images/multbin8bitssimul.jpeg, id=77, 1081.03876pt x 122.4575pt>
+File: ./images/multbin8bitssimul.jpeg Graphic file (type jpg)
+<use ./images/multbin8bitssimul.jpeg>
+Package pdftex.def Info: ./images/multbin8bitssimul.jpeg  used on input line 11
+4.
+(pdftex.def)             Requested size: 426.79134pt x 48.34494pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 114--115
+ [] 
+ []
+
+<./images/multCA2_4B.jpeg, id=78, 896.34875pt x 332.24126pt>
+File: ./images/multCA2_4B.jpeg Graphic file (type jpg)
+<use ./images/multCA2_4B.jpeg>
+Package pdftex.def Info: ./images/multCA2_4B.jpeg  used on input line 131.
+(pdftex.def)             Requested size: 426.79134pt x 158.19138pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 131--132
+ [] 
+ []
+
+[5 <./images/multbin8bits.jpeg> <./images/multbin8bitssimul.jpeg>]
+<./images/multCA2_4Bsimul.jpeg, id=83, 1029.8475pt x 132.495pt>
+File: ./images/multCA2_4Bsimul.jpeg Graphic file (type jpg)
+<use ./images/multCA2_4Bsimul.jpeg>
+Package pdftex.def Info: ./images/multCA2_4Bsimul.jpeg  used on input line 139.
+
+(pdftex.def)             Requested size: 426.79134pt x 54.90756pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 139--140
+ [] 
+ []
+
+<./images/adaptSigne.jpeg, id=84, 811.03pt x 195.73125pt>
+File: ./images/adaptSigne.jpeg Graphic file (type jpg)
+<use ./images/adaptSigne.jpeg>
+Package pdftex.def Info: ./images/adaptSigne.jpeg  used on input line 153.
+(pdftex.def)             Requested size: 426.79134pt x 103.00235pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 153--154
+ [] 
+ []
+
+<./images/ConvCA2_4aMOD.jpeg, id=85, 495.8525pt x 460.72125pt>
+File: ./images/ConvCA2_4aMOD.jpeg Graphic file (type jpg)
+<use ./images/ConvCA2_4aMOD.jpeg>
+Package pdftex.def Info: ./images/ConvCA2_4aMOD.jpeg  used on input line 166.
+(pdftex.def)             Requested size: 426.79134pt x 396.55702pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 166--167
+ [] 
+ []
+
+[6 <./images/multCA2_4B.jpeg> <./images/multCA2_4Bsimul.jpeg> <./images/adaptSi
+gne.jpeg>] [7 <./images/ConvCA2_4aMOD.jpeg>]
+<./images/multFinal.jpeg, id=96, 1355.0625pt x 648.4225pt>
+File: ./images/multFinal.jpeg Graphic file (type jpg)
+<use ./images/multFinal.jpeg>
+Package pdftex.def Info: ./images/multFinal.jpeg  used on input line 195.
+(pdftex.def)             Requested size: 426.79134pt x 204.22449pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 195--196
+ [] 
+ []
+
+[8 <./images/multFinal.jpeg>]
+
+./Memoria practica 1 DGD.tex:201: LaTeX Error: \begin{center} on input line 66 
+ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.201 \end{document}
+                    
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 201.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 201.
+(./Memoria practica 1 DGD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 201.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 201.
+Package rerunfilecheck Info: File `"Memoria practica 1 DGD".out' has not change
+d.
+(rerunfilecheck)             Checksum: D24B07316EB4BB1244791C5F64D13E91;207.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 201.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 66 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 41907 strings out of 480608
- 959273 string characters out of 5903630
- 1447118 words of memory out of 5000000
- 57160 multiletter control sequences out of 15000+600000
+ 41979 strings out of 480608
+ 960995 string characters out of 5903630
+ 1446138 words of memory out of 5000000
+ 57218 multiletter control sequences out of 15000+600000
  589923 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,6n,103p,966b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/
-texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/lm/lmr17.pfb>
-Output written on "Memoria practica 1 DGD.pdf" (5 pages, 185572 bytes).
+ 64i,6n,103p,966b,882s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.en
+c}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
+Output written on "Memoria practica 1 DGD.pdf" (8 pages, 1835618 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 162 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
+ 19 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
