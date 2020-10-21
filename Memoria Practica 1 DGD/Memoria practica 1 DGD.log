@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  21 OCT 2020 16:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  21 OCT 2020 18:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1149,171 +1149,335 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 50--51
  [] 
  []
 
-<./images/top_entity.jpeg, id=63, 333.245pt x 240.9pt>
-File: ./images/top_entity.jpeg Graphic file (type jpg)
-<use ./images/top_entity.jpeg>
-Package pdftex.def Info: ./images/top_entity.jpeg  used on input line 58.
-(pdftex.def)             Requested size: 426.79134pt x 308.54575pt.
+<./images/simulador.jpeg, id=63, 549.05125pt x 268.00125pt>
+File: ./images/simulador.jpeg Graphic file (type jpg)
+<use ./images/simulador.jpeg>
+Package pdftex.def Info: ./images/simulador.jpeg  used on input line 58.
+(pdftex.def)             Requested size: 426.79134pt x 208.32857pt.
 
 Overfull \hbox (36.79134pt too wide) in paragraph at lines 58--59
  [] 
  []
 
-[2 <./images/multiplexor2_1.jpeg>] [3 <./images/top_entity.jpeg>]
-<./images/CA2_4_a_8.jpeg, id=73, 725.71124pt x 221.82875pt>
-File: ./images/CA2_4_a_8.jpeg Graphic file (type jpg)
-<use ./images/CA2_4_a_8.jpeg>
-Package pdftex.def Info: ./images/CA2_4_a_8.jpeg  used on input line 71.
-(pdftex.def)             Requested size: 426.79134pt x 130.46147pt.
+<./images/simuladorfet.jpeg, id=64, 547.04375pt x 265.99374pt>
+File: ./images/simuladorfet.jpeg Graphic file (type jpg)
+<use ./images/simuladorfet.jpeg>
+Package pdftex.def Info: ./images/simuladorfet.jpeg  used on input line 63.
+(pdftex.def)             Requested size: 426.79134pt x 207.52298pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 63--64
+ [] 
+ []
+
+[2 <./images/multiplexor2_1.jpeg> <./images/simulador.jpeg>]
+<./images/waveform.jpeg, id=70, 1080.035pt x 362.35374pt>
+File: ./images/waveform.jpeg Graphic file (type jpg)
+<use ./images/waveform.jpeg>
+Package pdftex.def Info: ./images/waveform.jpeg  used on input line 71.
+(pdftex.def)             Requested size: 426.79134pt x 143.18622pt.
 
 Overfull \hbox (36.79134pt too wide) in paragraph at lines 71--72
  [] 
  []
 
-<./images/CA2_4A8simul.jpeg, id=74, 916.42375pt x 126.4725pt>
-File: ./images/CA2_4A8simul.jpeg Graphic file (type jpg)
-<use ./images/CA2_4A8simul.jpeg>
-Package pdftex.def Info: ./images/CA2_4A8simul.jpeg  used on input line 76.
-(pdftex.def)             Requested size: 426.79134pt x 58.8998pt.
+<./images/Insertnode.jpeg, id=71, 388.45125pt x 243.91125pt>
+File: ./images/Insertnode.jpeg Graphic file (type jpg)
+<use ./images/Insertnode.jpeg>
+Package pdftex.def Info: ./images/Insertnode.jpeg  used on input line 78.
+(pdftex.def)             Requested size: 426.79134pt x 267.99055pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 76--77
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 78--79
  [] 
  []
 
-<./images/MULT8x1.jpeg, id=75, 628.3475pt x 215.80624pt>
-File: ./images/MULT8x1.jpeg Graphic file (type jpg)
-<use ./images/MULT8x1.jpeg>
-Package pdftex.def Info: ./images/MULT8x1.jpeg  used on input line 86.
-(pdftex.def)             Requested size: 426.79134pt x 146.58165pt.
+[3 <./images/simuladorfet.jpeg> <./images/waveform.jpeg>]
+<./images/nodes.jpeg, id=76, 1065.9825pt x 493.845pt>
+File: ./images/nodes.jpeg Graphic file (type jpg)
+<use ./images/nodes.jpeg>
+Package pdftex.def Info: ./images/nodes.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 426.79134pt x 197.72287pt.
 
 Overfull \hbox (36.79134pt too wide) in paragraph at lines 86--87
  [] 
  []
 
-[4 <./images/CA2_4_a_8.jpeg> <./images/CA2_4A8simul.jpeg>]
-<./images/MULT8x1simul.jpeg, id=80, 996.72375pt x 157.58875pt>
-File: ./images/MULT8x1simul.jpeg Graphic file (type jpg)
-<use ./images/MULT8x1simul.jpeg>
-Package pdftex.def Info: ./images/MULT8x1simul.jpeg  used on input line 94.
-(pdftex.def)             Requested size: 426.79134pt x 67.47809pt.
+[4 <./images/Insertnode.jpeg> <./images/nodes.jpeg>]
+<./images/simulacioambvalors.jpeg, id=81, 1079.03125pt x 363.3575pt>
+File: ./images/simulacioambvalors.jpeg Graphic file (type jpg)
+<use ./images/simulacioambvalors.jpeg>
+Package pdftex.def Info: ./images/simulacioambvalors.jpeg  used on input line 9
+4.
+(pdftex.def)             Requested size: 426.79134pt x 143.72145pt.
 
 Overfull \hbox (36.79134pt too wide) in paragraph at lines 94--95
  [] 
  []
 
-<./images/MULT_+SUM.jpeg, id=81, 1100.11pt x 236.885pt>
-File: ./images/MULT_+SUM.jpeg Graphic file (type jpg)
-<use ./images/MULT_+SUM.jpeg>
-Package pdftex.def Info: ./images/MULT_+SUM.jpeg  used on input line 107.
-(pdftex.def)             Requested size: 426.79134pt x 91.90042pt.
+<./images/finestrasimulacio.jpeg, id=82, 499.8675pt x 502.87875pt>
+File: ./images/finestrasimulacio.jpeg Graphic file (type jpg)
+<use ./images/finestrasimulacio.jpeg>
+Package pdftex.def Info: ./images/finestrasimulacio.jpeg  used on input line 10
+1.
+(pdftex.def)             Requested size: 426.79134pt x 429.37495pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 107--108
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 101--102
  [] 
  []
 
-[5 <./images/MULT8x1.jpeg> <./images/MULT8x1simul.jpeg> <./images/MULT_+SUM.jpe
-g>]
-<./images/multbin8bits.jpeg, id=86, 1139.25626pt x 525.965pt>
-File: ./images/multbin8bits.jpeg Graphic file (type jpg)
-<use ./images/multbin8bits.jpeg>
-Package pdftex.def Info: ./images/multbin8bits.jpeg  used on input line 121.
-(pdftex.def)             Requested size: 426.79134pt x 197.03574pt.
+[5 <./images/simulacioambvalors.jpeg>]
+<./images/simulaciofeta.jpeg, id=87, 1084.05pt x 362.35374pt>
+File: ./images/simulaciofeta.jpeg Graphic file (type jpg)
+<use ./images/simulaciofeta.jpeg>
+Package pdftex.def Info: ./images/simulaciofeta.jpeg  used on input line 108.
+(pdftex.def)             Requested size: 426.79134pt x 142.66095pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 121--122
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 108--109
  [] 
  []
 
-<./images/multbin8bitssimul.jpeg, id=87, 1081.03876pt x 122.4575pt>
-File: ./images/multbin8bitssimul.jpeg Graphic file (type jpg)
-<use ./images/multbin8bitssimul.jpeg>
-Package pdftex.def Info: ./images/multbin8bitssimul.jpeg  used on input line 13
-0.
-(pdftex.def)             Requested size: 426.79134pt x 48.34494pt.
+[6 <./images/finestrasimulacio.jpeg>]
+<./images/blocmultiplexor.jpeg, id=92, 385.44pt x 349.305pt>
+File: ./images/blocmultiplexor.jpeg Graphic file (type jpg)
+<use ./images/blocmultiplexor.jpeg>
+Package pdftex.def Info: ./images/blocmultiplexor.jpeg  used on input line 118.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 130--131
+(pdftex.def)             Requested size: 426.79134pt x 386.77907pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 118--119
  [] 
  []
 
-<./images/multCA2_4B.jpeg, id=88, 896.34875pt x 332.24126pt>
-File: ./images/multCA2_4B.jpeg Graphic file (type jpg)
-<use ./images/multCA2_4B.jpeg>
-Package pdftex.def Info: ./images/multCA2_4B.jpeg  used on input line 147.
-(pdftex.def)             Requested size: 426.79134pt x 158.19138pt.
+[7 <./images/simulaciofeta.jpeg>]
+<./images/mult4bits.jpeg, id=98, 864.22874pt x 533.995pt>
+File: ./images/mult4bits.jpeg Graphic file (type jpg)
+<use ./images/mult4bits.jpeg>
+Package pdftex.def Info: ./images/mult4bits.jpeg  used on input line 125.
+(pdftex.def)             Requested size: 426.79134pt x 263.70502pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 147--148
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 125--126
  [] 
  []
 
-[6 <./images/multbin8bits.jpeg> <./images/multbin8bitssimul.jpeg>]
-<./images/multCA2_4Bsimul.jpeg, id=93, 1029.8475pt x 132.495pt>
-File: ./images/multCA2_4Bsimul.jpeg Graphic file (type jpg)
-<use ./images/multCA2_4Bsimul.jpeg>
-Package pdftex.def Info: ./images/multCA2_4Bsimul.jpeg  used on input line 155.
+[8 <./images/blocmultiplexor.jpeg>]
+<./images/blocnoumult.jpeg, id=103, 1483.5425pt x 1025.8325pt>
+File: ./images/blocnoumult.jpeg Graphic file (type jpg)
+<use ./images/blocnoumult.jpeg>
+Package pdftex.def Info: ./images/blocnoumult.jpeg  used on input line 133.
+(pdftex.def)             Requested size: 426.79134pt x 295.10457pt.
 
-(pdftex.def)             Requested size: 426.79134pt x 54.90756pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 155--156
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 133--134
  [] 
  []
 
-<./images/adaptSigne.jpeg, id=94, 811.03pt x 195.73125pt>
-File: ./images/adaptSigne.jpeg Graphic file (type jpg)
-<use ./images/adaptSigne.jpeg>
-Package pdftex.def Info: ./images/adaptSigne.jpeg  used on input line 169.
-(pdftex.def)             Requested size: 426.79134pt x 103.00235pt.
+[9 <./images/mult4bits.jpeg>]
+<./images/bcd7.jpeg, id=108, 1048.91875pt x 368.37625pt>
+File: ./images/bcd7.jpeg Graphic file (type jpg)
+<use ./images/bcd7.jpeg>
+Package pdftex.def Info: ./images/bcd7.jpeg  used on input line 143.
+(pdftex.def)             Requested size: 426.79134pt x 149.88855pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 169--170
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 143--144
  [] 
  []
 
-<./images/ConvCA2_4aMOD.jpeg, id=95, 495.8525pt x 460.72125pt>
-File: ./images/ConvCA2_4aMOD.jpeg Graphic file (type jpg)
-<use ./images/ConvCA2_4aMOD.jpeg>
-Package pdftex.def Info: ./images/ConvCA2_4aMOD.jpeg  used on input line 182.
-(pdftex.def)             Requested size: 426.79134pt x 396.55702pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+
+ []
+
+[10 <./images/blocnoumult.jpeg> <./images/bcd7.jpeg>]
+<./images/bcd7segasign.jpeg, id=113, 1126.2075pt x 397.485pt>
+File: ./images/bcd7segasign.jpeg Graphic file (type jpg)
+<use ./images/bcd7segasign.jpeg>
+Package pdftex.def Info: ./images/bcd7segasign.jpeg  used on input line 156.
+(pdftex.def)             Requested size: 426.79134pt x 150.63344pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 156--157
  [] 
  []
 
-[7 <./images/multCA2_4B.jpeg> <./images/multCA2_4Bsimul.jpeg> <./images/adaptSi
-gne.jpeg>] [8 <./images/ConvCA2_4aMOD.jpeg>]
-<./images/multFinal.jpeg, id=106, 1355.0625pt x 648.4225pt>
-File: ./images/multFinal.jpeg Graphic file (type jpg)
-<use ./images/multFinal.jpeg>
-Package pdftex.def Info: ./images/multFinal.jpeg  used on input line 211.
-(pdftex.def)             Requested size: 426.79134pt x 204.22449pt.
+<./images/simulfinal.jpeg, id=114, 1606.0pt x 559.08875pt>
+File: ./images/simulfinal.jpeg Graphic file (type jpg)
+<use ./images/simulfinal.jpeg>
+Package pdftex.def Info: ./images/simulfinal.jpeg  used on input line 163.
+(pdftex.def)             Requested size: 426.79134pt x 148.57582pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 163--164
+ [] 
+ []
+
+[11 <./images/bcd7segasign.jpeg> <./images/simulfinal.jpeg>]
+<./images/placa.jpeg, id=119, 891.33pt x 668.4975pt>
+File: ./images/placa.jpeg Graphic file (type jpg)
+<use ./images/placa.jpeg>
+Package pdftex.def Info: ./images/placa.jpeg  used on input line 176.
+(pdftex.def)             Requested size: 426.79134pt x 320.08972pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 176--177
+ [] 
+ []
+
+<./images/programacioplaca1.jpeg, id=120, 1053.9375pt x 558.085pt>
+File: ./images/programacioplaca1.jpeg Graphic file (type jpg)
+<use ./images/programacioplaca1.jpeg>
+Package pdftex.def Info: ./images/programacioplaca1.jpeg  used on input line 18
+4.
+(pdftex.def)             Requested size: 426.79134pt x 225.99763pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 184--185
+ [] 
+ []
+
+[12 <./images/placa.jpeg>] [13 <./images/programacioplaca1.jpeg>]
+<./images/CA2_4_a_8.jpeg, id=130, 725.71124pt x 221.82875pt>
+File: ./images/CA2_4_a_8.jpeg Graphic file (type jpg)
+<use ./images/CA2_4_a_8.jpeg>
+Package pdftex.def Info: ./images/CA2_4_a_8.jpeg  used on input line 196.
+(pdftex.def)             Requested size: 426.79134pt x 130.46147pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 196--197
+ [] 
+ []
+
+<./images/CA2_4A8simul.jpeg, id=131, 916.42375pt x 126.4725pt>
+File: ./images/CA2_4A8simul.jpeg Graphic file (type jpg)
+<use ./images/CA2_4A8simul.jpeg>
+Package pdftex.def Info: ./images/CA2_4A8simul.jpeg  used on input line 201.
+(pdftex.def)             Requested size: 426.79134pt x 58.8998pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 201--202
+ [] 
+ []
+
+<./images/MULT8x1.jpeg, id=132, 628.3475pt x 215.80624pt>
+File: ./images/MULT8x1.jpeg Graphic file (type jpg)
+<use ./images/MULT8x1.jpeg>
+Package pdftex.def Info: ./images/MULT8x1.jpeg  used on input line 211.
+(pdftex.def)             Requested size: 426.79134pt x 146.58165pt.
 
 Overfull \hbox (36.79134pt too wide) in paragraph at lines 211--212
  [] 
  []
 
-[9 <./images/multFinal.jpeg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-23.
+[14 <./images/CA2_4_a_8.jpeg> <./images/CA2_4A8simul.jpeg>]
+<./images/MULT8x1simul.jpeg, id=137, 996.72375pt x 157.58875pt>
+File: ./images/MULT8x1simul.jpeg Graphic file (type jpg)
+<use ./images/MULT8x1simul.jpeg>
+Package pdftex.def Info: ./images/MULT8x1simul.jpeg  used on input line 219.
+(pdftex.def)             Requested size: 426.79134pt x 67.47809pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 219--220
+ [] 
+ []
+
+<./images/MULT_+SUM.jpeg, id=138, 1100.11pt x 236.885pt>
+File: ./images/MULT_+SUM.jpeg Graphic file (type jpg)
+<use ./images/MULT_+SUM.jpeg>
+Package pdftex.def Info: ./images/MULT_+SUM.jpeg  used on input line 232.
+(pdftex.def)             Requested size: 426.79134pt x 91.90042pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 232--233
+ [] 
+ []
+
+[15 <./images/MULT8x1.jpeg> <./images/MULT8x1simul.jpeg> <./images/MULT_+SUM.jp
+eg>]
+<./images/multbin8bits.jpeg, id=143, 1139.25626pt x 525.965pt>
+File: ./images/multbin8bits.jpeg Graphic file (type jpg)
+<use ./images/multbin8bits.jpeg>
+Package pdftex.def Info: ./images/multbin8bits.jpeg  used on input line 246.
+(pdftex.def)             Requested size: 426.79134pt x 197.03574pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 246--247
+ [] 
+ []
+
+<./images/multbin8bitssimul.jpeg, id=144, 1081.03876pt x 122.4575pt>
+File: ./images/multbin8bitssimul.jpeg Graphic file (type jpg)
+<use ./images/multbin8bitssimul.jpeg>
+Package pdftex.def Info: ./images/multbin8bitssimul.jpeg  used on input line 25
+5.
+(pdftex.def)             Requested size: 426.79134pt x 48.34494pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 255--256
+ [] 
+ []
+
+<./images/multCA2_4B.jpeg, id=145, 896.34875pt x 332.24126pt>
+File: ./images/multCA2_4B.jpeg Graphic file (type jpg)
+<use ./images/multCA2_4B.jpeg>
+Package pdftex.def Info: ./images/multCA2_4B.jpeg  used on input line 272.
+(pdftex.def)             Requested size: 426.79134pt x 158.19138pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 272--273
+ [] 
+ []
+
+[16 <./images/multbin8bits.jpeg> <./images/multbin8bitssimul.jpeg>]
+<./images/multCA2_4Bsimul.jpeg, id=150, 1029.8475pt x 132.495pt>
+File: ./images/multCA2_4Bsimul.jpeg Graphic file (type jpg)
+<use ./images/multCA2_4Bsimul.jpeg>
+Package pdftex.def Info: ./images/multCA2_4Bsimul.jpeg  used on input line 280.
+
+(pdftex.def)             Requested size: 426.79134pt x 54.90756pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 280--281
+ [] 
+ []
+
+<./images/adaptSigne.jpeg, id=151, 811.03pt x 195.73125pt>
+File: ./images/adaptSigne.jpeg Graphic file (type jpg)
+<use ./images/adaptSigne.jpeg>
+Package pdftex.def Info: ./images/adaptSigne.jpeg  used on input line 294.
+(pdftex.def)             Requested size: 426.79134pt x 103.00235pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 294--295
+ [] 
+ []
+
+<./images/ConvCA2_4aMOD.jpeg, id=152, 495.8525pt x 460.72125pt>
+File: ./images/ConvCA2_4aMOD.jpeg Graphic file (type jpg)
+<use ./images/ConvCA2_4aMOD.jpeg>
+Package pdftex.def Info: ./images/ConvCA2_4aMOD.jpeg  used on input line 307.
+(pdftex.def)             Requested size: 284.52756pt x 264.37134pt.
+[17 <./images/multCA2_4B.jpeg> <./images/multCA2_4Bsimul.jpeg> <./images/adaptS
+igne.jpeg>] [18 <./images/ConvCA2_4aMOD.jpeg>]
+<./images/multFinal.jpeg, id=164, 1355.0625pt x 648.4225pt>
+File: ./images/multFinal.jpeg Graphic file (type jpg)
+<use ./images/multFinal.jpeg>
+Package pdftex.def Info: ./images/multFinal.jpeg  used on input line 336.
+(pdftex.def)             Requested size: 426.79134pt x 204.22449pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 336--337
+ [] 
+ []
+
+[19 <./images/multFinal.jpeg>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+48.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [10]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+) [20] [21] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 442.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 442.
 
 (./Memoria practica 1 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 442.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 442.
 Package rerunfilecheck Info: File `"Memoria practica 1 DGD".out' has not change
 d.
 (rerunfilecheck)             Checksum: B1A15119D852B6423928308E9F9394BD;354.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 442.
  ) 
 Here is how much of TeX's memory you used:
- 42027 strings out of 480608
- 962182 string characters out of 5903630
- 1446138 words of memory out of 5000000
- 57257 multiletter control sequences out of 15000+600000
+ 42141 strings out of 480608
+ 964687 string characters out of 5903630
+ 1448138 words of memory out of 5000000
+ 57344 multiletter control sequences out of 15000+600000
  590298 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,103p,966b,815s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,7n,103p,966b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 20/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-d
@@ -1325,10 +1489,10 @@ cal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive
 /2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2020/texmf-
 dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "Memoria practica 1 DGD.pdf" (10 pages, 2055233 bytes).
+Output written on "Memoria practica 1 DGD.pdf" (22 pages, 3912980 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 326 words of extra memory for PDF output out of 10000 (max. 10000000)
 
