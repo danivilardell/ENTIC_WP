@@ -54,15 +54,30 @@
 		\includegraphics[width=150mm]{CA2_4_a_8.jpeg}
 		\end{center}
 	\end{figure}
-	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{CA2_4A8simul.jpeg}
+		\end{center}
+	\end{figure}
 	
 	\textbf{\large{Multiplicador 8x1}}
 	
 	Aquest component muliplica un nombre de 8 bits per  un nombre de 1 bit. Per tant la sortida sera el nombre de 8 bits entrat si l'altre nombre es 1, i 0 altrament.
-	\begin{center}
-	FOTO DEL COMPONENT
 	
-	FOTO DE LA SIMULACIO
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{MULT8x1.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{center}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{MULT8x1simul.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\end{center}
 	
 	\textbf{\large{Multiplicador i sumador}}
@@ -70,35 +85,74 @@
 	Aquest component te la funcio de multiplicar un nombre de 8 bits per un de 1 usant el component mencionat anteriorment per després sumar el resultat amb un altre nombre de 8 bits que ve a l'entrada. Això es fara servir per a fer la multiplicacio classica que es basa en multiplicar un per un els bits del nombre de baix i sumar amb els anteriors sempre treient el bit de menys pes. Es per aixo que les sortides del component son per una banda el bit de menys pes que s'usara per a posar al resultat, i per altra els 7 bits de mes pes resultants de la suma. 
 	
 	\begin{center}
-	FOTO DEL COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{MULT_+SUM.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\end{center}
+	
 	
 	\textbf{\large{Multiplicador binari de 8 bits}}
 	
 	Aquest component multiplica dos nombres de 8 bits a partir de posar en serie els muliplicadors i sumadors comentats abans. La entrada son dos nombres de 8 bits, i a cada entrada dels 8 components en serie s'hi posarà el nombre de dalt, es a dir A[7..0], el bit que toqui del nombre de baix, B[i] i finalment se li entrarà la suma de les anteriors multiplicacions extreient el bit de menys pes. Aquest bit de menys pes anirà al nombre de 16 bits que hi ha a la sortida. Finalment quan s'arriba al últim component s'introdueix tota la sortida (la suma i el bit de menys pes) a la sortida general del component.
 	
 	\begin{center}
-	FOTO DEL COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multbin8bits.jpeg}
+		\end{center}
+	\end{figure}
 	
-	FOTO DE LA SIMULACIO
 	\end{center}
+	
+	\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multbin8bitssimul.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\end{center}
+	
+	
+	
 	
 	\textbf{\large{Multiplicador CA2 de 4 bits}}
 	
 	Aquest component multiplica dos nombres en CA2 de 4 bits. Per a fer això primer els transforma a CA2 de 8 bits amb el primer component mencionat, per a despres introduirlo al multiplicador binari de 8 bits. Tot i que la sortida es de 16 bits, nomes ens interessen els 8 bits de menys pes ja que al multiplicar dos nombres de 4 bits, el resultat maxim tindrà 8 bits.
 	
-	\begin{center}
-	FOTO DEL COMPONENT
 	
-	FOTO DE LA SIMULACIO
+	\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multCA2_4B.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\end{center}
+	\begin{center}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multCA2_4Bsimul.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\end{center}
+	
 	
 	\textbf{\large{Adaptador de signe}}
 	
 	Aquest component te la finalitat de veure si el valor es negatiu o positiu i en el cas de que sigui negatiu, encen el segment de la placa corresponent per a que pugui ser visualitzat.
 	
 	\begin{center}
-	FOTO DEL COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{adaptSigne.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\end{center}
 	
 	\textbf{\large{Convertidor CA2 de 4 bits al seu modul}}
@@ -106,7 +160,12 @@
 	Aquest component es el que ens permetrà extreure el modul de un nombre en CA2 de 4 bits per tal de representarlo a la placa.
 	
 	\begin{center}
-	FOTO DEL COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{ConvCA2_4aMOD.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\end{center}
 	
 	\textbf{\large{Multiplicador final per a visualització}}
@@ -130,9 +189,12 @@
 	\end{enumerate}
 	
 	\begin{center}
-	FOTO DEL COMPONENT
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=150mm]{multFinal.jpeg}
+		\end{center}
+	\end{figure}
 	
-	FOTO DE LA SIMULACIO
 	\end{center}
 	
 	\newpage
