@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  21 OCT 2020 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  22 OCT 2020 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1453,73 +1453,118 @@ Overfull \hbox (36.79134pt too wide) in paragraph at lines 379--380
 <./images/multiplexor4_1.jpeg, id=163, 963.6pt x 312.16624pt>
 File: ./images/multiplexor4_1.jpeg Graphic file (type jpg)
 <use ./images/multiplexor4_1.jpeg>
-Package pdftex.def Info: ./images/multiplexor4_1.jpeg  used on input line 393.
+Package pdftex.def Info: ./images/multiplexor4_1.jpeg  used on input line 392.
 (pdftex.def)             Requested size: 426.79134pt x 138.25859pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 393--394
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 392--393
+ [] 
+ []
+
+<./images/plexor4_1.jpeg, id=164, 1158.3275pt x 218.8175pt>
+File: ./images/plexor4_1.jpeg Graphic file (type jpg)
+<use ./images/plexor4_1.jpeg>
+Package pdftex.def Info: ./images/plexor4_1.jpeg  used on input line 399.
+(pdftex.def)             Requested size: 426.79134pt x 80.62398pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 399--400
  [] 
  []
 
 [18 <./images/multiplexor4_1.jpeg>]
-<./images/selectormult.jpeg, id=168, 1019.81pt x 708.6475pt>
+<./images/selectormult.jpeg, id=169, 1019.81pt x 708.6475pt>
 File: ./images/selectormult.jpeg Graphic file (type jpg)
 <use ./images/selectormult.jpeg>
-Package pdftex.def Info: ./images/selectormult.jpeg  used on input line 412.
+Package pdftex.def Info: ./images/selectormult.jpeg  used on input line 414.
 (pdftex.def)             Requested size: 426.79134pt x 296.57024pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 412--413
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 414--415
  [] 
  []
 
-[19 <./images/selectormult.jpeg>]
+[19 <./images/plexor4_1.jpeg>]
 File: ./images/selectormult.jpeg Graphic file (type jpg)
 <use ./images/selectormult.jpeg>
-Package pdftex.def Info: ./images/selectormult.jpeg  used on input line 426.
+Package pdftex.def Info: ./images/selectormult.jpeg  used on input line 428.
 (pdftex.def)             Requested size: 426.79134pt x 296.57024pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 426--427
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 428--429
  [] 
  []
 
-[20]
-<./images/calculadora.jpeg, id=178, 1524.69624pt x 479.7925pt>
+[20 <./images/selectormult.jpeg>]
+<./images/simuladoraelevador.jpeg, id=179, 1183.42125pt x 167.62625pt>
+File: ./images/simuladoraelevador.jpeg Graphic file (type jpg)
+<use ./images/simuladoraelevador.jpeg>
+Package pdftex.def Info: ./images/simuladoraelevador.jpeg  used on input line 4
+35.
+(pdftex.def)             Requested size: 426.79134pt x 60.45282pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 435--436
+ [] 
+ []
+
+<./images/multiplexor2x1entrades4bits.jpeg, id=180, 1036.87375pt x 684.5575pt>
+File: ./images/multiplexor2x1entrades4bits.jpeg Graphic file (type jpg)
+<use ./images/multiplexor2x1entrades4bits.jpeg>
+Package pdftex.def Info: ./images/multiplexor2x1entrades4bits.jpeg  used on inp
+ut line 447.
+(pdftex.def)             Requested size: 426.79134pt x 281.7776pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 447--448
+ [] 
+ []
+
+[21 <./images/simuladoraelevador.jpeg>] [22 <./images/multiplexor2x1entrades4bi
+ts.jpeg>]
+<./images/calculadora.jpeg, id=189, 1524.69624pt x 479.7925pt>
 File: ./images/calculadora.jpeg Graphic file (type jpg)
 <use ./images/calculadora.jpeg>
-Package pdftex.def Info: ./images/calculadora.jpeg  used on input line 450.
+Package pdftex.def Info: ./images/calculadora.jpeg  used on input line 463.
 (pdftex.def)             Requested size: 426.79134pt x 134.29704pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 450--451
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 463--464
  [] 
  []
 
-[21 <./images/calculadora.jpeg>]
-<./images/simuladorcalc.jpeg, id=183, 1366.10374pt x 631.35875pt>
+<./images/simuladoracalculadora.jpeg, id=190, 1184.425pt x 179.67125pt>
+File: ./images/simuladoracalculadora.jpeg Graphic file (type jpg)
+<use ./images/simuladoracalculadora.jpeg>
+Package pdftex.def Info: ./images/simuladoracalculadora.jpeg  used on input lin
+e 470.
+(pdftex.def)             Requested size: 426.79134pt x 64.7419pt.
+
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 470--471
+ [] 
+ []
+
+<./images/simuladorcalc.jpeg, id=191, 1366.10374pt x 631.35875pt>
 File: ./images/simuladorcalc.jpeg Graphic file (type jpg)
 <use ./images/simuladorcalc.jpeg>
-Package pdftex.def Info: ./images/simuladorcalc.jpeg  used on input line 471.
+Package pdftex.def Info: ./images/simuladorcalc.jpeg  used on input line 486.
 (pdftex.def)             Requested size: 426.79134pt x 197.24132pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 471--472
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 486--487
  [] 
  []
 
-[22 <./images/simuladorcalc.jpeg>]
+[23 <./images/calculadora.jpeg> <./images/simuladoracalculadora.jpeg>] [24 <./i
+mages/simuladorcalc.jpeg>]
 
-./Memoria practica 1 DGD.tex:479: LaTeX Error: \begin{center} on input line 475
+./Memoria practica 1 DGD.tex:494: LaTeX Error: \begin{center} on input line 396
  ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.479 \end{document}
+l.494 \end{document}
                     
 ? 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 479.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 479.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 494.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 494.
 (./Memoria practica 1 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 479.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 479.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 494.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
 
 
 Package rerunfilecheck Warning: File `"Memoria practica 1 DGD".out' has changed
@@ -1530,20 +1575,20 @@ Package rerunfilecheck Warning: File `"Memoria practica 1 DGD".out' has changed
 Package rerunfilecheck Info: Checksums for `"Memoria practica 1 DGD".out':
 (rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
 (rerunfilecheck)             After:  B1A15119D852B6423928308E9F9394BD;354.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 479.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 475 (\begingroup)
+### semi simple group (level 1) entered at line 396 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 42161 strings out of 480608
- 965288 string characters out of 5903630
+ 42187 strings out of 480608
+ 966088 string characters out of 5903630
  1447118 words of memory out of 5000000
- 57360 multiletter control sequences out of 15000+600000
+ 57380 multiletter control sequences out of 15000+600000
  590298 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,103p,966b,817s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,7n,103p,966b,842s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathi
 t.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/lo
 cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texliv
@@ -1555,10 +1600,10 @@ lic/lm/lmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr1
 /local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on "Memoria practica 1 DGD.pdf" (22 pages, 5444905 bytes).
+Output written on "Memoria practica 1 DGD.pdf" (24 pages, 6103767 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 322 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 241 PDF objects out of 1000 (max. 8388607)
+ 144 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 
