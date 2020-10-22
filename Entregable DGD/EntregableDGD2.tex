@@ -17,7 +17,8 @@
     linkcolor = blue
 }
 
-\author{Daniel Vilardell}
+\author{Igor Yuziv\\
+	Daniel Vilardell}
 \title{Proposta exercici d'examen DGD}
 \date{17-10-2020}
 
@@ -29,18 +30,22 @@
 		}
 	\end{center}
 	\newpage
-	\section{} 
+	\section{Enunciat} 
 	\textbf{a)} A partir de una taula de Karnaugh i comprovant tots els casos troba la funció que et permetria dissenyar un circuit que et deixi veure si un nombre de 4 bits és divisible per 6. Quants components i quins de dos entrades es necessitarien per a una implementació? 
 	
 	Per a fer això primer trobeu la taula de Karnaugh i feu una cerca exhaustiva que miri si un nombre és divisible per 3. Trobeu també la del 2 i multipliqueu els resultats ja que si és divisible per 2 i per 3, és divisible per 6.
 	\\\\
 	
-	\textbf{b)} És ben conegut que tot nombre binari és divisible per 2 si i només si el seu últim dígit és 0. Un criteri més interessant encara, i potser una mica menys trivial és el criteri de divisibilitat del 3 per nombres binaris. Aquest anuncia el següent:
+	\textbf{b)} En aquest segon apartat es proposa una construcció alternativa del component del apartat a.
+	
+	És ben conegut que tot nombre binari és divisible per 2 si i només si el seu últim dígit és 0. Un criteri més interessant encara, i potser una mica menys trivial és el criteri de divisibilitat del 3 per nombres binaris. Aquest anuncia el següent:
 	\begin{itemize}
 	\item Si la suma dels bits parells menys la suma dels bits senars és divisible per 3, aleshores el nombre original és divisible per 3. 
 	\end{itemize}
 	
-	Tenint en compte que en un nombre de quatre bits com a molt els bits en posicions parells i senars sumen 2, proposi un disseny d'un circuit que permeti distingir els nombres de 5 bits que són divisibles per 6 dels que no usant el criteri donat.
+	Proposi un disseny d'un circuit que permeti distingir els nombres de 5 bits que són divisibles per 6 dels que no usant el criteri donat.
+	
+	Pot ser útil saber que en un nombre de quatre bits com a molt els bits en posicions parells i senars sumen 2.
 	\\\\
 	
 	\textbf{c)} Finalment, amb l'ajuda de multiplexors i un component que anomenarem DIV\_6(creat a l'exercici anterior que per cada nombre de 5 bits que li dones treu 1 si és múltiple de 6 i 0 si no ho és) dissenyeu un circuit lògic que faci el següent: Donats dos nombres de 5 bits $a$ i $b$
