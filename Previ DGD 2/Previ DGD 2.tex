@@ -55,12 +55,10 @@
 
 \begin{document}
 	\maketitle
-	\newpage
-	
 
-	\textcolor{blue}{Question 1:} \textbf{Per dissenyar el bloc combinacional AperB aprofiteu part del disseny fet en la pràctica anterior, on justament es feia un multiplicador. Expliqueu com era aquest disseny i quines modificacions cal fer-li per poder utilitzar-lo a ppal.}\\\\
+	\textcolor{blue}{Pregunta 1:} \textbf{Per dissenyar el bloc combinacional AxB aprofiteu part del disseny fet en la pràctica anterior, on justament es feia un multiplicador. Expliqueu com era aquest disseny i quines modificacions cal fer-li per poder utilitzar-lo a ppal.}\\\\
 	
-	Per tal de fer el bloc AperB, usarem el bloc multiplicador realitzat a la practica anterior, el que com que l'entrada es de dos nombres de 4 bits mentres que el component multiplicador se li entren dos entrades de 8 bits, haurem de fer un conversor de nombres en binari de 4 a 8 bits. La sortida ens la donara en binari, per a passarla a BCD usarem un component programat amb vhdl que considerarà tots els possibles nombres solucio i assignarà al resultat el que li toqui.
+	Per tal de fer el bloc AxB, usarem el bloc multiplicador realitzat a la practica anterior, el que com que l'entrada es de dos nombres de 4 bits mentres que el component multiplicador se li entren dos entrades de 8 bits, haurem de fer un conversor de nombres en binari de 4 a 8 bits. La sortida ens la donara en binari, per a passarla a BCD usarem un component programat amb vhdl que considerarà tots els possibles nombres solucio i assignarà al resultat el que li toqui.
 	
 	Primer de tot farem un breu resum de com funcionava el multiplicador. Aquest feia la multiplicació escolar, es a dir, colocava un nombre a dalt i un a baix i multiplicava xifra per xifra. A mesura que anava multiplicant extreia el nombre de menys pes de cada producte individual i el situava a la sortida. Els altres digits els sumava amb el seguent. Això fins als ultims digits que tots eren destinats al output.
 	
@@ -73,7 +71,6 @@
 	\end{figure}
 	
 	El component que ens convertira la sortida del multiplicador de binari a BCD es el següent.
-	\newpage
 	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
 LIBRARY ieee; USE ieee.std_logic_1164.ALL;  
 
@@ -125,6 +122,101 @@ ARCHITECTURE taula_veritat OF BIN_BCD_8B IS
 "--------" WHEN OTHERS;   END taula_veritat;
 \end{lstlisting}
 
-	\textcolor{blue}{Question 2:} \textbf{Dissenyeu el mòdul combinacional sel en forma de logigrama amb un nombre mínim de portes lògiques estàndard.}
+	\textcolor{blue}{Pregunta 2:} \textbf{Dissenyeu el mòdul combinacional sel en forma de logigrama amb un nombre mínim de portes lògiques estàndard.} 
+	 
+	Per a fer la seleccio usarem un multiplexor 2:1 per a busos de 8 bits. Aquest estarà composat per 8 multiplixors 2:1 classics de un bit de la forma
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{multiplexor2_1.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Per tant a una de les entrades de informació se li posara AxB i a l'altre un vector "1111111", ja que si el bit es 1 el segment de la placa esta apagat. I a la entrada de seleccio li posarem show.
+	
+	\textcolor{blue}{Pregunta 3:} \textbf{Dissenyeu el mòdul combinacional keygroup en forma de logigrama amb un nombre mínim de portes lògiques estàndard.}
+	
+	En primer lloc construirem una taula de veritat
+	
+	\begin{center}
+	\begin{tabular}{||c| c c c c | c c c||} 
+	 \hline
+	 Tecla & $kc_3$ & $kc_2$ & $ kc_1 $ &$kc_0$ & BCD & AST & COI \\ [0.5ex] 
+	 \hline\hline
+	 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0\\ 
+	 \hline
+	 1 & 0 & 0 & 0 & 1 & 1 & 0 & 0\\ 
+	 \hline
+	 2 & 0 & 0 & 1 & 0 & 1 & 0 & 0\\ 
+	 \hline
+	 3 & 0 & 0 & 1 & 1 & 1 & 0 & 0\\ 
+	 \hline
+	 4 & 0 & 1 & 0 & 0 & 1 & 0 & 0\\ 
+	 \hline
+	 5 & 0 & 1 & 0 & 1 & 1 & 0 & 0\\ 
+	 \hline
+	 6 & 0 & 1 & 1 & 0 & 1 & 0 & 0\\ 
+	 \hline
+	 7 & 0 & 1 & 1 & 1 & 1 & 0 & 0\\ 
+	 \hline
+	 8 & 1 & 0 & 0 & 0 & 1 & 0 & 0\\ 
+	 \hline
+	 9 & 1 & 0 & 0 & 1 & 1 & 0 & 0\\ 
+	 \hline
+	 A & 1 & 0 & 1 & 0 & 0 & 0 & 0\\ 
+	 \hline
+	 B & 1 & 0 & 1 & 1 & 0 & 0 & 0\\ 
+	 \hline
+	 C & 1 & 1 & 0 & 0 & 0 & 0 & 0\\ 
+	 \hline
+	 D & 1 & 1 & 0 & 1 & 0 & 0 & 0\\ 
+	 \hline
+	 * & 1 & 1 & 1 & 0 & 0 & 0 & 1\\ 
+	 \hline
+	 \# & 1 & 1 & 1 & 1 & 0 & 1 & 0\\ 
+	  \hline\hline
+	\end{tabular}
+	\end{center}
+	
+	D'aqui podem veure rapidament les formules que tindran les funcions AST i COI
+	\[AST = kc_3\cdot kc_2\cdot kc_1 \cdot \bar{kc_0}\]
+	\[COI = kc_3\cdot kc_2\cdot kc_1 \cdot kc_0\]
+	
+	Per a la última sortida, la BCD construirem una taula de Karnaugh i agruparem uns per a trobar suma de minterms.
+	
+	\begin{center}
+	\begin{tabular}{c|| c c c c} 
+	 BCD & 00 & $01$ &$11$ & 10\\ [0.5ex] 
+	 \hline\hline
+	 00 & 1 & 1 & 1 & 1\\ 
 
+	 01 & 1 & 1  & 1 & 1\\
+
+	 11 & 0 & 0 & 0 & 0\\
+
+	 10 & 1 & 1 & 0 & 0\\
+	\end{tabular}
+	\end{center}
+	
+	Veiem que podem fer un grup de 8 uns i un altre grup de quatre, per tant el resultat final es el següent
+	\[BCD = \bar{kc_3} + \bar{kc_1}\cdot \bar{kc_4}\]
+	
+	Ara doncs ja podem construir el diseny amb el minim de portes and, or i not i tindrà la seguent forma
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{sel.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\textcolor{blue}{Pregunta 4:} \textbf{Dissenyeu el mòdul combinacional leds en forma de logigrama amb un nombre mínim de portes lògiques estàndard. Aquest mòdul es descriu en l’apartat 3.2.}
+	
+	Aquest modul es ben senzill, nomes caldra rebre la entrada show, i a les sortides de leds vermells treure show, i a les de led verd show negat. Per tant tindra la seguent forma.
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=110mm]{leds.jpeg}
+		\end{center}
+	\end{figure}
+	
+	
+	
+	
 \end{document}
