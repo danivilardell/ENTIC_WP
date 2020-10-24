@@ -18,7 +18,7 @@
 \usepackage{verbatimbox}
 \usepackage[T1]{fontenc}
 \usepackage{beramono}% monospaced font with bold variant
- 
+ \usepackage{tikz-timing}[2009/05/15]
 \usepackage{listings}
 \lstdefinelanguage{VHDL}{
    morekeywords={
@@ -216,6 +216,33 @@ ARCHITECTURE taula_veritat OF BIN_BCD_8B IS
 		\end{center}
 	\end{figure}
 	
+	\textcolor{blue}{Pregunta 5:}\textbf{Expliqueu	quina	és	la	 finalitat	i	com	 funciona	el	mòdul	regs.	Empleneu les	línies	 OpA[] i	OpB[] del	cronograma-exemple	donat	a	sota.}
+	
+	La finalitat del mòdul regs és guardar dos digits introduïts per teclat. El funcionament del mòdul és a partir de 2 registres de 4 bits agafà i guarda en la memòria el valor de l'entrada de manera que cada vegada que  \textbf{intro} està actiu, el valor prèviament guardat al primer registre passa al segon, canviant aquest primer el seu valor per l’introduït al teclat.
+	També quan nrst = 0 els valors de OpA[] i OpB[] es posen a 0.	
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=110mm]{pregunta5.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\textcolor{blue}{Pregunta 6:}\textbf{Dibuixeu	el	diagrama	d’estats	del	mòdul control.	Aquest	diagrama	ha	d’especificar	tan	els	canvis	d’estat	com	les	sortides.	}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=110mm]{pregunta6.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\textcolor{blue}{Pregunta 7:}\textbf{Expliqueu	el	funcionament	del	mòdul	control.	Empleneu	les	línies state,	show i	intro del	cronograma-exemple	donat	a	sota.	}
+	
+	El funcionament del mòdul control es gestionar el mòdul ppal per saber si te que mostrar la informació $(show)$ i introduïr $(intro)$ i també ast i coi ens indica quan estem introduïnt valors i quan volem que és mostrin i es calculin.
+	Bcd ens indica si hem introduït una lletra o un valor.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=110mm]{pregunta7.jpeg}
+		\end{center}
+	\end{figure}
 	
 	
 	
