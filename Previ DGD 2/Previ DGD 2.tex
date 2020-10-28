@@ -71,7 +71,7 @@
 	\end{figure}
 	
 	El component que ens convertira la sortida del multiplicador de binari a BCD es el següent.
-	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 LIBRARY ieee; USE ieee.std_logic_1164.ALL;  
 
 ENTITY BIN_BCD_8B IS PORT (   
@@ -80,7 +80,7 @@ ENTITY BIN_BCD_8B IS PORT (
 END BIN_BCD_8B;  
 
 ARCHITECTURE taula_veritat OF BIN_BCD_8B IS   
-	BEGIN --  
+	BEGIN 
 	with BIN SELECT BCD <=     	
 		"10011001" WHEN "00111000",  -- 81     
 		"01110010" WHEN "01001000",  -- 72      
@@ -119,7 +119,8 @@ ARCHITECTURE taula_veritat OF BIN_BCD_8B IS
 		"00000010" WHEN "00000010",  -- 2     
 		"00000001" WHEN "00000001",  -- 1     
 		"00000000" WHEN "00000000",  -- 0     
-"--------" WHEN OTHERS;   END taula_veritat;
+		"--------" WHEN OTHERS;   
+END taula_veritat;
 \end{lstlisting}
 
 	\textcolor{blue}{Pregunta 2:} \textbf{Dissenyeu el mòdul combinacional sel en forma de logigrama amb un nombre mínim de portes lògiques estàndard.} 
