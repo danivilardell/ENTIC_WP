@@ -417,13 +417,26 @@
 	\section{WP5 - Nom}
 	\textcolor{blue}{Question 5.1:} \textbf{Write the instructions to open the serial port using Matlab. Write also the instructions to close the serial port (which will be used once the measurements and collection of data finishes).}
 	
+	\lstinputlisting{pregunta5_1.m}
+		 
 	\textcolor{blue}{Question 5.2:} \textbf{Write the Matlab instructions to start\&stop the measures on the ROUV (you will be sending data from the computer through the control box and finally to the Arduino). Synchronization with the sketch running in the Arduino (ENTIC-Analog2Serial-bidir or alternative) will be necessary.}
+	
+	\lstinputlisting{pregunta5_2.m}
 	
 	\textcolor{blue}{Question 5.3:} \textbf{Write the Matlab instructions to read and plot 1000 values from the serial port. }
 	
+		\lstinputlisting{pregunta5_3.m}
+		
 	\textcolor{blue}{Question 5.4:} \textbf{Write the instructions to appropriately convert the values received from the Arduino to the actual depth (m) of the ROUV. Indeed, these values have to be plotted vs. time (s). Explain firstly the numerical conversions needed (which factors the data have to be multiplied for and how to achieve time units from the measures obtained).}
 	
+	To convert the values received from the Arduino to the actual depth(m) we will use data format that goes from 0 to 1023 (0 = 0V, 1023 = 5V). We will use the equation V = S·P where V= Voltage, S = Sensibility, P =Pressure.We will use Pressure so P = V/S. With the pressure we will apply Hydrostatic pressure p= d·g·h where p= pressure, d= density of of water,g=gravity  h = height. So we need height that will be the actual depth h=p/(d·g).
+	
+	\lstinputlisting{pregunta5_4.m}
+		
+	
 	\textcolor{blue}{Question 5.5:} \textbf{Write the instructions to create, fill and close the file resultats.txt using Matlab.}
+		
+	\lstinputlisting{pregunta5_5.m}
 	
 	\textcolor{blue}{Question 5.6:} \textbf{Develop the whole Matlab code to display depth real-time data (depth vs. time). It is important that you apply some way of avoid noisy points in the graph. Explain your solution. It is also interesting to record (and plot) the maximum and minimum depth during ROUV journey.}
 	

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  28 OCT 2020 11:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  28 OCT 2020 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1153,7 +1153,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
  []
 
 [3]
-<./images/WP1-1-10-2020.jpg, id=83, 555.57562pt x 182.93344pt>
+<./images/WP1-1-10-2020.jpg, id=87, 555.57562pt x 182.93344pt>
 File: ./images/WP1-1-10-2020.jpg Graphic file (type jpg)
 <use ./images/WP1-1-10-2020.jpg>
 Package pdftex.def Info: ./images/WP1-1-10-2020.jpg  used on input line 137.
@@ -1176,13 +1176,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--164
  []
 
 [5]
-<./images/Cirquit1WP2.png, id=95, 468.75125pt x 565.11125pt>
+<./images/Cirquit1WP2.png, id=99, 468.75125pt x 565.11125pt>
 File: ./images/Cirquit1WP2.png Graphic file (type png)
 <use ./images/Cirquit1WP2.png>
 Package pdftex.def Info: ./images/Cirquit1WP2.png  used on input line 169.
 (pdftex.def)             Requested size: 227.62204pt x 274.4063pt.
  [6 <./images/Cirquit1WP2.png>]
-<./images/Cirquit2WP2.png, id=102, 998.73125pt x 557.08125pt>
+<./images/Cirquit2WP2.png, id=106, 998.73125pt x 557.08125pt>
 File: ./images/Cirquit2WP2.png Graphic file (type png)
 <use ./images/Cirquit2WP2.png>
 Package pdftex.def Info: ./images/Cirquit2WP2.png  used on input line 178.
@@ -1228,18 +1228,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
  []
 
 [9]
-<./images/CirquitWP3.png, id=120, 630.355pt x 363.3575pt>
+<./images/CirquitWP3.png, id=124, 630.355pt x 363.3575pt>
 File: ./images/CirquitWP3.png Graphic file (type png)
 <use ./images/CirquitWP3.png>
 Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 271.
 (pdftex.def)             Requested size: 298.75394pt x 172.21404pt.
  [10 <./images/CirquitWP3.png>]
-<./images/ExcelGraph2.png, id=126, 363.3575pt x 218.8175pt>
+<./images/ExcelGraph2.png, id=130, 363.3575pt x 218.8175pt>
 File: ./images/ExcelGraph2.png Graphic file (type png)
 <use ./images/ExcelGraph2.png>
 Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 302.
 (pdftex.def)             Requested size: 363.3566pt x 218.81696pt.
-<./images/MatlabGraph1.jpg, id=127, 1124.2pt x 843.15pt>
+<./images/MatlabGraph1.jpg, id=131, 1124.2pt x 843.15pt>
 File: ./images/MatlabGraph1.jpg Graphic file (type jpg)
 <use ./images/MatlabGraph1.jpg>
 Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 308.
@@ -1258,7 +1258,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--356
 
  []
 
-<./images/WP3-8-10-2020.jpg, id=162, 551.81157pt x 174.6525pt>
+<./images/WP3-8-10-2020.jpg, id=166, 551.81157pt x 174.6525pt>
 File: ./images/WP3-8-10-2020.jpg Graphic file (type jpg)
 <use ./images/WP3-8-10-2020.jpg>
 Package pdftex.def Info: ./images/WP3-8-10-2020.jpg  used on input line 361.
@@ -1274,34 +1274,28 @@ has been already used, duplicate ignored
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.370 	
-        <./images/WP3-8-10-2020.jpg>] [15] [16]
-Overfull \hbox (15.79033pt too wide) in paragraph at lines 420--421
+        <./images/WP3-8-10-2020.jpg>] [15] [16] (./pregunta5_1.m)
+Overfull \hbox (15.79033pt too wide) in paragraph at lines 422--423
 \OT1/lmr/bx/n/12 za-ti-on with the sketch run-ning in the Ar-dui-no (ENTIC-Anal
 og2Serial-
  []
 
-[17] [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 445.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 445.
+(./pregunta5_2.m) (./pregunta5_3.m) [17] (./pregunta5_4.m) (./pregunta5_5.m)
+[18] [19]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 458.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 458.
  (./WPAnswers_31_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 445.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 445.
-
-
-Package rerunfilecheck Warning: File `WPAnswers_31_4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `WPAnswers_31_4.out':
-(rerunfilecheck)             Before: 41F3505E4FAF8C958722252796DDE6B7;635
-(rerunfilecheck)             After:  98E7EC3B635426A30D217C2E0E712E15;774.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 445.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 458.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 458.
+Package rerunfilecheck Info: File `WPAnswers_31_4.out' has not changed.
+(rerunfilecheck)             Checksum: 98E7EC3B635426A30D217C2E0E712E15;774.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 458.
  ) 
 Here is how much of TeX's memory you used:
- 42910 strings out of 480608
- 970611 string characters out of 5903630
- 1708310 words of memory out of 5000000
- 58108 multiletter control sequences out of 15000+600000
+ 43010 strings out of 480608
+ 971864 string characters out of 5903630
+ 1716310 words of memory out of 5000000
+ 58147 multiletter control sequences out of 15000+600000
  597640 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,103p,956b,1628s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1318,10 +1312,10 @@ dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
 type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
-Output written on WPAnswers_31_4.pdf (18 pages, 765272 bytes).
+Output written on WPAnswers_31_4.pdf (19 pages, 772377 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 171 compressed objects within 2 object streams
- 46 named destinations out of 1000 (max. 500000)
- 232 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 232 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
