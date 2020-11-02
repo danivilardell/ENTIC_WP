@@ -1,8 +1,7 @@
-serialPort = serial('COM3');
-serialPort = serial('COM3');
-fopen(SerialPort);
-format = '%d'; %//the format of the files that we want to read.
-size = 1000; %values that we want to read.
-F = fscanf(serialPort,format,size);
-values = [1:1000]; %array for X axis
-plot(values,F);
+serialPort = serial('COM8','BaudRate',9600,'Terminator','CR/LF');
+fopen(serialPort);
+
+x=zeros(1,1000); %vector with 1000 empty values
+for n=1:1000
+    x(n)=fscanf(serialPort,'%d');
+end
