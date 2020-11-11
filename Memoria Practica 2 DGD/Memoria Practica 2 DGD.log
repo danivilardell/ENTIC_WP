@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  11 NOV 2020 10:15
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  11 NOV 2020 22:54
+>>>>>>> fdedc8a58ecdd772c85e8c43af93929ac73101f6
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1136,84 +1140,163 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 58.
+
+(./Memoria Practica 2 DGD.toc)
+\tf@toc=\write7
+\openout7 = `"Memoria Practica 2 DGD.toc"'.
+
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 63.
-
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 65.
-
-[2]
+<./Imatges/Dibuix_diseny.jpeg, id=131, 1606.0pt x 849.1725pt>
+File: ./Imatges/Dibuix_diseny.jpeg Graphic file (type jpg)
+<use ./Imatges/Dibuix_diseny.jpeg>
+Package pdftex.def Info: ./Imatges/Dibuix_diseny.jpeg  used on input line 74.
+(pdftex.def)             Requested size: 369.88582pt x 195.57767pt.
+ [2 <./Imatges/Dibuix_diseny.jpeg>]
 LaTeX Font Info:    Trying to load font information for OML+lmr on input line 9
-0.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmr.fd
+4.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmr.fd
 File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <6> not available
-(Font)              Font shape `OML/lmm/m/it' tried instead on input line 90.
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 94.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
-1.
+5.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<./Imatges/Bin_4_8.jpeg, id=92, 855.195pt x 210.7875pt>
+<./Imatges/selSimulacio.jpeg, id=136, 1544.77126pt x 136.51pt>
+File: ./Imatges/selSimulacio.jpeg Graphic file (type jpg)
+<use ./Imatges/selSimulacio.jpeg>
+Package pdftex.def Info: ./Imatges/selSimulacio.jpeg  used on input line 127.
+(pdftex.def)             Requested size: 369.88582pt x 32.68599pt.
+<./Imatges/Bin_4_8.jpeg, id=137, 855.195pt x 210.7875pt>
 File: ./Imatges/Bin_4_8.jpeg Graphic file (type jpg)
 <use ./Imatges/Bin_4_8.jpeg>
-Package pdftex.def Info: ./Imatges/Bin_4_8.jpeg  used on input line 136.
+Package pdftex.def Info: ./Imatges/Bin_4_8.jpeg  used on input line 138.
 (pdftex.def)             Requested size: 369.88582pt x 91.16756pt.
- [3]
-<./Imatges/Mult_Bin_BCD.jpeg, id=149, 1169.36874pt x 401.5pt>
+ [3 <./Imatges/selSimulacio.jpeg>]
+<./Imatges/4_8Simulacio.jpeg, id=169, 1489.565pt x 125.46875pt>
+File: ./Imatges/4_8Simulacio.jpeg Graphic file (type jpg)
+<use ./Imatges/4_8Simulacio.jpeg>
+Package pdftex.def Info: ./Imatges/4_8Simulacio.jpeg  used on input line 159.
+(pdftex.def)             Requested size: 369.88582pt x 31.15651pt.
+<./Imatges/Keycode.jpeg, id=170, 1131.22626pt x 464.73625pt>
+File: ./Imatges/Keycode.jpeg Graphic file (type jpg)
+<use ./Imatges/Keycode.jpeg>
+Package pdftex.def Info: ./Imatges/Keycode.jpeg  used on input line 171.
+(pdftex.def)             Requested size: 369.88582pt x 151.95226pt.
+ [4 <./Imatges/Bin_4_8.jpeg> <./Imatges/4_8Simulacio.jpeg>]
+<./Imatges/KCsim.jpeg, id=176, 1547.7825pt x 187.70125pt>
+File: ./Imatges/KCsim.jpeg Graphic file (type jpg)
+<use ./Imatges/KCsim.jpeg>
+Package pdftex.def Info: ./Imatges/KCsim.jpeg  used on input line 177.
+(pdftex.def)             Requested size: 369.88582pt x 44.85446pt.
+
+[5 <./Imatges/Keycode.jpeg> <./Imatges/KCsim.jpeg>]
+<./Imatges/Mult_Bin_BCD.jpeg, id=209, 1169.36874pt x 401.5pt>
 File: ./Imatges/Mult_Bin_BCD.jpeg Graphic file (type jpg)
 <use ./Imatges/Mult_Bin_BCD.jpeg>
-Package pdftex.def Info: ./Imatges/Mult_Bin_BCD.jpeg  used on input line 146.
+Package pdftex.def Info: ./Imatges/Mult_Bin_BCD.jpeg  used on input line 220.
 (pdftex.def)             Requested size: 369.88582pt x 127.00003pt.
-<./Imatges/SEL.jpeg, id=150, 888.31876pt x 81.30376pt>
+<./Imatges/SimMult.jpeg, id=210, 1542.76375pt x 132.495pt>
+File: ./Imatges/SimMult.jpeg Graphic file (type jpg)
+<use ./Imatges/SimMult.jpeg>
+Package pdftex.def Info: ./Imatges/SimMult.jpeg  used on input line 242.
+(pdftex.def)             Requested size: 369.88582pt x 31.76508pt.
+ [6 <./Imatges/Mult_Bin_BCD.jpeg> <./Imatges/SimMult.jpeg>]
+LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 262.
+<./Imatges/SEL.jpeg, id=222, 888.31876pt x 81.30376pt>
 File: ./Imatges/SEL.jpeg Graphic file (type jpg)
 <use ./Imatges/SEL.jpeg>
-Package pdftex.def Info: ./Imatges/SEL.jpeg  used on input line 155.
+Package pdftex.def Info: ./Imatges/SEL.jpeg  used on input line 271.
 (pdftex.def)             Requested size: 369.88582pt x 33.85332pt.
-<./Imatges/Simulacio_Sel.jpeg, id=151, 1198.4775pt x 133.49875pt>
+<./Imatges/Simulacio_Sel.jpeg, id=223, 1198.4775pt x 133.49875pt>
 File: ./Imatges/Simulacio_Sel.jpeg Graphic file (type jpg)
 <use ./Imatges/Simulacio_Sel.jpeg>
-Package pdftex.def Info: ./Imatges/Simulacio_Sel.jpeg  used on input line 161.
+Package pdftex.def Info: ./Imatges/Simulacio_Sel.jpeg  used on input line 293.
 (pdftex.def)             Requested size: 369.88582pt x 41.20084pt.
- [4 <./Imatges/Bin_4_8.jpeg> <./Imatges/Mult_Bin_BCD.jpeg> <./Imatges/SEL.jpeg>
- <./Imatges/Simulacio_Sel.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+ [7 <./Imatges/SEL.jpeg> <./Imatges/Simulacio_Sel.jpeg>]
+<./Imatges/regs.png, id=244, 548.0475pt x 205.76875pt>
+File: ./Imatges/regs.png Graphic file (type png)
+<use ./Imatges/regs.png>
+Package pdftex.def Info: ./Imatges/regs.png  used on input line 328.
+(pdftex.def)             Requested size: 369.88582pt x 138.87848pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Imatges/SimRegs.jpeg, id=246, 996.72375pt x 217.81375pt>
+File: ./Imatges/SimRegs.jpeg Graphic file (type jpg)
+<use ./Imatges/SimRegs.jpeg>
+Package pdftex.def Info: ./Imatges/SimRegs.jpeg  used on input line 353.
+(pdftex.def)             Requested size: 369.88582pt x 80.82912pt.
+[8 <./Imatges/regs.png>] [9 <./Imatges/SimRegs.jpeg>]
+<./Imatges/SimControl.jpeg, id=298, 1450.41875pt x 207.77625pt>
+File: ./Imatges/SimControl.jpeg Graphic file (type jpg)
+<use ./Imatges/SimControl.jpeg>
+Package pdftex.def Info: ./Imatges/SimControl.jpeg  used on input line 394.
+(pdftex.def)             Requested size: 369.88582pt x 52.98698pt.
+ [10 <./Imatges/SimControl.jpeg>]
+<./Imatges/ppal.jpeg, id=316, 1031.855pt x 376.40625pt>
+File: ./Imatges/ppal.jpeg Graphic file (type jpg)
+<use ./Imatges/ppal.jpeg>
+Package pdftex.def Info: ./Imatges/ppal.jpeg  used on input line 456.
+(pdftex.def)             Requested size: 369.88582pt x 134.92604pt.
+ [11]
+Overfull \hbox (3.46239pt too wide) in paragraph at lines 462--479
+ [][] 
+ []
+
+<./Imatges/SimPpal.jpeg, id=330, 1084.05pt x 214.8025pt>
+File: ./Imatges/SimPpal.jpeg Graphic file (type jpg)
+<use ./Imatges/SimPpal.jpeg>
+Package pdftex.def Info: ./Imatges/SimPpal.jpeg  used on input line 483.
+(pdftex.def)             Requested size: 369.88582pt x 73.2908pt.
+[12 <./Imatges/ppal.jpeg> <./Imatges/SimPpal.jpeg>]
+<./Imatges/FinalDiseny.jpeg, id=335, 1223.57124pt x 495.8525pt>
+File: ./Imatges/FinalDiseny.jpeg Graphic file (type jpg)
+<use ./Imatges/FinalDiseny.jpeg>
+Package pdftex.def Info: ./Imatges/FinalDiseny.jpeg  used on input line 495.
+(pdftex.def)             Requested size: 369.88582pt x 149.8918pt.
+ [13 <./Imatges/FinalDiseny.jpeg>] [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
  (./Memoria Practica 2 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 530.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
 Package rerunfilecheck Info: File `"Memoria Practica 2 DGD".out' has not change
 d.
-(rerunfilecheck)             Checksum: 70FF0A2A0A2165D1A911B03E98D8ABA2;738.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+(rerunfilecheck)             Checksum: 4C057E2D038D928EA722D0DF4BD466F4;2117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 530.
  ) 
 Here is how much of TeX's memory you used:
- 42339 strings out of 480608
- 964217 string characters out of 5903630
- 1491025 words of memory out of 5000000
- 57534 multiletter control sequences out of 15000+600000
- 590292 words of font info for 74 fonts, out of 8000000 for 9000
+ 42578 strings out of 480608
+ 968011 string characters out of 5903630
+ 1466027 words of memory out of 5000000
+ 57655 multiletter control sequences out of 15000+600000
+ 602790 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,103p,966b,1392s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,9n,103p,966b,2262s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2
 020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2020/texmf-dist
-/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
-e1/public/lm/lmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
-lm/lmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb>
-Output written on "Memoria Practica 2 DGD.pdf" (4 pages, 633696 bytes).
+/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+lm/lmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi10.p
+fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/lm/lmr6.pfb>
+Output written on "Memoria Practica 2 DGD.pdf" (14 pages, 2305260 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 156 compressed objects within 2 object streams
- 64 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 417 PDF objects out of 1000 (max. 8388607)
+ 347 compressed objects within 4 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

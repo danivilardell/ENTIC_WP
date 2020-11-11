@@ -50,31 +50,35 @@
 
 \author{Daniel Vilardell\\
 	   Igor Yuziv}
-\title{Memoria Practica 2}
+\title{\textbf{Memoria Practica 2}}
 \date{}
 
 \begin{document}
 	\maketitle
-	\newpage
-
-
-	\section*{Index}
-     \section {AxB 4BITS}
-     \subsubsection{BIN2BCD}
-     \section {SEL}
-     \subsubsection{keygroup}
-     \section {REG}
-     \subsection{Control}
-     \section{Ppal}
-     \section{LEDS}
-     \section {Blocs de Ppal}
+	\tableofcontents
      
      \newpage
 
-
+	\section{Diseny Jerarquic}
 	
+	El diseny te l'objectiu de multiplicar dos nombres compresos entre 0 i 9 entrats desde la graella de la placa. Nomes es podra entrar dades quan el estat intro estigui activat i nomes es veurà el resultat quan estiguem en el estat show. El estat intro s'activa clicant al boto asterisc mentres que el estat show s'activa si es clica el botó coixinet. 
 	
-	\textbf{\large{Conversor binari a BCD de 8 bits}}
+	El diseny principal \textbf{ppal} el que fa es rebre la tecla premuda i el bloc keygroup ens diu si es un coixinet, un asterisc o un nombre. Control rebra aquesta informacio i decidirà si mostra o no el resultat en funcio del estat que esta. També decidirà si deixa entrar dades o no, i en el cas que si, la sortida intro sera 1 i el bloc regs actualitzara el nombre amb el rebut per la tecla. Finalment els valors de opA i opB guardats es multipliquen i si estem en el estat de show es mostra el resultat, i si no no es mostra.
+	
+	El diseny exterior, que te la finalitat de comunicar el programa principal amb la placa desde la que introduim les dades funciona de la seguent manera. Es llegeixen les dades i s'introdueix la informacio que ens donen els blogs keytest i f\_div a ppal(si sha premut alguna tecla, quina sha premut, si sha de resetejar el sistema i el rellotge). El component ppal extreu opA, opB i el resultat del producte junt amb el bit de show, que ens dirà si mostrem el resultat i els leds vermells o no el mostrem i iluminem els leds verds.
+	
+	El següent dibuix mostra un diagrama intuitiu del funcionament del sistema.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{Dibuix_diseny.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\newpage
+	\section{Blocs}
+	
+	\subsection{Conversor binari a BCD de 8 bits}
 	
 	Aquest component el farem amb vhdl i te l'objectiu de convertir la sortida del multiplicador de 8 bits a bcd per tal de mostrar a la placa. Te la seguent forma
 	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
@@ -96,39 +100,37 @@ ARCHITECTURE taula_veritat OF BIN_BCD_8B IS
 		"01001001" WHEN "00110001",  -- 49     
 		"01001000" WHEN "00110000",  -- 48     
 		"01000101" WHEN "00101101",  -- 45     
-		"01000010" WHEN "00101010",  -- 42     
-		"01000000" WHEN "00101000",  -- 40     
-		"00110110" WHEN "00100100",  -- 36     
-		"00110101" WHEN "00100011",  -- 35     
-		"00110010" WHEN "00100000",  -- 32     
-		"00110000" WHEN "00011110",  -- 30     
-		"00101000" WHEN "00011100",  -- 28     
-		"00100110" WHEN "00011011",  -- 27     
-		"00100101" WHEN "00011001",  -- 25     
-		"00100100" WHEN "00011000",  -- 24     
-		"00100001" WHEN "00010101",  -- 21     
-		"00100000" WHEN "00010100",  -- 20     
-		"00011000" WHEN "00010010",  -- 18     
-		"00010110" WHEN "00010000",  -- 16     
-		"00010101" WHEN "00001111",  -- 15     
-		"00010100" WHEN "00001110",  -- 14     
-		"00010010" WHEN "00001100",  -- 12     
-		"00010000" WHEN "00001010",  -- 10     
-		"00001001" WHEN "00001001",  -- 9     
-		"00001000" WHEN "00001000",  -- 8     
-		"00000111" WHEN "00000111",  -- 7     
-		"00000110" WHEN "00000110",  -- 6     
-		"00000101" WHEN "00000101",  -- 5     
-		"00000100" WHEN "00000100",  -- 4    
-		"00000011" WHEN "00000011",  -- 3     
-		"00000010" WHEN "00000010",  -- 2     
-		"00000001" WHEN "00000001",  -- 1     
-		"00000000" WHEN "00000000",  -- 0     
+				.
+				.
+				. 
 		"--------" WHEN OTHERS;   
 END taula_veritat;
 \end{lstlisting}
+
+	\begin{table}[h!]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 BIN(8) &  Nombre en binari que es vol convertir a BCD\\ 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			 BCD(8) & Nombre BIN convertit a BCD\\ 
+			 \hline
+		 \end{tabular}
+	\end{table}
 	
-	\textbf{\large{Conversor de binari de 4 bits a 8 bits}}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{selSimulacio.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Podem veure que la simulacio funciona ja que la entrada en binari es igual que la sortida en hexadecimal, es a dir, en BCD.
+	
+	\subsection{Conversor de binari de 4 bits a 8 bits}
 	
 	Aquest component el conectarem abans de la entrada del multiplicador per a transformar la entrada de 4 bits a la que necessita el multiplicador que es de 8 bits. Aquest l'unic que farà es omplir de 0 les primeres 4 entrades.
 	\begin{figure}[H]
@@ -137,7 +139,79 @@ END taula_veritat;
 		\end{center}
 	\end{figure}
 	
-	\textbf{\large{Multiplicador}}
+	\begin{table}[h!]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 in(4) &  Nombre de 4 bits\\ 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			 out(8) & Sortida de 8 bits\\ 
+			 \hline
+		 \end{tabular}
+	\end{table}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{4_8Simulacio.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Podem veure que el component funciona a partir de la simulació ja que els nombres son els mateixos que els de la sortida pero la sortida te 8 bits en contes de 4.
+	
+	\subsection{Keygroup}
+	
+	Aquest component ens dirà si la tecla premuda es el asterisc(AST), el coixinet(COI) o el nombre en BCD. A mes comproba abans que s'estigui prement alguna tecla amb la entrada nkey. Això ho fem amb el diseny comentat al previ que té la seguent forma.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{Keycode.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{KCsim.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Podem veure que la simulació mostra el correcte funcionament ja que desde la entrada 0 fins a la 9 informa que la entrada keycode es un nombre, de la A fins a la D els tres estan a 0, la entrada E diu que es un asterisc i la entrada F que es un coixinet.
+	
+	La descripció del bloc en VHDL es la següent.
+	
+		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity keygroup_v is
+	port(nkey : in std_logic;
+		k : in std_logic_vector(3 downto 0);
+		bcd, ast, coi : out std_logic);
+end keygroup_v;
+
+architecture arq of keygroup_v is
+begin
+process (nkey, k)
+begin
+	if (nkey = '0' and (k = "0000" or k = "0001" or k = "0010" or
+				   k = "0011" or k = "0100" or k = "0101" or
+				   k = "0110" or k = "0111" or k = "1000" or
+				   k = "1001")) then bcd <= '1'; ast <= '0'; coi <= '0';
+	elsif(nkey = '0' and k = "1110")
+			then bcd <= '0'; ast <= '1'; coi <= '0';
+	elsif(nkey = '0' and k = "1111")
+			then bcd <= '0'; ast <= '0'; coi <= '1';
+	else bcd <= '0'; coi <= '0'; ast <= '0';
+	end if;
+end process;
+
+end arq;
+\end{lstlisting}
+	
+	\subsection{Multiplicador}
 	
 	Aquest component t'he l'objectiu de multiplicar 2 nombres de 4 bits i treure la sortida en BCD de 4 bits, es a dir, 8 bits de sortida. Per a fer això usarem el component creat a la practica anterior que et multiplicava dos nombres de 8 bits. A la entrada hi posarem un conversor de 4 a 8 bits i a la sortida un conversor de binari de 8 bits a BCD que crearem amb vhdl.
 	
@@ -147,7 +221,49 @@ END taula_veritat;
 		\end{center}
 	\end{figure}
 	
-	\textbf{\large{Bloc sel}}
+	\begin{table}[h!]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 a(4) &  Nombre a de 4 bits que es vol multiplicar\\ 
+			 b(4) &  Nombre b de 4 bits que es vol multiplicar\\ 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			out (8) & Sortida de 8 bits amb el resultat de la multiplicació\\ 
+			 \hline
+		 \end{tabular}
+	\end{table}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimMult.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Podem veure que funciona a partir de la simulacio ja que retorna la multiplicacio de a i b en BCD ja que representem la solucio en hexadecimal.
+	
+	La descripció del bloc en VHDL es la següent.
+	
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
+library ieee;
+use ieee.std_logic_1164.all;
+USE IEEE.NUMERIC_STD.ALL;
+
+entity AperB_v is
+	port(a, b : in std_logic_vector(3 downto 0);
+		  z : out std_logic_vector(7 downto 0));
+end AperB_v;
+
+architecture arq of AperB_v is
+begin
+	z <= std_logic_vector(unsigned(a)*unsigned(b));
+end arq;
+\end{lstlisting}
+	
+	\subsection{Bloc sel}
 	
 	Aquest bloc te l'objectiu de retornar un bus de 7 bits amb el nombre $a$ si la entrada $show$ es 1, i 1111111 si la entrada $show$ es 0;
 	\begin{figure}[H]
@@ -156,10 +272,261 @@ END taula_veritat;
 		\end{center}
 	\end{figure}
 	
+	\begin{table}[h!]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 a(8) &  Nombre a seleccionar\\ 
+			 show(1) &  Nombre que decideix si la sortida es a o 11111111\\ 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			out (8) & Sortida de 8 bits amb el resultat de la multiplicació\\ 
+			 \hline
+		 \end{tabular}
+	\end{table}
+	
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{Simulacio_Sel.jpeg}
 		\end{center}
 	\end{figure}
-		
+	
+	Podem veure que la simulacio funciona ja que si sel es 0 la sortida es 11111111 i si sel es 1 la sortida es a(8).
+	
+	La descripció del bloc en VHDL es la següent.
+	
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
+LIBRARY ieee ; 
+USE ieee.std_logic_1164.ALL;
+
+ENTITY sel_v IS PORT (
+	a  :  IN STD_LOGIC_VECTOR(7  downto  0 );
+	show : IN STD_LOGIC;
+	o : OUT STD_LOGIC_VECTOR(7  downto  0 ) ) ;
+END sel_v
+
+;ARCHITECTURE arq OF sel_v IS
+begin
+process(show)
+BEGIN
+	if(show = '1') then o <= a;
+	else o <= "11111111";
+	end if;
+END process ;
+END arq;
+\end{lstlisting}
+	
+	\subsection{Regs}
+	
+	Aquest component es un mòdul seqüencial síncron que te com a finalitat carregar i memoritzar els operands de la multiplicació opA i opB. Aquest, si la entrada intro es 1 i clk esta en el flanc de pujada i nrst esta activat, actualitzara els valors de opA i opB, posant a opA el valor entrat per keycode i a opB el antic valor de opA.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{regs.png}
+		\end{center}
+	\end{figure}
+	
+	\begin{table}[h!]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 keycode(4) & Marca la tecla que s'està prement \\
+			 clk(1) & Es el rellotge que gestionara la memoria del sistema\\
+			 intro(1) & Indica si s'esta entrant un numero i s'ha d'actualitzar\\
+			 nrst(1) & Marcara si s'ha de resetejar a 0 o no \\ [1ex] 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			 opA(8) & El valor del nombre A guardat\\
+			 opB(8) & El valor del nombre B guardat\\
+			 \hline
+		 \end{tabular}
+	\end{table}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimRegs.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Per a veure que el bloc funciona estem simulant la seguent situació. Primer es prem la tecla asterisc per tal d'introduir dades i despres s'introdueix un valor numeric 4 que es guarda en la variable opA. Despres s'introdueix un altre valor numeric 2 que fa que el 4 es guardi a opB i el 2 a opA. Al introduir el tercer valor aquest es posa a opA, el de opA passa a opB i el de opB desapareix. Mes tard premem el boto de reset que posa els dos valors a 0.
+	
+	La descripció del bloc en VHDL es la següent.
+	
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity regs_v is
+	port(clk, nrst, intro : in std_logic;
+		 keycode : in std_logic_vector(3 downto 0);
+		 opA, opB: out std_logic_vector(3 downto 0));
+end regs_v;
+
+architecture arq of regs_v is
+signal a, b : std_logic_vector(3 downto 0);
+begin
+process (clk, nrst)
+begin 
+	if(nrst = '0') then a <= "0000"; b <= "0000";
+	elsif(nrst='1') and (clk'event and clk = '1') and (intro = '1') then
+			b <= a;
+			a <= keycode;
+	end if;
+end process;
+opA <= a;
+opB <= b;
+
+end arq;
+\end{lstlisting}
+	
+	\subsection{Control}
+	
+	Aquest component ens ve donat i esta escrit en vhdl. L'objectiu es guardar el estat en el que estem i indicar als altres moduls si es poden introduir nombres e iluminar els leds verds o mostrar el resultat i iluminar els leds vermells. En el cas que es premi coixinet el estat passarà a ser show, mentres que si es prem asterisc sera intro. Si es prem un nombre el estat es mantindra, i si estem en estat intro, enviara la senyal per a actualitzar els valors de opA i opB. Si estem en estat show no passara res.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimControl.jpeg}
+		\end{center}
+	\end{figure}
+	
+	La simulacio del component ens mostra que es correcte ja que quan es clica asterisc es passa en el estat st\_intro, en el que si cliquem un valor numeric el bit intro s'activa i el bit show esta desactivat. Quan cliquem coixinet podem veure al final que s'activa el bit de show. Quan cliquem reset es posa en el estat inicial que te show activat.
+	
+	
+	\subsection{Leds}
+	
+	Aquest component encendrà els leds vermells quan no es puguin introduir nombres i els verds quan si que es puguin introduir. Això es decidirà en funció de la entrada show.
+	
+		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity LEDS is 
+	port( show : in std_logic;
+	LEDV, LEDG: out std_logic_vector (3 downto 0));
+end LEDS;
+
+architecture arq of LEDS is
+begin
+process (show) begin
+if (show = '0') then
+	LEDV <= "0000";
+	LEDG <= "1111";
+else
+	LEDG <= "0000";
+	LEDV <= "1111";
+end if;
+end process;
+
+end arq;
+
+\end{lstlisting}
+	
+		\begin{table}[H]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 show & Marca si es mostren els leds verds o els vermells \\ [1ex] 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			 LED\_GREEN & Actiu si els leds verds shan d'encendre\\
+			LED\_RED & Actiu si els leds vermells shan d'encendre\\ [1ex] 
+			 \hline
+		 \end{tabular}
+	\end{table}
+	
+	FALTA SIMULACIO
+	
+	\subsection{Programa principal}
+	
+	El programa principal ajunta tots els components mencionats anteriorment per tal de fer la part principal de la practica. El bloc keycode indica quin tipus de tecla es prem(AST, COI, BCD) es prem, que indica a control si ha de canviar d'estat o no. La entrada nkey marcarà si s'esta prement la tecla o no. Control decideixi si canviar el estat en funcio de la entrada com hem comentat abans. 
+	
+	La entrada keycode també s'envia a regs que actualitza o no els valors de opA i opB en funcio del estat actual. Aquests valors a la sortida es multipliquen en el multiplicador i el resultat s'envia a sel. En el cas que estiguem en el estat show treurà com a output el resultat, i en el cas que no hi siguem treura 11111111 cosa que farà que tots els llums del 7 bit quedin apagats.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{ppal.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{table}[H]
+		\centering
+		 \begin{tabular}{|c | c|} 
+			 \hline
+			 Entrades & Descripció\\ [0.5ex] 
+			 \hline
+			 nkey(1) &  Marca si s'esta prement la tecla \\ 
+			 keycode(4) & Marca la tecla que s'està prement \\
+			 clk(1) & Es el rellotge que gestionara la memoria del sistema  \\
+			 nrst(1) & Marcara si s'ha de resetejar a 0 o no \\ [1ex] 
+			 \hline\hline
+			 Sortides & Descripció\\ [0.5ex] 
+			 \hline
+			 show(1) & Diu si s'ha de mostrar la sortida o no\\ 
+			 opA(8) & El valor del nombre A guardat a regs\\
+			 opB(8) & El valor del nombre B guardat a regs\\
+			 res(8) & Es el que s'ha de mostrar a la pantalla, la multiplicació o res\\ [1ex] 
+			 \hline
+		 \end{tabular}
+	\end{table}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimPpal.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Per a veure si funcionava em simulat el seguent escenari. Primer hem entrat un coixinet per a passar al estat e insersio de dades st\_input. Hem entrat el 5 que ha actualitzat el valor de opA, i despres el 3 que ha actualitzat el valor de opB. En tot aquesta estona la sortida res ha estat apagada ja que el bit de show esta desactivat. Hem introduit despres la entrada 7 que ha mogut la 3 a opB i ha eliminat la 5. Despres d'aixo hem premut la tecla coixinet que ens ha deixat veure el resultat de la multiplicació. Despres d'això hem premut la tecla reset que ha posat tots els valors a 0 i el estat de control a st\_show, es a dir, amb el bit de show activat.
+	
+	\subsection{Final primera part}
+	
+	Despres de fer i testejar tots els components per separats i junts ho conectem tot a la placa de la forma que hem comentat al principi de la practica amb el següent cirquit, assignant a les entrades de la placa els pins que toqui per a que funcioni el diseny.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{FinalDiseny.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\newpage
+	
+	\section{Part extra}
+	
+	\subsection{Keygroup actualitzat}
+	
+	Per tal de llegir, a mes dels nombres, lasterisc i el coixinet, les entrades A i B hem hagut d'afegir al codi VHDL dos sortides mes, A i B que diuen si la entrada keycode es refereix a aquestes tecles.
+	
+	FALTA DESCRIPCIO VHDL
+	
+	FALTA SIMULACIÓ
+	
+	El component funciona ja que fa el mateix que el keygroup anterior amb la diferencia que quan la entrada en hexadecimal es A s'activa la sortida A i quan es B s'activa la B.
+	
+	\subsection{Regs actualitzat}
+	
+	Aquí caldrà afegir dos estats, el estat introA i introB, que indicaran si s'ha d'introduir A o B. Si la sortida A de keygroup està activada el estat passarà a ser introA, mentres que si es B passarà a ser introB. Si tant A com B son 0 es mantindrà igual. 
+	
+	Quan s'hagin d'introduir nombres ara, es mirarà en quin estat estem i si estem en el estat introA es canviarà el valor de A mentres que si estem en estat introB es canviarà B, sempre que el bit intro de la entrada estigui activat, ja que si no ho estigues, no s'haurien d'actualitzar els nombres ja que estariem en estat de show o la entrada seria asterisc o coixinet.
+	
+	FALTA DESCRIPCIO VHDL
+	
+	FALTA SIMULACIÓ
+	
+	\subsection{AperB actualitzat}
+	
+	En aquest modul cal afegir les funcionalitats de la part c extra
+	
+	
+	
+	
 \end{document}
+
+
