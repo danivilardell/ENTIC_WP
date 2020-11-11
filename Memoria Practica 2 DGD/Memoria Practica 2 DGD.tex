@@ -500,13 +500,54 @@ end arq;
 	
 	\section{Part extra}
 	
+	Aquesta part hem realitzat els apartats a i c de la part extra. Per a fer aixo usarem el mateix diseny extern que el apartat anterior i per tant no el tornarem a explicar. L'unic que cambiem serà el programa principal junt amb tots els seus components que anirem explicant durant la memoria. Un petit resum es que per tal de saber si hem d'entrar A o B, dins de regs afegim 2 estats que ens ho indiquin. En el cas de que estiguem en la fase de introduir dades i haguem clicat A s'activara el estat de A. Per a la sortida(part c) calcularem totes les operacions demanades i amb un multiplexor seleccionarem la desitjada en funció de les tecles premudes durant el estat de show.
+	
 	\subsection{Keygroup actualitzat}
 	
 	Per tal de llegir, a mes dels nombres, lasterisc i el coixinet, les entrades A i B hem hagut d'afegir al codi VHDL dos sortides mes, A i B que diuen si la entrada keycode es refereix a aquestes tecles.
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity keycode_extra is
+	port (nkey : in std_logic;
+		  keycode : in std_logic_vector(3 downto 0);
+		  bcd, ast, coi, A, B, C, D: out std_logic);
+end keycode_extra;
+
+architecture arq of keycode_extra is
+begin
+	bcd <= '1' when (nkey = '0' and (keycode = "0000" or
+					 keycode = "0001" or
+					 keycode = "0010" or
+					 keycode = "0011" or
+					 keycode = "0100" or
+					 keycode = "0101" or
+					 keycode = "0110" or
+					 keycode = "0111" or
+					 keycode = "1000" or
+					 keycode = "1001"))
+				else '0';
+	ast <= '1' when nkey = '0' and keycode = "1110"
+			   else '0';
+	coi <= '1' when nkey = '0' and keycode = "1111"
+			   else '0';
+	A <= '1' when nkey = '0' and keycode = "1010"
+			   else '0';
+	B <= '1' when nkey = '0' and keycode = "1011"
+			   else '0';
+	C <= '1' when nkey = '0' and keycode = "1100"
+			   else '0';
+	D <= '1' when nkey = '0' and keycode = "1101"
+			   else '0';
+end arq;
+\end{lstlisting}
 	
-	FALTA DESCRIPCIO VHDL
-	
-	FALTA SIMULACIÓ
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimKCex.jpeg}
+		\end{center}
+	\end{figure}
 	
 	El component funciona ja que fa el mateix que el keygroup anterior amb la diferencia que quan la entrada en hexadecimal es A s'activa la sortida A i quan es B s'activa la B.
 	
@@ -516,16 +557,246 @@ end arq;
 	
 	Quan s'hagin d'introduir nombres ara, es mirarà en quin estat estem i si estem en el estat introA es canviarà el valor de A mentres que si estem en estat introB es canviarà B, sempre que el bit intro de la entrada estigui activat, ja que si no ho estigues, no s'haurien d'actualitzar els nombres ja que estariem en estat de show o la entrada seria asterisc o coixinet.
 	
-	FALTA DESCRIPCIO VHDL
+		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity regs_extra2 is
+	port(clk, nrst, intro, A, B : in std_logic;
+		 keycode : in std_logic_vector(3 downto 0);
+		 opA, opB: out std_logic_vector(3 downto 0));
+end regs_extra2;
+
+architecture arq of regs_extra2 is
+type machine is ( entrA,  entrB);
+signal aux1, aux2 : std_logic_vector(3 downto 0);
+signal state : machine;
+begin
+process (clk, nrst)
+begin 
+	if nrst='0' then state <= entrA;
+	end if;
+	case state is
+	    when entrA  => if B = '1' and (intro = '1')  then state <= entrB; 
+	    end if;
+	    when entrB  => if A = '1' and (intro = '1')  then state <= entrA; 
+	    end if;
+	end case;
 	
-	FALTA SIMULACIÓ
+	case state is
+	    when entrA  =>  if(nrst = '0') 
+			then aux1 <= "0000"; aux2 <= "0000";
+		elsif(nrst='1') and (clk'event and clk = '1') and (intro = '1') 
+			then aux1 <= keycode;
+		end if;
+	    when entrB  =>  if(nrst = '0') then aux1 <= "0000"; aux2 <= "0000";
+		elsif(nrst='1') and (clk'event and clk = '1') and (intro = '1') then
+			aux2 <= keycode;
+		end if;
+	end case;
+end process;
+opA <= aux1;
+opB <= aux2;
+
+end arq;
+\end{lstlisting}
 	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{regsExtrSim.jpeg}
+		\end{center}
+	\end{figure}
+	
+	La simulacio es replica el seguent comportament. En primer lloc es prem la tecla A per a dir que les dades s'introduiran dins de A. S'introdueixen les dades 2 i 4, les dos sobre A. Despres es prem la tecla B que fa que es puguin introduir dades dins de B a on introduim el nombre 7 que es guarda a opB. Finalment cliquem el boto de reset que posa els valors de la sortida a 0.
+	
+	\subsection{Control actualitzat}
+	
+	Com que per tal de saber si hem d'actualitzar o no els estats de regs hem de saber si estem en el estat st\_intro o el estat st\_show, la sortida intro s'haura d'activar si estem a st\_intro i la entrada A o B estan activades. Per tant fem la següent modificació al codi.
+	
+			\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Control_extra is
+  port( clk, nrst, bcd, ast, coi, A, B, C, D : in std_logic;
+		intro, show : out std_logic );
+end Control_extra;
+
+architecture arq of Control_extra is
+  type machine is ( st_show,  st_intro);
+  signal state : machine;
+begin
+
+  process(clk, nrst) 
+  begin
+	if nrst='0' then state <= st_show;
+	elsif (clk'event and clk='1') then
+		case state is
+			when st_show  => if ast='1' then state <= st_intro; end if;
+			when st_intro => if coi='1' then state <= st_show; 
+							 else state <= st_intro;
+							 end if;
+		end case;
+	end if;
+end process;
+
+intro <= '1' when state=st_intro and (bcd='1' or A = '1' or B = '1') else '0';
+show  <= '1' when state=st_show else '0';
+
+end arq;
+\end{lstlisting}
+
 	\subsection{AperB actualitzat}
 	
-	En aquest modul cal afegir les funcionalitats de la part c extra
+	En aquest modul cal afegir les funcionalitats de la part c extra que seran les de multiplicar A*A, B*B i la suma A+B. El component l'hem fet amb vhdl, pero com que el codi es molt llarg ja que cobrim molts casos i s'han de convertir totes les respostes a BCD. Per tant mostrarem una petita porcio del codi suficient per a entendre el funcionament.
+	
+				\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity AperB_extra is
+	port(OpA, OpB : in std_logic_vector(3 downto 0);
+		 AxB : out std_logic_vector(7 downto 0);
+		 AxA : out std_logic_vector(7 downto 0);
+		 BxB : out std_logic_vector(7 downto 0);
+		 AmesB : out std_logic_vector(7 downto 0));
+end AperB_extra;
+
+architecture arq of AperB_extra is
+signal OpA2, OpB2 : std_logic_vector(7 downto 0);
+signal AxB_prov: std_logic_vector(7 downto 0);
+signal AxA_prov : std_logic_vector(7 downto 0);
+signal BxB_prov: std_logic_vector(7 downto 0);
+signal AmesB_prov : std_logic_vector(7 downto 0);
+begin
+OpA2 <= "0000" & OpA;
+OpB2 <= "0000" & OpB;
+AxB_prov <= OpA*OpB;
+AxA_prov <= OpA*OpA;
+BxB_prov <= OpB*OpB;
+AmesB_prov <= OpA2 + OpB2;
+
+	with AxB_prov select AxB <=
+		"10011001" WHEN "01010001" ,--81
+		"01110010" WHEN "01001000" ,--72
+		"01100100" WHEN "01000000" ,--64
+		"01010110" WHEN "00111000" ,--56
+		"01010100" WHEN "00110110" ,--54
+		"01001001" WHEN "00110001" ,--49
+		"01001000" WHEN "00110000" ,--48
+		"01000101" WHEN "00101101" ,--45
+					.
+					.
+					.
+		"--------" WHEN OTHERS;
+	
+	with AxA_prov select AxA <=
+		"10011001" WHEN "01010001" ,--81
+		"01110010" WHEN "01001000" ,--72
+		"01100100" WHEN "01000000" ,--64
+		"01010110" WHEN "00111000" ,--56
+		"01010100" WHEN "00110110" ,--54
+		"01001001" WHEN "00110001" ,--49
+		"01001000" WHEN "00110000" ,--48
+		"01000101" WHEN "00101101" ,--45
+					.
+					.
+					.
+		"--------" WHEN OTHERS;
+	
+	with BxB_prov select BxB <=
+		"10011001" WHEN "01010001" ,--81
+		"01110010" WHEN "01001000" ,--72
+		"01100100" WHEN "01000000" ,--64
+		"01010110" WHEN "00111000" ,--56
+		"01010100" WHEN "00110110" ,--54
+		"01001001" WHEN "00110001" ,--49
+		"01001000" WHEN "00110000" ,--48
+		"01000101" WHEN "00101101" ,--45
+					.
+					.
+					.
+		"--------" WHEN OTHERS;
+		
+	with AmesB_prov select AmesB <=
+		"00011000" when "00010010",--18
+		"00010111" when "00010001",--17
+		"00010110" when "00010000",--16
+		"00010101" when "00001111",--15
+		"00010100" when "00001110",--14
+					.
+					.
+					.
+		"--------" WHEN OTHERS;
+
+end arq;
+\end{lstlisting}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimAxBextr.jpeg}
+		\end{center}
+	\end{figure}
+	
+	La simulacio mostra que els calculs s'efectuen correctament en tots els casos.
+	
+	\subsection{MUX de 4 entrades}
+	Aquest component decidirà la sortida en funció de si introduim A, B, C o D a la placa durant la fase de show.
+	
+				\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity MUX_extra is 
+	port(A,B,C,D : in std_logic_vector(7 downto 0);
+		sel : in std_logic_vector(3 downto 0);
+		z: out std_logic_vector (7 downto 0));
+end MUX_extra;
+
+architecture arc of MUX_extra is
+begin
+	with sel select 
+	z<= A when "1010",
+		B when "1011",
+		C when "1100",
+		D when "1101",
+		"11111111" when others;
+end arc;
+\end{lstlisting}
+
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimMUX.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Podem veure que funciona ja que en funcio de la entrada sel ens mostra la entrada desitjada.
+	
+	\subsection{Programa principal extra}
+	
+	Aquest funciona molt semblant al de la part 1. Rep la tecla premuda que desxifra a trabes de keycode\_extra. Aquesta tecla la passa a control que actualitza les dades de estat i activa o no els bits de intro i show. 
+	
+	Per altra banda regs\_extra2 rep la informacio de la tecla premuda i de si es A o si es B, junt amb si control esta en el estat d'entrar dades o no ho esta. Si es A actualitza el estat de la mateixa manera que si es B. En el cas que que intro sigui 1 i keycode sigui un valor BCD s'actualitza la variable que toqui en funcio del estat. Aquestes dos sortides, opA i opB s'introdueixen dins de la calculadora que ens fa totes les operacions. A la sortida es conecta amb el multiplexor que en funció de la tecla premuda despres d'activar el bit show mostrara una cosa o altra. Finalment el bloc Sel decideix si mostrar o no la sortida en funcio de si esta activat el bit show o no.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{ppalExtra.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{SimPpalExtra.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Per veure si funcionava hem simulat les seguents entrades. Primer introduim un asterisc per a marcar l'inici de les entrades. Despres marquem que volem entrar els valors de B, que introduim el nombre 4 i despres el 6. Despres indiquem que volem introduir els nombres dins de A, al qual introduim el nombre 3. Despres clicant coixinet activem el bit de show. Clicant A ens mostra A*B, clicant B ens mostra A*A, clicant C ens mostra B*B i clicant D ens mostra A+B. Per tant el diseny funciona a la perfecció.
 	
 	
-	
+
+
 	
 \end{document}
 
