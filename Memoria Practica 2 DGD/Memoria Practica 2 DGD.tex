@@ -107,6 +107,13 @@ ARCHITECTURE taula_veritat OF BIN_BCD_8B IS
 END taula_veritat;
 \end{lstlisting}
 
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeBIN_BCD_8B.jpeg}
+		\end{center}
+	\end{figure}
+
+
 	\begin{table}[h!]
 		\centering
 		 \begin{tabular}{|c | c|} 
@@ -123,7 +130,7 @@ END taula_veritat;
 	\end{table}
 	
 	\begin{figure}[H]
-		\begin{center}
+		\begin{center}ño 
 		\includegraphics[width=130mm]{selSimulacio.jpeg}
 		\end{center}
 	\end{figure}
@@ -136,6 +143,12 @@ END taula_veritat;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{Bin_4_8.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeCONV4_8.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -169,6 +182,11 @@ END taula_veritat;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{Keycode.jpeg}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informekeygroup.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -221,6 +239,12 @@ end arq;
 		\end{center}
 	\end{figure}
 	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeMULT.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\begin{table}[h!]
 		\centering
 		 \begin{tabular}{|c | c|} 
@@ -269,6 +293,12 @@ end arq;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{SEL.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeSEL.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -326,6 +356,12 @@ END arq;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{regs.png}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeREGS.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -426,6 +462,12 @@ end process;
 end arq;
 
 \end{lstlisting}
+
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeLEDS.jpeg}
+		\end{center}
+	\end{figure}
 	
 		\begin{table}[H]
 		\centering
@@ -443,8 +485,14 @@ end arq;
 		 \end{tabular}
 	\end{table}
 	
-	FALTA SIMULACIO
 	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{simulLEDS.jpeg}
+		\end{center}
+	\end{figure}
+	
+	Com es pot veure la simulació funcione en funció de la entrada show.
 	\subsection{Programa principal}
 	
 	El programa principal ajunta tots els components mencionats anteriorment per tal de fer la part principal de la practica. El bloc keycode indica quin tipus de tecla es prem(AST, COI, BCD) es prem, que indica a control si ha de canviar d'estat o no. La entrada nkey marcarà si s'esta prement la tecla o no. Control decideixi si canviar el estat en funcio de la entrada com hem comentat abans. 
@@ -454,6 +502,12 @@ end arq;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{ppal.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informePpal.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -493,6 +547,12 @@ end arq;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{FinalDiseny.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeFINAL.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -542,12 +602,20 @@ begin
 			   else '0';
 end arq;
 \end{lstlisting}
-	
+
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informekeygroupextra.jpeg}
+		\end{center}
+	\end{figure}
+
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{SimKCex.jpeg}
 		\end{center}
 	\end{figure}
+
+	
 	
 	El component funciona ja que fa el mateix que el keygroup anterior amb la diferencia que quan la entrada en hexadecimal es A s'activa la sortida A i quan es B s'activa la B.
 	
@@ -600,6 +668,12 @@ opB <= aux2;
 
 end arq;
 \end{lstlisting}
+
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeRegsextra.jpeg}
+		\end{center}
+	\end{figure}
 	
 	\begin{figure}[H]
 		\begin{center}
@@ -645,6 +719,11 @@ show  <= '1' when state=st_show else '0';
 
 end arq;
 \end{lstlisting}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeControlextra.jpeg}
+		\end{center}
+	\end{figure}
 
 	\subsection{AperB actualitzat}
 	
@@ -733,6 +812,12 @@ AmesB_prov <= OpA2 + OpB2;
 
 end arq;
 \end{lstlisting}
+
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeAperBextra.jpeg}
+		\end{center}
+	\end{figure}
 	
 	\begin{figure}[H]
 		\begin{center}
@@ -766,6 +851,12 @@ begin
 end arc;
 \end{lstlisting}
 
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeMUXextra.jpeg}
+		\end{center}
+	\end{figure}
+
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{SimMUX.jpeg}
@@ -783,6 +874,12 @@ end arc;
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{ppalExtra.jpeg}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informePpalextra.jpeg}
 		\end{center}
 	\end{figure}
 	

@@ -2,19 +2,19 @@
 \contentsline {section}{\numberline {1}Diseny Jerarquic}{2}{section.1}%
 \contentsline {section}{\numberline {2}Blocs}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Conversor binari a BCD de 8 bits}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Conversor de binari de 4 bits a 8 bits}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Keygroup}{4}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Multiplicador}{6}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Bloc sel}{7}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Regs}{8}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Control}{10}{subsection.2.7}%
-\contentsline {subsection}{\numberline {2.8}Leds}{10}{subsection.2.8}%
-\contentsline {subsection}{\numberline {2.9}Programa principal}{11}{subsection.2.9}%
-\contentsline {subsection}{\numberline {2.10}Final primera part}{13}{subsection.2.10}%
-\contentsline {section}{\numberline {3}Part extra}{14}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Keygroup actualitzat}{14}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Regs actualitzat}{15}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Control actualitzat}{16}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}AperB actualitzat}{17}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}MUX de 4 entrades}{18}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Programa principal extra}{19}{subsection.3.6}%
+\contentsline {subsection}{\numberline {2.2}Conversor de binari de 4 bits a 8 bits}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Keygroup}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Multiplicador}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Bloc sel}{10}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Regs}{12}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Control}{15}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Leds}{15}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Programa principal}{17}{subsection.2.9}%
+\contentsline {subsection}{\numberline {2.10}Final primera part}{19}{subsection.2.10}%
+\contentsline {section}{\numberline {3}Part extra}{21}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Keygroup actualitzat}{21}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Regs actualitzat}{22}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Control actualitzat}{25}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}AperB actualitzat}{26}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}MUX de 4 entrades}{28}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Programa principal extra}{30}{subsection.3.6}%

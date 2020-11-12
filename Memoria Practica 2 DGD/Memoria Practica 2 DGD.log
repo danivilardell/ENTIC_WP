@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  12 NOV 2020 00:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  12 NOV 2020 16:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1164,153 +1164,265 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<./Imatges/selSimulacio.jpeg, id=151, 1544.77126pt x 136.51pt>
+<./Imatges/informeBIN_BCD_8B.jpeg, id=151, 505.89pt x 464.73625pt>
+File: ./Imatges/informeBIN_BCD_8B.jpeg Graphic file (type jpg)
+<use ./Imatges/informeBIN_BCD_8B.jpeg>
+Package pdftex.def Info: ./Imatges/informeBIN_BCD_8B.jpeg  used on input line 1
+12.
+(pdftex.def)             Requested size: 369.88582pt x 339.80066pt.
+ [3]
+<./Imatges/selSimulacio.jpeg, id=184, 1544.77126pt x 136.51pt>
 File: ./Imatges/selSimulacio.jpeg Graphic file (type jpg)
 <use ./Imatges/selSimulacio.jpeg>
-Package pdftex.def Info: ./Imatges/selSimulacio.jpeg  used on input line 127.
+Package pdftex.def Info: ./Imatges/selSimulacio.jpeg  used on input line 134.
 (pdftex.def)             Requested size: 369.88582pt x 32.68599pt.
-<./Imatges/Bin_4_8.jpeg, id=152, 855.195pt x 210.7875pt>
+<./Imatges/Bin_4_8.jpeg, id=185, 855.195pt x 210.7875pt>
 File: ./Imatges/Bin_4_8.jpeg Graphic file (type jpg)
 <use ./Imatges/Bin_4_8.jpeg>
-Package pdftex.def Info: ./Imatges/Bin_4_8.jpeg  used on input line 138.
+Package pdftex.def Info: ./Imatges/Bin_4_8.jpeg  used on input line 145.
 (pdftex.def)             Requested size: 369.88582pt x 91.16756pt.
- [3 <./Imatges/selSimulacio.jpeg>]
-<./Imatges/4_8Simulacio.jpeg, id=185, 1489.565pt x 125.46875pt>
-File: ./Imatges/4_8Simulacio.jpeg Graphic file (type jpg)
-<use ./Imatges/4_8Simulacio.jpeg>
-Package pdftex.def Info: ./Imatges/4_8Simulacio.jpeg  used on input line 159.
-(pdftex.def)             Requested size: 369.88582pt x 31.15651pt.
-<./Imatges/Keycode.jpeg, id=186, 1131.22626pt x 464.73625pt>
-File: ./Imatges/Keycode.jpeg Graphic file (type jpg)
-<use ./Imatges/Keycode.jpeg>
-Package pdftex.def Info: ./Imatges/Keycode.jpeg  used on input line 171.
-(pdftex.def)             Requested size: 369.88582pt x 151.95226pt.
- [4 <./Imatges/Bin_4_8.jpeg> <./Imatges/4_8Simulacio.jpeg>]
-<./Imatges/KCsim.jpeg, id=191, 1547.7825pt x 187.70125pt>
-File: ./Imatges/KCsim.jpeg Graphic file (type jpg)
-<use ./Imatges/KCsim.jpeg>
-Package pdftex.def Info: ./Imatges/KCsim.jpeg  used on input line 177.
-(pdftex.def)             Requested size: 369.88582pt x 44.85446pt.
+ [4 <./Imatges/informeBIN_BCD_8B.jpeg> <./Imatges/selSimulacio.jpeg>]
+<./Imatges/informeCONV4_8.jpeg, id=190, 467.7475pt x 392.46625pt>
+File: ./Imatges/informeCONV4_8.jpeg Graphic file (type jpg)
+<use ./Imatges/informeCONV4_8.jpeg>
+Package pdftex.def Info: ./Imatges/informeCONV4_8.jpeg  used on input line 151.
 
-[5 <./Imatges/Keycode.jpeg> <./Imatges/KCsim.jpeg>]
-<./Imatges/Mult_Bin_BCD.jpeg, id=224, 1169.36874pt x 401.5pt>
-File: ./Imatges/Mult_Bin_BCD.jpeg Graphic file (type jpg)
-<use ./Imatges/Mult_Bin_BCD.jpeg>
-Package pdftex.def Info: ./Imatges/Mult_Bin_BCD.jpeg  used on input line 220.
-(pdftex.def)             Requested size: 369.88582pt x 127.00003pt.
-<./Imatges/SimMult.jpeg, id=225, 1542.76375pt x 132.495pt>
-File: ./Imatges/SimMult.jpeg Graphic file (type jpg)
-<use ./Imatges/SimMult.jpeg>
-Package pdftex.def Info: ./Imatges/SimMult.jpeg  used on input line 242.
-(pdftex.def)             Requested size: 369.88582pt x 31.76508pt.
- [6 <./Imatges/Mult_Bin_BCD.jpeg> <./Imatges/SimMult.jpeg>]
-LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/lmm/m/it' tried instead on input line 262.
-<./Imatges/SEL.jpeg, id=237, 888.31876pt x 81.30376pt>
-File: ./Imatges/SEL.jpeg Graphic file (type jpg)
-<use ./Imatges/SEL.jpeg>
-Package pdftex.def Info: ./Imatges/SEL.jpeg  used on input line 271.
-(pdftex.def)             Requested size: 369.88582pt x 33.85332pt.
-<./Imatges/Simulacio_Sel.jpeg, id=238, 1198.4775pt x 133.49875pt>
-File: ./Imatges/Simulacio_Sel.jpeg Graphic file (type jpg)
-<use ./Imatges/Simulacio_Sel.jpeg>
-Package pdftex.def Info: ./Imatges/Simulacio_Sel.jpeg  used on input line 293.
-(pdftex.def)             Requested size: 369.88582pt x 41.20084pt.
- [7 <./Imatges/SEL.jpeg> <./Imatges/Simulacio_Sel.jpeg>]
-<./Imatges/regs.png, id=259, 548.0475pt x 205.76875pt>
-File: ./Imatges/regs.png Graphic file (type png)
-<use ./Imatges/regs.png>
-Package pdftex.def Info: ./Imatges/regs.png  used on input line 328.
-(pdftex.def)             Requested size: 369.88582pt x 138.87848pt.
+(pdftex.def)             Requested size: 369.88582pt x 310.3683pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./Imatges/SimRegs.jpeg, id=261, 996.72375pt x 217.81375pt>
+<./Imatges/4_8Simulacio.jpeg, id=191, 1489.565pt x 125.46875pt>
+File: ./Imatges/4_8Simulacio.jpeg Graphic file (type jpg)
+<use ./Imatges/4_8Simulacio.jpeg>
+Package pdftex.def Info: ./Imatges/4_8Simulacio.jpeg  used on input line 172.
+(pdftex.def)             Requested size: 369.88582pt x 31.15651pt.
+[5 <./Imatges/Bin_4_8.jpeg> <./Imatges/informeCONV4_8.jpeg>]
+<./Imatges/Keycode.jpeg, id=196, 1131.22626pt x 464.73625pt>
+File: ./Imatges/Keycode.jpeg Graphic file (type jpg)
+<use ./Imatges/Keycode.jpeg>
+Package pdftex.def Info: ./Imatges/Keycode.jpeg  used on input line 184.
+(pdftex.def)             Requested size: 369.88582pt x 151.95226pt.
+<./Imatges/informekeygroup.jpeg, id=197, 490.83376pt x 417.56pt>
+File: ./Imatges/informekeygroup.jpeg Graphic file (type jpg)
+<use ./Imatges/informekeygroup.jpeg>
+Package pdftex.def Info: ./Imatges/informekeygroup.jpeg  used on input line 189
+.
+(pdftex.def)             Requested size: 369.88582pt x 314.67924pt.
+ [6 <./Imatges/4_8Simulacio.jpeg> <./Imatges/Keycode.jpeg>]
+<./Imatges/KCsim.jpeg, id=202, 1547.7825pt x 187.70125pt>
+File: ./Imatges/KCsim.jpeg Graphic file (type jpg)
+<use ./Imatges/KCsim.jpeg>
+Package pdftex.def Info: ./Imatges/KCsim.jpeg  used on input line 195.
+(pdftex.def)             Requested size: 369.88582pt x 44.85446pt.
+ [7 <./Imatges/informekeygroup.jpeg> <./Imatges/KCsim.jpeg>]
+<./Imatges/Mult_Bin_BCD.jpeg, id=216, 1169.36874pt x 401.5pt>
+File: ./Imatges/Mult_Bin_BCD.jpeg Graphic file (type jpg)
+<use ./Imatges/Mult_Bin_BCD.jpeg>
+Package pdftex.def Info: ./Imatges/Mult_Bin_BCD.jpeg  used on input line 238.
+(pdftex.def)             Requested size: 369.88582pt x 127.00003pt.
+<./Imatges/informeMULT.jpeg, id=217, 506.89375pt x 404.51125pt>
+File: ./Imatges/informeMULT.jpeg Graphic file (type jpg)
+<use ./Imatges/informeMULT.jpeg>
+Package pdftex.def Info: ./Imatges/informeMULT.jpeg  used on input line 244.
+(pdftex.def)             Requested size: 369.88582pt x 295.18582pt.
+ [8 <./Imatges/Mult_Bin_BCD.jpeg>]
+<./Imatges/SimMult.jpeg, id=242, 1542.76375pt x 132.495pt>
+File: ./Imatges/SimMult.jpeg Graphic file (type jpg)
+<use ./Imatges/SimMult.jpeg>
+Package pdftex.def Info: ./Imatges/SimMult.jpeg  used on input line 266.
+(pdftex.def)             Requested size: 369.88582pt x 31.76508pt.
+ [9 <./Imatges/informeMULT.jpeg> <./Imatges/SimMult.jpeg>]
+LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 286.
+<./Imatges/SEL.jpeg, id=247, 888.31876pt x 81.30376pt>
+File: ./Imatges/SEL.jpeg Graphic file (type jpg)
+<use ./Imatges/SEL.jpeg>
+Package pdftex.def Info: ./Imatges/SEL.jpeg  used on input line 295.
+(pdftex.def)             Requested size: 369.88582pt x 33.85332pt.
+<./Imatges/informeSEL.jpeg, id=248, 474.77374pt x 412.54124pt>
+File: ./Imatges/informeSEL.jpeg Graphic file (type jpg)
+<use ./Imatges/informeSEL.jpeg>
+Package pdftex.def Info: ./Imatges/informeSEL.jpeg  used on input line 301.
+(pdftex.def)             Requested size: 369.88582pt x 321.41577pt.
+ [10 <./Imatges/SEL.jpeg>]
+<./Imatges/Simulacio_Sel.jpeg, id=272, 1198.4775pt x 133.49875pt>
+File: ./Imatges/Simulacio_Sel.jpeg Graphic file (type jpg)
+<use ./Imatges/Simulacio_Sel.jpeg>
+Package pdftex.def Info: ./Imatges/Simulacio_Sel.jpeg  used on input line 323.
+(pdftex.def)             Requested size: 369.88582pt x 41.20084pt.
+ [11 <./Imatges/informeSEL.jpeg> <./Imatges/Simulacio_Sel.jpeg>]
+<./Imatges/regs.png, id=277, 548.0475pt x 205.76875pt>
+File: ./Imatges/regs.png Graphic file (type png)
+<use ./Imatges/regs.png>
+Package pdftex.def Info: ./Imatges/regs.png  used on input line 358.
+(pdftex.def)             Requested size: 369.88582pt x 138.87848pt.
+ [12]
+<./Imatges/informeREGS.jpeg, id=302, 475.7775pt x 403.5075pt>
+File: ./Imatges/informeREGS.jpeg Graphic file (type jpg)
+<use ./Imatges/informeREGS.jpeg>
+Package pdftex.def Info: ./Imatges/informeREGS.jpeg  used on input line 364.
+(pdftex.def)             Requested size: 369.88582pt x 313.71251pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./Imatges/SimRegs.jpeg, id=303, 996.72375pt x 217.81375pt>
 File: ./Imatges/SimRegs.jpeg Graphic file (type jpg)
 <use ./Imatges/SimRegs.jpeg>
-Package pdftex.def Info: ./Imatges/SimRegs.jpeg  used on input line 353.
+Package pdftex.def Info: ./Imatges/SimRegs.jpeg  used on input line 389.
 (pdftex.def)             Requested size: 369.88582pt x 80.82912pt.
-[8 <./Imatges/regs.png>] [9 <./Imatges/SimRegs.jpeg>]
-<./Imatges/SimControl.jpeg, id=313, 1450.41875pt x 207.77625pt>
+[13 <./Imatges/regs.png> <./Imatges/informeREGS.jpeg>] [14 <./Imatges/SimRegs.j
+peg>]
+<./Imatges/SimControl.jpeg, id=340, 1450.41875pt x 207.77625pt>
 File: ./Imatges/SimControl.jpeg Graphic file (type jpg)
 <use ./Imatges/SimControl.jpeg>
-Package pdftex.def Info: ./Imatges/SimControl.jpeg  used on input line 394.
+Package pdftex.def Info: ./Imatges/SimControl.jpeg  used on input line 430.
 (pdftex.def)             Requested size: 369.88582pt x 52.98698pt.
- [10 <./Imatges/SimControl.jpeg>]
-<./Imatges/ppal.jpeg, id=331, 1031.855pt x 376.40625pt>
+ [15 <./Imatges/SimControl.jpeg>]
+<./Imatges/informeLEDS.jpeg, id=358, 481.8pt x 405.515pt>
+File: ./Imatges/informeLEDS.jpeg Graphic file (type jpg)
+<use ./Imatges/informeLEDS.jpeg>
+Package pdftex.def Info: ./Imatges/informeLEDS.jpeg  used on input line 468.
+(pdftex.def)             Requested size: 369.88582pt x 311.33173pt.
+ [16 <./Imatges/informeLEDS.jpeg>]
+<./Imatges/simulLEDS.jpeg, id=372, 773.89125pt x 130.4875pt>
+File: ./Imatges/simulLEDS.jpeg Graphic file (type jpg)
+<use ./Imatges/simulLEDS.jpeg>
+Package pdftex.def Info: ./Imatges/simulLEDS.jpeg  used on input line 491.
+(pdftex.def)             Requested size: 369.88582pt x 62.36647pt.
+<./Imatges/ppal.jpeg, id=373, 1031.855pt x 376.40625pt>
 File: ./Imatges/ppal.jpeg Graphic file (type jpg)
 <use ./Imatges/ppal.jpeg>
-Package pdftex.def Info: ./Imatges/ppal.jpeg  used on input line 456.
+Package pdftex.def Info: ./Imatges/ppal.jpeg  used on input line 504.
 (pdftex.def)             Requested size: 369.88582pt x 134.92604pt.
- [11]
-Overfull \hbox (3.46239pt too wide) in paragraph at lines 462--479
+
+[17 <./Imatges/simulLEDS.jpeg>]
+<./Imatges/informePpal.jpeg, id=378, 479.7925pt x 397.485pt>
+File: ./Imatges/informePpal.jpeg Graphic file (type jpg)
+<use ./Imatges/informePpal.jpeg>
+Package pdftex.def Info: ./Imatges/informePpal.jpeg  used on input line 510.
+(pdftex.def)             Requested size: 369.88582pt x 306.43436pt.
+
+Overfull \hbox (3.46239pt too wide) in paragraph at lines 516--533
  [][] 
  []
 
-<./Imatges/SimPpal.jpeg, id=345, 1084.05pt x 214.8025pt>
+[18 <./Imatges/ppal.jpeg> <./Imatges/informePpal.jpeg>]
+<./Imatges/SimPpal.jpeg, id=383, 1084.05pt x 214.8025pt>
 File: ./Imatges/SimPpal.jpeg Graphic file (type jpg)
 <use ./Imatges/SimPpal.jpeg>
-Package pdftex.def Info: ./Imatges/SimPpal.jpeg  used on input line 483.
+Package pdftex.def Info: ./Imatges/SimPpal.jpeg  used on input line 537.
 (pdftex.def)             Requested size: 369.88582pt x 73.2908pt.
-[12 <./Imatges/ppal.jpeg> <./Imatges/SimPpal.jpeg>]
-<./Imatges/FinalDiseny.jpeg, id=350, 1223.57124pt x 495.8525pt>
+<./Imatges/FinalDiseny.jpeg, id=384, 1223.57124pt x 495.8525pt>
 File: ./Imatges/FinalDiseny.jpeg Graphic file (type jpg)
 <use ./Imatges/FinalDiseny.jpeg>
-Package pdftex.def Info: ./Imatges/FinalDiseny.jpeg  used on input line 495.
+Package pdftex.def Info: ./Imatges/FinalDiseny.jpeg  used on input line 549.
 (pdftex.def)             Requested size: 369.88582pt x 149.8918pt.
- [13 <./Imatges/FinalDiseny.jpeg>]
-<./Imatges/SimKCex.jpeg, id=356, 1489.565pt x 241.90375pt>
+ [19 <./Imatges/SimPpal.jpeg>]
+<./Imatges/informeFINAL.jpeg, id=390, 472.76625pt x 380.42125pt>
+File: ./Imatges/informeFINAL.jpeg Graphic file (type jpg)
+<use ./Imatges/informeFINAL.jpeg>
+Package pdftex.def Info: ./Imatges/informeFINAL.jpeg  used on input line 555.
+(pdftex.def)             Requested size: 369.88582pt x 297.64452pt.
+ [20 <./Imatges/FinalDiseny.jpeg> <./Imatges/informeFINAL.jpeg>]
+<./Imatges/informekeygroupextra.jpeg, id=395, 473.77pt x 371.3875pt>
+File: ./Imatges/informekeygroupextra.jpeg Graphic file (type jpg)
+<use ./Imatges/informekeygroupextra.jpeg>
+Package pdftex.def Info: ./Imatges/informekeygroupextra.jpeg  used on input lin
+e 608.
+(pdftex.def)             Requested size: 369.88582pt x 289.95876pt.
+ [21]
+<./Imatges/SimKCex.jpeg, id=437, 1489.565pt x 241.90375pt>
 File: ./Imatges/SimKCex.jpeg Graphic file (type jpg)
 <use ./Imatges/SimKCex.jpeg>
-Package pdftex.def Info: ./Imatges/SimKCex.jpeg  used on input line 548.
+Package pdftex.def Info: ./Imatges/SimKCex.jpeg  used on input line 614.
 (pdftex.def)             Requested size: 369.88582pt x 60.06975pt.
- [14] [15 <./Imatges/SimKCex.jpeg>]
-<./Imatges/regsExtrSim.jpeg, id=437, 827.09pt x 230.8625pt>
+
+[22 <./Imatges/informekeygroupextra.jpeg> <./Imatges/SimKCex.jpeg>]
+<./Imatges/informeRegsextra.jpeg, id=442, 466.74374pt x 361.35pt>
+File: ./Imatges/informeRegsextra.jpeg Graphic file (type jpg)
+<use ./Imatges/informeRegsextra.jpeg>
+Package pdftex.def Info: ./Imatges/informeRegsextra.jpeg  used on input line 67
+4.
+(pdftex.def)             Requested size: 369.88582pt x 286.37314pt.
+ [23]
+<./Imatges/regsExtrSim.jpeg, id=489, 827.09pt x 230.8625pt>
 File: ./Imatges/regsExtrSim.jpeg Graphic file (type jpg)
 <use ./Imatges/regsExtrSim.jpeg>
-Package pdftex.def Info: ./Imatges/regsExtrSim.jpeg  used on input line 606.
+Package pdftex.def Info: ./Imatges/regsExtrSim.jpeg  used on input line 680.
 (pdftex.def)             Requested size: 369.88582pt x 103.24603pt.
- [16 <./Imatges/regsExtrSim.jpeg>]
-[17]
-<./Imatges/SimAxBextr.jpeg, id=537, 1411.2725pt x 184.69pt>
+
+[24 <./Imatges/informeRegsextra.jpeg> <./Imatges/regsExtrSim.jpeg>]
+<./Imatges/informeControlextra.jpeg, id=494, 471.7625pt x 393.47pt>
+File: ./Imatges/informeControlextra.jpeg Graphic file (type jpg)
+<use ./Imatges/informeControlextra.jpeg>
+Package pdftex.def Info: ./Imatges/informeControlextra.jpeg  used on input line
+ 724.
+(pdftex.def)             Requested size: 369.88582pt x 308.50238pt.
+ [25]
+[26 <./Imatges/informeControlextra.jpeg>]
+<./Imatges/informeAperBextra.jpeg, id=552, 481.8pt x 384.43625pt>
+File: ./Imatges/informeAperBextra.jpeg Graphic file (type jpg)
+<use ./Imatges/informeAperBextra.jpeg>
+Package pdftex.def Info: ./Imatges/informeAperBextra.jpeg  used on input line 8
+18.
+(pdftex.def)             Requested size: 369.88582pt x 295.14865pt.
+ [27]
+<./Imatges/SimAxBextr.jpeg, id=623, 1411.2725pt x 184.69pt>
 File: ./Imatges/SimAxBextr.jpeg Graphic file (type jpg)
 <use ./Imatges/SimAxBextr.jpeg>
-Package pdftex.def Info: ./Imatges/SimAxBextr.jpeg  used on input line 739.
+Package pdftex.def Info: ./Imatges/SimAxBextr.jpeg  used on input line 824.
 (pdftex.def)             Requested size: 369.88582pt x 48.40434pt.
-<./Imatges/SimMUX.jpeg, id=538, 625.33624pt x 193.72375pt>
+ [28 <./Imatges/informeAperBextra.jpeg> <./Imatges/SimAxBextr.jpeg>]
+<./Imatges/informeMUXextra.jpeg, id=634, 459.7175pt x 354.32375pt>
+File: ./Imatges/informeMUXextra.jpeg Graphic file (type jpg)
+<use ./Imatges/informeMUXextra.jpeg>
+Package pdftex.def Info: ./Imatges/informeMUXextra.jpeg  used on input line 856
+.
+(pdftex.def)             Requested size: 369.88582pt x 285.10297pt.
+<./Imatges/SimMUX.jpeg, id=635, 625.33624pt x 193.72375pt>
 File: ./Imatges/SimMUX.jpeg Graphic file (type jpg)
 <use ./Imatges/SimMUX.jpeg>
-Package pdftex.def Info: ./Imatges/SimMUX.jpeg  used on input line 771.
+Package pdftex.def Info: ./Imatges/SimMUX.jpeg  used on input line 862.
 (pdftex.def)             Requested size: 369.88582pt x 114.58865pt.
- [18 <./Imatges/SimAxBextr.jpeg>]
-<./Imatges/ppalExtra.jpeg, id=592, 1267.73625pt x 493.845pt>
+ [29 <./Imatges/informeMUXextra.jpeg>]
+<./Imatges/ppalExtra.jpeg, id=654, 1267.73625pt x 493.845pt>
 File: ./Imatges/ppalExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/ppalExtra.jpeg>
-Package pdftex.def Info: ./Imatges/ppalExtra.jpeg  used on input line 785.
+Package pdftex.def Info: ./Imatges/ppalExtra.jpeg  used on input line 876.
 (pdftex.def)             Requested size: 369.88582pt x 144.08548pt.
- [19 <./Imatges/SimMUX.jpeg>]
-<./Imatges/SimPpalExtra.jpeg, id=598, 1480.53125pt x 264.99pt>
+
+[30 <./Imatges/SimMUX.jpeg>]
+<./Imatges/informePpalextra.jpeg, id=659, 460.72125pt x 355.3275pt>
+File: ./Imatges/informePpalextra.jpeg Graphic file (type jpg)
+<use ./Imatges/informePpalextra.jpeg>
+Package pdftex.def Info: ./Imatges/informePpalextra.jpeg  used on input line 88
+2.
+(pdftex.def)             Requested size: 369.88582pt x 285.27083pt.
+<./Imatges/SimPpalExtra.jpeg, id=660, 1480.53125pt x 264.99pt>
 File: ./Imatges/SimPpalExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/SimPpalExtra.jpeg>
-Package pdftex.def Info: ./Imatges/SimPpalExtra.jpeg  used on input line 791.
+Package pdftex.def Info: ./Imatges/SimPpalExtra.jpeg  used on input line 888.
 (pdftex.def)             Requested size: 369.88582pt x 66.20285pt.
- [20 <./Imatges/ppalExtra.jpeg> <./Imatges/SimPpalExtra.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 801.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 801.
- (./Memoria Practica 2 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 801.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 801.
+ [31 <./Imatges/ppalExtra.jpeg> <./Imatges/informePpalextra.jpeg>] [32 <./Imatg
+es/SimPpalExtra.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 898.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 898.
+
+(./Memoria Practica 2 DGD.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 898.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 898.
 Package rerunfilecheck Info: File `"Memoria Practica 2 DGD".out' has not change
 d.
 (rerunfilecheck)             Checksum: 008070FB57A74DF3F99327E6FE8E3621;2609.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 801.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 898.
  ) 
 Here is how much of TeX's memory you used:
- 42874 strings out of 480608
- 972625 string characters out of 5903630
- 1488026 words of memory out of 5000000
- 57726 multiletter control sequences out of 15000+600000
+ 42982 strings out of 480608
+ 975461 string characters out of 5903630
+ 1488027 words of memory out of 5000000
+ 57806 multiletter control sequences out of 15000+600000
  602790 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,9n,103p,966b,2262s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1325,10 +1437,10 @@ ocal/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texm
 f-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/font
 s/type1/public/lm/lmr6.pfb>
-Output written on "Memoria Practica 2 DGD.pdf" (20 pages, 3160882 bytes).
+Output written on "Memoria Practica 2 DGD.pdf" (32 pages, 3782353 bytes).
 PDF statistics:
- 720 PDF objects out of 1000 (max. 8388607)
- 635 compressed objects within 7 object streams
- 382 named destinations out of 1000 (max. 500000)
- 419 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 675 compressed objects within 7 object streams
+ 394 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 
