@@ -830,7 +830,7 @@ end arq;
 	\subsection{MUX de 4 entrades}
 	Aquest component decidirà la sortida en funció de si introduim A, B, C o D a la placa durant la fase de show.
 	
-				\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -893,8 +893,38 @@ end arc;
 	
 	
 
+\section{Part extra 2}
 
-	
+\subsection{Signe 7s}
+	Per afegir el signe hem fet una descripció vhdl del modul Signe 7s i amb el modul de Signe 7s i a partir dels interuptors SW i una porta XOR aconseguim el resultat desitjat. Hem posat una entrada num i una altra entrada show de tal manera que quan introduirem numeros per teclat el signe estigui apagat .
+
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Signe_7s is 
+	port(num, show : in std_logic;
+		HEX : out std_logic_vector(6 downto 0));
+		
+end Signe_7s ;
+
+architecture tdv of Signe_7s is
+begin
+
+HEX <= "0111111" when (num = '1' and show = '1') else "1111111";
+end tdv;
+\end{lstlisting}
+
+\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{signeextra.jpeg}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeSigne.jpeg}
+		\end{center}
+	\end{figure}
 \end{document}
 
 
