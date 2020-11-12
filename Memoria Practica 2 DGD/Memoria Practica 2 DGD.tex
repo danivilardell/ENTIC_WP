@@ -895,8 +895,93 @@ end arc;
 
 \section{Part extra 2}
 
+Aquesta part cobreix la explicacio de la part b del extra. Tot i que tenim una idea de com es fa, no hem tingut temps de debuguejar tot el codi i simularho. Tot i així mostrarem els components casi complets i com seria el seu funcionament en el cas de que estiguessin construits bé.
+
+\subsection{Regs actualitzat}
+
+Per tal de saber si s'entrarà un nombre positiu o negatiu hem afegit dos nous estats, entrAmenys i entrBmenys. Aquest gestionaran la entrada en el cas que sigui negativa. Si estem en aquest estat i s'entra una dada, s'aplicarà una conversió de BCD a CA2 i es treurà el resultat. El codi seria semblant al seguent.
+
+\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+library ieee;
+use ieee.std_logic_1164.all;
+USE IEEE.NUMERIC_STD.ALL;
+
+entity regs_extra3 is
+	port(clk, nrst, intro, A, B, C : in std_logic;
+		 keycode : in std_logic_vector(3 downto 0);
+		 opA, opB: out std_logic_vector(3 downto 0));
+end regs_extra3;
+
+architecture arq of regs_extra3 is
+type machine is ( entrAmes,  entrBmes, entrAmenys,  entrBmenys);
+signal aux1, aux2  : std_logic_vector(3 downto 0);
+signal state : machine;
+begin
+process (clk, nrst)
+begin 
+	if nrst='0' then state <= entrAmes;
+	end if;
+	case state is
+		when entrAmes  => if B = '1' and (intro = '1') then state <= entrBmes; 
+				elsif C = '1' and (intro = '1') then state <= entrAmenys; 
+				end if;			  
+		when entrBmes  => if A = '1' and (intro = '1') then state <= entrAmes; 
+				elsif C = '1' and (intro = '1') then state <= entrBmenys; 
+				end if;
+		when entrAmenys  => if B = '1' and (intro = '1') then state <= entrBmes; 
+				elsif A = '1' and (intro = '1') then state <= entrAmes; 
+				end if;	
+		when entrBmenys  => if A = '1' and (intro = '1') then state <= entrAmes; 
+				elsif B = '1' and (intro = '1') then state <= entrBmes;
+				end if;		
+	end case;
+	
+	case state is
+		when entrAmes  =>  if(nrst = '0') then aux1 <= "0000"; 
+									 aux2 <= "0000";
+					 elsif(nrst='1') and (intro = '1') then
+							aux1 <= keycode;
+							end if;
+		when entrBmes  =>  if(nrst = '0')  then aux1 <= "0000"; 
+									  aux2 <= "0000";
+					elsif ((nrst='1')  and (intro = '1')) then
+							aux2 <= keycode;
+						end if;
+		when entrAmenys  =>  if(nrst = '0')then aux1 <= "0000"; 
+								aux2 <= "0000";
+					elsif(nrst='1')  and (intro = '1') then
+						aux1 <= (Aqui aniria keycode en CA2);
+						end if;
+		when entrBmenys  =>  if(nrst = '0') then aux1 <= "0000"; 
+								aux2 <= "0000";
+					elsif(nrst='1') and (intro = '1') then
+						aux2(0) <= (Aqui aniria keycode en CA2);
+						end if;
+	end case;
+end process;
+opA <= aux1;
+opB <= aux2;
+
+end arq;
+\end{lstlisting}
+
+\subsection{AperB actualitzat}
+
+Aquest component caldrà actualitzarlo per tal de fer les operacions en signed decimal. El codi sera el mateix, però canviaran les seguents linees.
+
+\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+USE IEEE.NUMERIC_STD.ALL;
+		.
+		.
+		.
+AxB_prov <= signed(OpA)*signed(OpB);
+AxA_prov <= OpA*OpA;
+BxB_prov <= OpB*OpB;
+AmesB_prov <= signed(OpA2) + signed(OpB2);
+\end{lstlisting}
+
 \subsection{Signe 7s}
-	Per afegir el signe hem fet una descripció vhdl del modul Signe 7s i amb el modul de Signe 7s i a partir dels interuptors SW i una porta XOR aconseguim el resultat desitjat. Hem posat una entrada num i una altra entrada show de tal manera que quan introduirem numeros per teclat el signe estigui apagat .
+	Finalment per afegir el signe hem fet una descripció vhdl del modul Signe 7s i amb el modul de Signe 7s i a partir dels interuptors SW i una porta XOR aconseguim el resultat desitjat. Hem posat una entrada num i una altra entrada show de tal manera que quan introduirem numeros per teclat el signe estigui apagat .
 
 	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 library ieee;

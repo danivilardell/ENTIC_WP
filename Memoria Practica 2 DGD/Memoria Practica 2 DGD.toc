@@ -19,4 +19,6 @@
 \contentsline {subsection}{\numberline {3.5}MUX de 4 entrades}{28}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Programa principal extra}{30}{subsection.3.6}%
 \contentsline {section}{\numberline {4}Part extra 2}{32}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Signe 7s}{32}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Regs actualitzat}{32}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}AperB actualitzat}{33}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Signe 7s}{33}{subsection.4.3}%
