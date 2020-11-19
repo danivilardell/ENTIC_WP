@@ -59,6 +59,7 @@
 	}
 	
 	\maketitle
+	\tableofcontents
 	\newpage
 	\begin{center}
 	\footnotesize{
@@ -179,6 +180,11 @@
 		\includegraphics[width=150mm]{Cirquit2WP2.png}
 		\end{center}
 	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=90mm]{DB9Subs.jpeg}
+		\end{center}
+	\end{figure}
 	
 	\newpage
 	\section{WP3 - Electronics}
@@ -216,14 +222,16 @@
 	
 	Sensor sensitivity is $O=V\cdotp P$. So when we have 2 voltages $O_{1} =V_{1}\cdot P$ and $O_{2} =V_{2} \cdot P$
 
-	We consider the same P for both inputs \\
-	\[\frac{V_{1}}{V_{2}} =\frac{O_{1}}{O_{2}}\]
-	\[O_{2} =\frac{O_{1} \cdotp V_{2}}{V_{1}} =\frac{5\cdotp 0,410}{10} =0,2V\]
+	We know that $O_1 = 0.4 \frac{mV}{kPa}$ at $V_1 = 10V$. Then, we calculate $O_2$.
+	
+	\[O_{2} =\frac{O_{1} \cdotp V_{2}}{V_{1}} =\frac{ 0,4\cdotp 5}{10} =0,2\frac{mV}{kPa}\]
 
-	\textcolor{blue}{Question 3.5:} \textbf{What output voltages V0 will provide the sensor at the water surface (at P=100 kPa) and at 3 m depth? }
-
+	\textcolor{blue}{Question 3.5:} \textbf{What output voltages $V_0$ will provide the sensor at the water surface (at P=100 kPa) and at 3 m depth? }
+	
+	Since $O = \frac{V}{P}$, then
+	
 	\[V_{s} =O\cdotp P=0,2\cdotp 100k= 20mV\]
-	\[V_{_{3m}} =0,2\cdotp 130k=26.35mV\]
+	\[V_{_{3m}} =O\cdotp P=0,2\cdotp 130k=26.3mV\]
 	
 	
 	\textcolor{blue}{Question 3.6:} \textbf{ In a real case and due to changing atmospheric conditions, the pressure at the water surface can be different than 100 kPa, discuss how you could fix such effect and obtain the correct pressure data.} 
@@ -259,7 +267,7 @@
 	\textcolor{blue}{Question 3.10:} \textbf{Which amplifier gain is necessary to obtain the maximum amplifier voltage output for 3m depth? Which Rg resistor value will provide this gain?}
 	
 	\[
-		G = \frac{v_{sat}}{v_{in}} = \frac{4.25}{0.02635} =161
+		G = \frac{v_{sat}}{v_{in}} = \frac{4.25}{0.02635} =161.5
 	\]
 	\[
 		R_g = \frac{80}{163.46-5} = \SI{504.86}{\ohm} \approx \SI{510}{\ohm}
@@ -369,45 +377,129 @@
 	
 	\textcolor{blue}{Question 4.1:} \textbf{Encode in plain binary (2 bytes) the following measured value: 663. Determine the pressure corresponding to this value.}
 	
-	We can see that $663_{10} = (2^0 + 2^1 + 2^2 + 2^5 + 2^8)_{10} = 10010111_2$
+	We can see that $663_{10} = (2^0 + 2^1 + 2^2 + 2^5 + 2^8)_{10} = 10010111_2$\\
 
 	\textcolor{blue}{Question 4.2:}  \textbf{Encode in ASCII the following measurement data: 25, 663, 1012.}
 	
-		25: 50 53\\
-		663: 54 54 51\\
+		25: 50 53
+		
+		663: 54 54 51
+		
 		1012: 49 48 49 50\\
+		
 	\textcolor{blue}{Question 4.3:} \textbf{Go to the Arduino language reference and identify which types are suitable to work with the numeric data provided by the A/D converters. What code length (in bytes) corresponds to each type?}
 
 	\textcolor{blue}{Question 4.4:} \textbf{Compare the screen captures obtained and explain the differences found. What sequence of bytes is really sent in each case?}
 
 	\textcolor{blue}{Question 4.5:}  \textbf{List the serial port(s) COMx available in your computer. }
-		In our computer we have COM1, COM7 and COM30 (which is the arduino one)
+	
+	The computer has the following ports:
+	
+	\begin{itemize}
+		\item Arduino Uni (COM10)
+		\item Arduino Uni (COM3)
+		\item Arduino Uni (COM5)
+		\item Arduino Uni (COM8)
+		\item Arduino Uni (COM9)
+		\item Communication Port (COM1)
+		\item Intel(R) Active Management Technology - SOL (COM4)
+		\item USB Serial Port (COM11)
+		\item USB Serial Port (COM6)
+		\item USB Serial Port (COM7)
+	\end{itemize}
+	
 	\textcolor{blue}{Question 4.6:}  \textbf{Identify the cables color connected at the RS-232 send and receive pins.}
+	
+	Send cables: Green, blue, black.
+	Receive cables: Orange, white, gray.
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{Foto4_6.png}
+		\end{center}
+	\end{figure}
+
 
 	\textcolor{blue}{Question 4.7:}  \textbf{Calculate which time-base must be selected in the oscilloscope to see 10 bits on the screen at the transmission rate selected by default in Terminal. }
 
 	\textcolor{blue}{Question 4.8:} \textbf{Capture the waveform displayed on the oscilloscope. Determine the voltage levels, bit period and the number of bits per character. Which level indicates the idle state? Using an ASCII table explain the waveforms displayed for 3 different characters.}
+	
+	We can see in the picture the transmision and reception of character 'A' wich in binari is 01000001 , high voltaje= 0 , low voltaje =1,
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=80mm]{LletraA4_8.png}
+		\end{center}
+	\end{figure}
 
 	\textcolor{blue}{Question 4.9:} \textbf{What is the reason to use RS-232 to communicate with the ROUV, instead of using USB (which is available in both the Arduino and the computer)?}
+	
+	The reason why we used RS232 communication instead USB cable is that the total system mix some features from different systems and RS232 can be used as base and let us communicate.\\
 
 	\textcolor{blue}{Question 4.10:} \textbf{Capture the waveform displayed on the oscilloscope. Obtain the voltage levels of the signal. Which level corresponds to the idle state?}
-
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=80mm]{LletraA_Arduino.png}
+		\end{center}
+	\end{figure}
+	The voltage levels are: 
+	\begin{itemize}
+		\item high voltage: 5V when 1.
+		\item low voltage: 0V when 0.
+	\end{itemize}
+	
+	
 	\textcolor{blue}{Question 4.11:} \textbf{Draw the schematic (using the CAD schematic software https://www.tinycad.net/.) of the level shifter circuit, including only the transmission path (from the Arduino Tx pin to the RS-232 DB9-female connector). What are the appropriate values of capacitors C1, C2, C3 and C4?}
+	
+	The schematic is the following one
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=100mm]{tinycadWP4.png}
+		\end{center}
+	\end{figure}
+	
+	Podem veure al manual els següents valors recomanats, per tant, com que el nostre voltatge va de 5V a 0V, els que agafarem seran $C1 = 0.1\mu F$ i $C2 = C3= C4 = 0.47\mu F$
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=100mm]{CapMan.png}
+		\end{center}
+	\end{figure}
 
 	\textcolor{blue}{Question 4.12:} \textbf{Describe the difference(s) between the sketches of Figs. 4.1 and 4.3 seen from the user.}
-
+	
+	The code in figure 4.3 works as follows. It prints the message "Send 'S' to start" as long as key 'S' is not pressed or there are no ports avaliable. Once there is a port avaliable and key 'S' is pressed it prints "Starting measurement" and works the same way figure 4.1 does.\\
+	
 	\textcolor{blue}{Question 4.13:} \textbf{Explain why the Rx input pin of the Arduino must be in high impedance state (i.e. not connected) when a compiled sketch is being uploaded. }
+	
+	That is made in order to avoid problems when it comes to having a busy pin. Therefore when we upload an sketch we should be in high impedance.\\
 
 	\textcolor{blue}{Question 4.14:} \textbf{Modify the sketch ENTIC-Analog2Serial-bidir to stop data sampling \& transmission when any of the following conditions is true: 1) timeout, i.e. data values must be sent for only 2 minutes; 2) end command from user, i.e. the Arduino receives the character ‘E’.  }
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=100mm]{CodiCpp.png}
+		\end{center}
+	\end{figure}
 
 
 	\textcolor{blue}{Question 4.15:} \textbf{Explain and justify where these three components should be placed in Fig. 4.5: }
 	
 	a)  The resistor setting the amplifier gain (see WP3).
 	
+	It should be placed under the amplifier INA, otherwise it wouldn't leave enougth space inside the box because it has to be situated between the end 1 and 8 of the amplifier. Nonetheless this year because of covid that wouldn't be a problem wich allows us to put it wherever we find it easier.\\
+	
 	b)  The jumper for the serial reception path (see Fig. 4.2).
 	
+	The jumper should be set in the top right part of the board, since it would fit there. But this year it wont be a problem.
+	
 	c)  The protection diode for the Arduino power input (see Fig. 4.4).
+	
+	Where we have space left, between the 12V and the Vin of the Arduino.
+	
+	
 
 	\textcolor{blue}{Question 4.16:} \textbf{Using Fig. 4.5 as floorplan, draw a schematic describing how the circuits must be implemented on the interface-PCB. Identify and label all interconnection signals with the Arduino and the base PCBs (strip pins \& sockets), describe the placement of all electronic components and add cables whenever additional connections were necessary. Use a colour code to improve the readability and usefulness of the schematic (i.e. red for power supply tracks \& cables, black for GND, etc.)}
 

@@ -1,0 +1,7 @@
+\babel@toc {catalan}{}
+\contentsline {section}{\numberline {1}WP1 - Mechanical}{3}{section.1}%
+\contentsline {section}{\numberline {2}WP2 - Electrical}{5}{section.2}%
+\contentsline {section}{\numberline {3}WP3 - Electronics}{8}{section.3}%
+\contentsline {section}{\numberline {4}WP4 - Communications}{15}{section.4}%
+\contentsline {section}{\numberline {5}WP5 - Nom}{22}{section.5}%
+\contentsline {section}{\numberline {6}Part A Conclussion}{25}{section.6}%

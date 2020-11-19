@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  2 NOV 2020 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  13 NOV 2020 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1138,132 +1138,137 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 62.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 62.
+
+(./WPAnswers_31_4.toc)
+\tf@toc=\write7
+\openout7 = `WPAnswers_31_4.toc'.
+
  [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-5.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+6.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+)
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 [3]
-<./images/WP1-1-10-2020.jpg, id=87, 555.57562pt x 182.93344pt>
+<./images/WP1-1-10-2020.jpg, id=94, 555.57562pt x 182.93344pt>
 File: ./images/WP1-1-10-2020.jpg Graphic file (type jpg)
 <use ./images/WP1-1-10-2020.jpg>
-Package pdftex.def Info: ./images/WP1-1-10-2020.jpg  used on input line 138.
+Package pdftex.def Info: ./images/WP1-1-10-2020.jpg  used on input line 139.
 (pdftex.def)             Requested size: 426.79134pt x 140.5298pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 138--139
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 139--140
  [] 
  []
 
 [4 <./images/WP1-1-10-2020.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 162.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 163.
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
 [5]
-<./images/Cirquit1WP2.png, id=99, 468.75125pt x 565.11125pt>
+<./images/Cirquit1WP2.png, id=106, 468.75125pt x 565.11125pt>
 File: ./images/Cirquit1WP2.png Graphic file (type png)
 <use ./images/Cirquit1WP2.png>
-Package pdftex.def Info: ./images/Cirquit1WP2.png  used on input line 170.
+Package pdftex.def Info: ./images/Cirquit1WP2.png  used on input line 171.
 (pdftex.def)             Requested size: 227.62204pt x 274.4063pt.
  [6 <./images/Cirquit1WP2.png>]
-<./images/Cirquit2WP2.png, id=106, 998.73125pt x 557.08125pt>
+<./images/Cirquit2WP2.png, id=113, 998.73125pt x 557.08125pt>
 File: ./images/Cirquit2WP2.png Graphic file (type png)
 <use ./images/Cirquit2WP2.png>
-Package pdftex.def Info: ./images/Cirquit2WP2.png  used on input line 179.
+Package pdftex.def Info: ./images/Cirquit2WP2.png  used on input line 180.
 (pdftex.def)             Requested size: 426.79134pt x 238.0612pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 179--180
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 180--181
  [] 
  []
 
-[7 <./images/Cirquit2WP2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+<./images/DB9Subs.jpeg, id=114, 424.58624pt x 225.84375pt>
+File: ./images/DB9Subs.jpeg Graphic file (type jpg)
+<use ./images/DB9Subs.jpeg>
+Package pdftex.def Info: ./images/DB9Subs.jpeg  used on input line 185.
+(pdftex.def)             Requested size: 256.0748pt x 136.21718pt.
+[7 <./images/Cirquit2WP2.png> <./images/DB9Subs.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
 [9]
-<./images/CirquitWP3.png, id=124, 630.355pt x 363.3575pt>
+<./images/CirquitWP3.png, id=132, 630.355pt x 363.3575pt>
 File: ./images/CirquitWP3.png Graphic file (type png)
 <use ./images/CirquitWP3.png>
-Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 272.
+Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 280.
 (pdftex.def)             Requested size: 298.75394pt x 172.21404pt.
  [10 <./images/CirquitWP3.png>]
-<./images/ExcelGraph2.png, id=130, 363.3575pt x 218.8175pt>
+<./images/ExcelGraph2.png, id=138, 363.3575pt x 218.8175pt>
 File: ./images/ExcelGraph2.png Graphic file (type png)
 <use ./images/ExcelGraph2.png>
-Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 303.
+Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 311.
 (pdftex.def)             Requested size: 363.3566pt x 218.81696pt.
-<./images/MatlabGraph1.jpg, id=131, 1124.2pt x 843.15pt>
+<./images/MatlabGraph1.jpg, id=139, 1124.2pt x 843.15pt>
 File: ./images/MatlabGraph1.jpg Graphic file (type jpg)
 <use ./images/MatlabGraph1.jpg>
-Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 309.
+Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 317.
 (pdftex.def)             Requested size: 298.75394pt x 224.06409pt.
  [11pdfTeX warning (ext4): destination with the same identifier (name{table.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.312 	
+l.320 	
         <./images/ExcelGraph2.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 313.
+nput line 321.
  (./codiMatlab.m) [12 <./images/MatlabGraph1.jpg>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
+Underfull \hbox (badness 10000) in paragraph at lines 364--365
 
  []
 
-<./images/WP3-8-10-2020.jpg, id=166, 551.81157pt x 174.6525pt>
+<./images/WP3-8-10-2020.jpg, id=174, 551.81157pt x 174.6525pt>
 File: ./images/WP3-8-10-2020.jpg Graphic file (type jpg)
 <use ./images/WP3-8-10-2020.jpg>
-Package pdftex.def Info: ./images/WP3-8-10-2020.jpg  used on input line 362.
+Package pdftex.def Info: ./images/WP3-8-10-2020.jpg  used on input line 370.
 (pdftex.def)             Requested size: 426.79134pt x 135.08778pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 362--363
+Overfull \hbox (36.79134pt too wide) in paragraph at lines 370--371
  [] 
  []
 
@@ -1272,9 +1277,71 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.371 	
-        <./images/WP3-8-10-2020.jpg>] [15] [16] (./pregunta5_1.m)
-Overfull \hbox (15.79033pt too wide) in paragraph at lines 423--424
+l.379 	
+        <./images/WP3-8-10-2020.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--389
+
+ []
+
+[15]
+<./images/Foto4_6.png, id=185, 388.45125pt x 326.21875pt>
+File: ./images/Foto4_6.png Graphic file (type png)
+<use ./images/Foto4_6.png>
+Package pdftex.def Info: ./images/Foto4_6.png  used on input line 418.
+(pdftex.def)             Requested size: 369.88582pt x 310.63776pt.
+<./images/LletraA4_8.png, id=186, 515.9275pt x 329.23pt>
+File: ./images/LletraA4_8.png Graphic file (type png)
+<use ./images/LletraA4_8.png>
+Package pdftex.def Info: ./images/LletraA4_8.png  used on input line 431.
+(pdftex.def)             Requested size: 227.62204pt x 145.25348pt.
+ [16 <./images/Foto4_6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
+
+ []
+
+<./images/LletraA_Arduino.png, id=192, 503.8825pt x 435.6275pt>
+File: ./images/LletraA_Arduino.png Graphic file (type png)
+<use ./images/LletraA_Arduino.png>
+Package pdftex.def Info: ./images/LletraA_Arduino.png  used on input line 443.
+(pdftex.def)             Requested size: 227.62204pt x 196.78833pt.
+[17 <./images/LletraA4_8.png> <./images/LletraA_Arduino.png>]
+<./images/tinycadWP4.png, id=199, 641.39626pt x 581.17125pt>
+File: ./images/tinycadWP4.png Graphic file (type png)
+<use ./images/tinycadWP4.png>
+Package pdftex.def Info: ./images/tinycadWP4.png  used on input line 459.
+(pdftex.def)             Requested size: 284.52756pt x 257.81784pt.
+<./images/CapMan.png, id=200, 438.63875pt x 145.54375pt>
+File: ./images/CapMan.png Graphic file (type png)
+<use ./images/CapMan.png>
+Package pdftex.def Info: ./images/CapMan.png  used on input line 467.
+(pdftex.def)             Requested size: 284.52756pt x 94.40909pt.
+ [18 <./images/tinycadWP4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+
+ []
+
+<./images/CodiCpp.png, id=206, 504.88625pt x 356.33125pt>
+File: ./images/CodiCpp.png Graphic file (type png)
+<use ./images/CodiCpp.png>
+Package pdftex.def Info: ./images/CodiCpp.png  used on input line 483.
+(pdftex.def)             Requested size: 284.52756pt x 200.81099pt.
+[19 <./images/CapMan.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+ []
+
+[20 <./images/CodiCpp.png>] [21] (./pregunta5_1.m)
+Overfull \hbox (15.79033pt too wide) in paragraph at lines 515--516
 \OT1/lmr/bx/n/12 za-ti-on with the sketch run-ning in the Ar-dui-no (ENTIC-Anal
 og2Serial-
  []
@@ -1288,7 +1355,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 3.
 )
-(./pregunta5_3.m [17]) (./pregunta5_4.m) (./pregunta5_5.m [18])
+(./pregunta5_3.m [22]) (./pregunta5_4.m) (./pregunta5_5.m [23])
 (./pregunta5_6.m
 LaTeX Font Info:    Trying to load font information for OML+lmr on input line 1
 5.
@@ -1298,21 +1365,21 @@ File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
 (Font)              Font shape `OML/lmm/m/it' tried instead on input line 15.
 
-[19]) (./pregunta5_8.m) [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
+[24]) (./pregunta5_8.m) [25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
  (./WPAnswers_31_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 463.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 463.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
 Package rerunfilecheck Info: File `WPAnswers_31_4.out' has not changed.
 (rerunfilecheck)             Checksum: 98E7EC3B635426A30D217C2E0E712E15;774.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 463.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
  ) 
 Here is how much of TeX's memory you used:
- 43120 strings out of 480608
- 973447 string characters out of 5903630
+ 43182 strings out of 480608
+ 974594 string characters out of 5903630
  1727394 words of memory out of 5000000
- 58200 multiletter control sequences out of 15000+600000
+ 58245 multiletter control sequences out of 15000+600000
  597640 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,103p,956b,2184s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1329,10 +1396,10 @@ dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
 type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
-Output written on WPAnswers_31_4.pdf (20 pages, 777966 bytes).
+Output written on WPAnswers_31_4.pdf (25 pages, 1598805 bytes).
 PDF statistics:
- 357 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
- 137 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 311 compressed objects within 4 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 275 words of extra memory for PDF output out of 10000 (max. 10000000)
 
