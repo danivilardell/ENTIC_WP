@@ -1,14 +1,10 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  17 NOV 2020 19:01
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  13 NOV 2020 14:45
->>>>>>> 8a00f0276702a6407f92e6a33976c81382a2b67a
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  19 NOV 2020 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**WPAnswers_31_4.tex
-(./WPAnswers_31_4.tex
+**Entregable2.tex
+(./Entregable2.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-06>
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
@@ -991,48 +987,86 @@ readarray: bounds checking OFF
 \ps@tempboxa=\box85
 \boxtop@sep=\skip65
 \boxbottom@sep=\skip66
-) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks47
-\inpenc@posthook=\toks48
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/bera/beramono.sty
+Package: beramono 2004/01/31 (WaS)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
+Package: tikz-timing 2017/12/20 v0.7f Digital Timing Diagrams using TikZ
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@layerbox@background=\box86
+\pgf@layerboxsaved@background=\box87
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen308
+\pgfdecoratedremainingdistance=\dimen309
+\pgfdecoratedinputsegmentcompleteddistance=\dimen310
+\pgfdecoratedinputsegmentremainingdistance=\dimen311
+\pgf@decorate@distancetomove=\dimen312
+\pgf@decorate@repeatstate=\count346
+\pgfdecorationsegmentamplitude=\dimen313
+\pgfdecorationsegmentlength=\dimen314
+)
+\tikz@lib@dec@box=\box88
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+\tikztiming@numint=\count347
+\tikztiming@numfrac=\count348
+\tikztiming@xunit=\skip67
+\tikztiming@yunit=\skip68
+\tikztiming@debug=\count349
+\c@tikztiming@nrows=\count350
+\c@tikztimingrows=\count351
+\c@tikztimingtrans=\count352
+\c@tikztimingtranspos=\count353
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 49.
 
 
 LaTeX Warning: Unused global option(s):
     [a4papre].
 
-(./WPAnswers_31_4.aux)
-\openout1 = `WPAnswers_31_4.aux'.
+(./Entregable2.aux)
+\openout1 = `Entregable2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-1.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Info: Redefining \l on input line 41.
-LaTeX Info: Redefining \L on input line 41.
-\AtBeginShipoutBox=\box86
-Package hyperref Info: Link coloring ON on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Info: Redefining \l on input line 56.
+LaTeX Info: Redefining \L on input line 56.
+\AtBeginShipoutBox=\box89
+Package hyperref Info: Link coloring ON on input line 56.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1044,14 +1078,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count346
+\c@section@level=\count354
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
- (./WPAnswers_31_4.out) (./WPAnswers_31_4.out)
+LaTeX Info: Redefining \ref on input line 56.
+LaTeX Info: Redefining \pageref on input line 56.
+LaTeX Info: Redefining \nameref on input line 56.
+ (./Entregable2.out) (./Entregable2.out)
 \@outlinefile=\write6
-\openout6 = `WPAnswers_31_4.out'.
+\openout6 = `Entregable2.out'.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
@@ -1062,17 +1096,17 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 ) (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count347
-\scratchdimen=\dimen308
-\scratchbox=\box87
-\nofMPsegments=\count348
-\nofMParguments=\count349
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count350
-\MPscratchDim=\dimen309
-\MPnumerator=\count351
-\makeMPintoPDFobject=\count352
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count355
+\scratchdimen=\dimen315
+\scratchbox=\box90
+\nofMPsegments=\count356
+\nofMParguments=\count357
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count358
+\MPscratchDim=\dimen316
+\MPnumerator=\count359
+\makeMPintoPDFobject=\count360
+\everyMPtoPDFconversion=\toks48
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1082,328 +1116,130 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count353
+\c@lstlisting=\count361
 
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-1.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks49
+\inpenc@posthook=\toks50
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
+6.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
+6.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-41.
+56.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-41.
+56.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 41.
+(Font)              <12> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 41.
+(Font)              <8> on input line 56.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 41.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+(Font)              <6> on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-41.
+56.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-41.
+56.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 62.
+(Font)              <14.4> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 62.
+(Font)              <10> on input line 58.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 62.
-
-(./WPAnswers_31_4.toc)
-\tf@toc=\write7
-\openout7 = `WPAnswers_31_4.toc'.
-
- [1
-
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(Font)              <7> on input line 58.
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-6.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+4.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+) [1
 
- []
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<./images/ApartatA.png, id=84, 1137.24875pt x 521.95pt>
+File: ./images/ApartatA.png Graphic file (type png)
+<use ./images/ApartatA.png>
+Package pdftex.def Info: ./images/ApartatA.png  used on input line 130.
+(pdftex.def)             Requested size: 369.88582pt x 169.75916pt.
+ [3 <./images/ApartatA.png>] [4]
+<./images/DisenyB.jpeg, id=98, 990.70125pt x 297.11pt>
+File: ./images/DisenyB.jpeg Graphic file (type jpg)
+<use ./images/DisenyB.jpeg>
+Package pdftex.def Info: ./images/DisenyB.jpeg  used on input line 249.
+(pdftex.def)             Requested size: 398.33858pt x 119.45845pt.
 
-[3]
-<./images/WP1-1-10-2020.jpg, id=94, 555.57562pt x 182.93344pt>
-File: ./images/WP1-1-10-2020.jpg Graphic file (type jpg)
-<use ./images/WP1-1-10-2020.jpg>
-Package pdftex.def Info: ./images/WP1-1-10-2020.jpg  used on input line 139.
-(pdftex.def)             Requested size: 426.79134pt x 140.5298pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 139--140
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 249--250
  [] 
  []
 
-[4 <./images/WP1-1-10-2020.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-
- []
-
-LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 163.
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-
- []
-
-[5]
-<./images/Cirquit1WP2.png, id=106, 468.75125pt x 565.11125pt>
-File: ./images/Cirquit1WP2.png Graphic file (type png)
-<use ./images/Cirquit1WP2.png>
-Package pdftex.def Info: ./images/Cirquit1WP2.png  used on input line 171.
-(pdftex.def)             Requested size: 227.62204pt x 274.4063pt.
- [6 <./images/Cirquit1WP2.png>]
-<./images/Cirquit2WP2.png, id=113, 998.73125pt x 557.08125pt>
-File: ./images/Cirquit2WP2.png Graphic file (type png)
-<use ./images/Cirquit2WP2.png>
-Package pdftex.def Info: ./images/Cirquit2WP2.png  used on input line 180.
-(pdftex.def)             Requested size: 426.79134pt x 238.0612pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 180--181
- [] 
- []
-
-<./images/DB9Subs.jpeg, id=114, 424.58624pt x 225.84375pt>
-File: ./images/DB9Subs.jpeg Graphic file (type jpg)
-<use ./images/DB9Subs.jpeg>
-Package pdftex.def Info: ./images/DB9Subs.jpeg  used on input line 185.
-(pdftex.def)             Requested size: 256.0748pt x 136.21718pt.
-[7 <./images/Cirquit2WP2.png> <./images/DB9Subs.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
-
- []
-
-[9]
-<./images/CirquitWP3.png, id=132, 630.355pt x 363.3575pt>
-File: ./images/CirquitWP3.png Graphic file (type png)
-<use ./images/CirquitWP3.png>
-Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 280.
-(pdftex.def)             Requested size: 298.75394pt x 172.21404pt.
- [10 <./images/CirquitWP3.png>]
-<./images/ExcelGraph2.png, id=138, 363.3575pt x 218.8175pt>
-File: ./images/ExcelGraph2.png Graphic file (type png)
-<use ./images/ExcelGraph2.png>
-Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 311.
-(pdftex.def)             Requested size: 363.3566pt x 218.81696pt.
-<./images/MatlabGraph1.jpg, id=139, 1124.2pt x 843.15pt>
-File: ./images/MatlabGraph1.jpg Graphic file (type jpg)
-<use ./images/MatlabGraph1.jpg>
-Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 317.
-(pdftex.def)             Requested size: 298.75394pt x 224.06409pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{table.1})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.320 	
-        <./images/ExcelGraph2.png>]
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 321.
- (./codiMatlab.m) [12 <./images/MatlabGraph1.jpg>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
-
- []
-
-<./images/WP3-8-10-2020.jpg, id=174, 551.81157pt x 174.6525pt>
-File: ./images/WP3-8-10-2020.jpg Graphic file (type jpg)
-<use ./images/WP3-8-10-2020.jpg>
-Package pdftex.def Info: ./images/WP3-8-10-2020.jpg  used on input line 370.
-(pdftex.def)             Requested size: 426.79134pt x 135.08778pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 370--371
- [] 
- []
-
-[14pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.379 	
-        <./images/WP3-8-10-2020.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
-
- []
-
-[15]
-<./images/Foto4_6.png, id=185, 388.45125pt x 326.21875pt>
-File: ./images/Foto4_6.png Graphic file (type png)
-<use ./images/Foto4_6.png>
-Package pdftex.def Info: ./images/Foto4_6.png  used on input line 418.
-(pdftex.def)             Requested size: 369.88582pt x 310.63776pt.
-<./images/LletraA4_8.png, id=186, 515.9275pt x 329.23pt>
-File: ./images/LletraA4_8.png Graphic file (type png)
-<use ./images/LletraA4_8.png>
-Package pdftex.def Info: ./images/LletraA4_8.png  used on input line 431.
-(pdftex.def)             Requested size: 227.62204pt x 145.25348pt.
- [16 <./images/Foto4_6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
-
- []
-
-<./images/LletraA_Arduino.png, id=192, 503.8825pt x 435.6275pt>
-File: ./images/LletraA_Arduino.png Graphic file (type png)
-<use ./images/LletraA_Arduino.png>
-Package pdftex.def Info: ./images/LletraA_Arduino.png  used on input line 443.
-(pdftex.def)             Requested size: 227.62204pt x 196.78833pt.
-[17 <./images/LletraA4_8.png> <./images/LletraA_Arduino.png>]
-<./images/tinycadWP4.png, id=199, 641.39626pt x 581.17125pt>
-File: ./images/tinycadWP4.png Graphic file (type png)
-<use ./images/tinycadWP4.png>
-Package pdftex.def Info: ./images/tinycadWP4.png  used on input line 459.
-(pdftex.def)             Requested size: 284.52756pt x 257.81784pt.
-<./images/CapMan.png, id=200, 438.63875pt x 145.54375pt>
-File: ./images/CapMan.png Graphic file (type png)
-<use ./images/CapMan.png>
-Package pdftex.def Info: ./images/CapMan.png  used on input line 467.
-(pdftex.def)             Requested size: 284.52756pt x 94.40909pt.
- [18 <./images/tinycadWP4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
-
- []
-
-<./images/CodiCpp.png, id=206, 504.88625pt x 356.33125pt>
-File: ./images/CodiCpp.png Graphic file (type png)
-<use ./images/CodiCpp.png>
-Package pdftex.def Info: ./images/CodiCpp.png  used on input line 483.
-(pdftex.def)             Requested size: 284.52756pt x 200.81099pt.
-[19 <./images/CapMan.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
-
- []
-
-[20 <./images/CodiCpp.png>] [21] (./pregunta5_1.m)
-Overfull \hbox (15.79033pt too wide) in paragraph at lines 515--516
-\OT1/lmr/bx/n/12 za-ti-on with the sketch run-ning in the Ar-dui-no (ENTIC-Anal
-og2Serial-
- []
-
-(./pregunta5_2.m
-LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 3
-.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 3.
-)
-(./pregunta5_3.m [22]) (./pregunta5_4.m) (./pregunta5_5.m [23])
-(./pregunta5_6.m
-LaTeX Font Info:    Trying to load font information for OML+lmr on input line 1
-5.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmr.fd
-File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
-(Font)              Font shape `OML/lmm/m/it' tried instead on input line 15.
-
-[24]) (./pregunta5_8.m) [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
- (./WPAnswers_31_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
-Package rerunfilecheck Info: File `WPAnswers_31_4.out' has not changed.
-(rerunfilecheck)             Checksum: 98E7EC3B635426A30D217C2E0E712E15;774.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
+[5 <./images/DisenyB.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 257.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 257.
+ (./Entregable2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 257.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 257.
+Package rerunfilecheck Info: File `Entregable2.out' has not changed.
+(rerunfilecheck)             Checksum: 33ABFEA0E4B1903337B1A6840426E86F;174.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 257.
  ) 
 Here is how much of TeX's memory you used:
- 43182 strings out of 480608
- 974594 string characters out of 5903630
- 1727394 words of memory out of 5000000
- 58245 multiletter control sequences out of 15000+600000
- 597640 words of font info for 82 fonts, out of 8000000 for 9000
+ 43591 strings out of 480608
+ 999776 string characters out of 5903630
+ 1529124 words of memory out of 5000000
+ 58795 multiletter control sequences out of 15000+600000
+ 599543 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,103p,956b,2184s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
-cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
-20/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2020/texmf-dis
-t/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2020/texmf-dist/fonts/en
-c/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
-/lmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/loc
-al/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/
-2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-
-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
-type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
-fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
-Output written on WPAnswers_31_4.pdf (25 pages, 1598805 bytes).
+ 64i,9n,103p,953b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
+texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
+20/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2020/texmf-dist/
+fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/l
+mbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmmi12.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/lm/lmr8.pfb>
+Output written on Entregable2.pdf (5 pages, 406304 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 143 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 26 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
