@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  17 NOV 2020 18:28
+=======
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  15 NOV 2020 11:54
+>>>>>>> 8a00f0276702a6407f92e6a33976c81382a2b67a
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1219,9 +1223,15 @@ Package rerunfilecheck Info: File `"Previ DGD 3".out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
+ 43644 strings out of 480608
+ 1000250 string characters out of 5903630
+ 1553116 words of memory out of 5000000
+=======
  43647 strings out of 480608
  1000295 string characters out of 5903630
  1554116 words of memory out of 5000000
+>>>>>>> 8a00f0276702a6407f92e6a33976c81382a2b67a
  58786 multiletter control sequences out of 15000+600000
  590151 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

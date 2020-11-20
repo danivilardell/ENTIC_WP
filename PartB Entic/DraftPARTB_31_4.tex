@@ -1,0 +1,97 @@
+\documentclass[12pt, a4papre]{article}
+\usepackage[catalan]{babel}
+\usepackage[unicode]{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{xifthen}
+\usepackage{siunitx}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{tikz,lipsum,lmodern}
+\usepackage[most]{tcolorbox}
+\usepackage{circuitikz}
+\usepackage{indentfirst}
+\usepackage{verbatimbox}
+\usepackage[T1]{fontenc}
+\usepackage{beramono}% monospaced font with bold variant
+ \usepackage{tikz-timing}[2009/05/15]
+\usepackage{listings}
+\lstdefinelanguage{VHDL}{
+   morekeywords={
+     library,use,all,entity,is,port,in,out,end,architecture,of,
+     begin,and
+   },
+   morecomment=[l]--
+}
+ 
+\usepackage{xcolor}
+\colorlet{keyword}{blue!100!black!80}
+\colorlet{comment}{green!50!black!90}
+\lstdefinestyle{vhdl}{
+   language     = VHDL,
+   basicstyle   = \ttfamily,
+   keywordstyle = \color{keyword}\bfseries,
+   commentstyle = \color{comment}
+}
+
+\graphicspath{ {./Imatges/} }
+
+
+\newcommand{\norm}[1]{\lvert #1 \rvert}
+
+\hypersetup{
+    colorlinks = true,
+    linkcolor = blue
+}
+
+\author{	
+		Igor Yuziv\\
+		Edison Gabriel Zaragosin\\
+		Oriol Torres\\
+		Albert Tomas\\
+		Daniel Vilardell}
+		
+		\title{\textbf{\textcolor{blue}{ENTIC-lab\\
+	Draft PART B proposal}}}
+\date{}
+
+\begin{document}
+	\maketitle
+
+	\textbf{\textcolor{blue}{WHAT} are you going to implement?}
+	
+	
+For part B of the project we want to add some modifications to our ROUV.We would try to implement a sonar that would measure the distance between the ROUV and the seabed, and we would show it from a real-time graphical interface.
+In addition, this information will be saved to an SD card so that we can easily check the information anytime, anywhere.
+\\
+	
+	
+	\textbf{\textcolor{blue}{HOW} are you going to build it?}
+	
+	
+To implement the sonar, we thought of using the ultrasonic sensor called HC-SR04. With this sensor we can detect objects or the seabed at a distance between 2 and 450cm.
+
+To implement the graphical interface we will use MATLAB where we will process the data and display it through a graph.
+
+And finally to save the data to an SD card we will use a microSD adapter module for Arduino, and modify the code so that we can open a file, write it and save it to the external card.
+\\
+	
+
+
+	
+	\textbf{\textcolor{blue}{WHY} is it useful?}
+	
+The reason we want to implement a sonar is to make a study of the seabed and be able to have a tool capable of detecting any object that is polluting this environment as well as cans, bottles and plastic bags.
+
+
+
+
+	
+
+	
+	
+\end{document}

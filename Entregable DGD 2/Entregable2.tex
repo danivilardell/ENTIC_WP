@@ -90,7 +90,7 @@ entity led_porta is
 end led_porta;
 
 architecture led_porta of arc is
-type machine is ( st show , st intro );
+type machine is ( st_show , st_intro );
 signal le : std_logic_vector(7 downto 0);
 begin
    .
@@ -252,8 +252,33 @@ end arc;
 	
 	\textbf{c)}
 	
-	\textbf{d)}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=140mm]{cronogramaC.jpeg}
+		\end{center}
+	\end{figure}
 	
+	\textbf{d)}
+		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity led_porta is
+    port( act : in std_logic;  
+             leds : out std_logic_vector(7 down to 0)); %Error
+end led_porta;
+
+architecture led_porta of arc is
+type machine is ( st_show , st_intro );
+signal le : machine ; %Error 
+begin
+   leds <= "11111111" when le = st_show
+   	else "00000000" ;
+   
+   
+   leds <= le;
+end arc;
+	\end{lstlisting}
 \end{document}
 
 
