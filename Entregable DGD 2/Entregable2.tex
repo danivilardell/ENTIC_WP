@@ -92,6 +92,7 @@ end led_porta;
 architecture led_porta of arc is
 type machine is ( st_show , st_intro );
 signal le : std_logic_vector(7 downto 0);
+signal state : machine;
 begin
    .
    .
@@ -258,24 +259,28 @@ end arc;
 		\end{center}
 	\end{figure}
 	
-	\textbf{d)}
-		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
+	\textbf{d)} Una possible implementació del component requerit seria la següent.
+	
+	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\small]
 library ieee;
 use ieee.std_logic_1164.all;
 
 entity led_porta is
     port( act : in std_logic;  
-             leds : out std_logic_vector(7 down to 0)); %Error
+        leds : out std_logic_vector(7 down to 0)); %Error
 end led_porta;
 
-architecture led_porta of arc is
-type machine is ( st_show , st_intro );
-signal le : machine ; %Error 
+architecture arc of led_porta is %Error
+type machine is ( st_obert , st_tancat );
+signal le : std_logic_vector(7 down to 0) ;  
+signal state : machine;
 begin
-   leds <= "11111111" when le = st_show
-   	else "00000000" ;
-   
-   
+   process(clk , nrst)   begin
+       case state is
+            when st_obert => leds <= "11111111";
+            when st_tancat  => leds <="00000000" ;
+       end case;
+   end process;
    leds <= le;
 end arc;
 	\end{lstlisting}
