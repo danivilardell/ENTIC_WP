@@ -12,6 +12,7 @@
 \usepackage{setspace}
 \usepackage{graphicx}
 \usepackage{tikz,lipsum,lmodern}
+\usepackage{amsmath}
 \usepackage[most]{tcolorbox}
 \usepackage{circuitikz}
 \usepackage{indentfirst}
@@ -59,6 +60,13 @@
 	}
 	
 	\maketitle
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=90mm]{LogoSenseBlanc.png}
+		\end{center}
+	\end{figure}
+	
+	\newpage
 	\tableofcontents
 	\newpage
 	\begin{center}
@@ -136,12 +144,16 @@
 	
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=150mm]{WP1-1-10-2020.jpg}
+		\includegraphics[width=135mm]{WP1_ini}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP1_fin}
 		\end{center}
 	\end{figure}
 	
-	The last task had to be delayed due to not having enough time to complete it. We wasted more time than necessary fixing an error during assembly. But finally everything worked out correctly.
-
+	\textbf{Reflexion: }We’ve initially planned to finish all tasks in the same day but we couldn’t access for around 2 weeks to laboratory to use drill and other materials, due to sanitary problems. The delayed activities were short so that delay was not significant.
 	
 	\newpage
 	\section{WP2 - Electrical} 
@@ -168,23 +180,44 @@
 	
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=80mm]{Cirquit1WP2.png}
+		\includegraphics[width=140mm]{pregunta2_4.jpeg}
 		\end{center}
 	\end{figure}
 	
-	\newpage
 	\textcolor{blue}{Question 2.5:} \textbf{Update yoursketch of the electrical circuit (include the fuse and the DB9 connector)}
 	
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=150mm]{Cirquit2WP2.png}
+		\includegraphics[width=80mm]{pregunta2_5.png}
 		\end{center}
 	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{pregunta2_4.jpeg}
+		\end{center}
+	\end{figure}
+	
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=90mm]{DB9Subs.jpeg}
 		\end{center}
 	\end{figure}
+	
+	\textcolor{blue}{Question 2.6:} \textbf{Include a picture of the initial and final Gantt diagrams of WP2, making a reflexion about the progress and explaining any delay in the development of the tasks.}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP2_ini}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP2_fin}
+		\end{center}
+	\end{figure}
+	
+	\textbf{Reflexion: }We’d planned to begin with the first task before going to laboratory, from the second activity we’ve planned to finish the rest of the tasks in the same day but we couldn’t access for around 2 weeks to laboratory to use oscilloscope, voltage sources and other materials, due to sanitary problems. The delayed activities weren’t too short so that delay was difficult to overcome.
 	
 	\newpage
 	\section{WP3 - Electronics}
@@ -247,7 +280,7 @@
 	
 	Let's assume $G_{2} \cdotp G_{4} =G_{1} \cdotp G_{3}$, then we isolate:
 	\[V_{0}  = \frac{V_{2} -V_{1} \cdotp ( G_{3} \cdotp G_{g} +G_{2} \cdotp G_{3} +G_{2} \cdotp G_{g} +G_{4} \cdotp G_{2})}{G_{2} \cdotp G_{4}}\]
-	\[\frac{V_{0}}{V_{2} -V_{1}} =1+\frac{R_{1} -R_{4}}{R_{g}} +\frac{R_{4}}{R_{3}}\]
+	\[\frac{V_{0}}{V_{2} -V_{1}} =1+\frac{R_{1} +R_{4}}{R_{g}} +\frac{R_{4}}{R_{3}}\]
 	\\
 	
 	\textcolor{blue}{Question 3.8:} \textbf{Compare this result with the gain expression provided by the manufacturer using the resistor values shown in the INA126 datasheet.}\\
@@ -290,16 +323,16 @@
 	 \hline
 		 Preassure[Atm] & Voltage[$V$] \\ [0.5ex] 
 	 \hline\hline
-	 	0 		& 1.96 \\
-		 0.1 		& 1.97  \\ 
-		 0.15 	& 1.98  \\ 
-		 0.2 		&  1.99\\
-		 0.25 	& 1.995  \\ 
-		 0.3 		& 2.00 \\
-		 0.35 	& 2.003  \\ 
-		 0.4 		& 2.01 \\
-		 0.45 	& 2.013  \\ 
-		 0.5 		& 2.019 \\ [1ex] 
+	 	0 		& 3.31 \\
+		 0.05 	& 3.51  \\ 
+		 0.1		& 3.7  \\ 
+		 0.15		& 3.85\\
+		 0.2	 	& 4.04  \\ 
+		 0.25 	& 4.2\\
+		 0.3	 	& 4.37  \\ 
+		 0.4 		& 4.40 \\
+		 0.45 	& 4.41  \\ 
+		 0.5 		& 4.40 \\ [1ex] 
 	 \hline
 	\end{tabular}
 	\caption{Voltage output respect to Preassure input}
@@ -308,15 +341,18 @@
 	
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics{ExcelGraph2.png}
+		\includegraphics[width=105mm]{ExcelGraph.png}
 		\end{center}
 	\end{figure}
+	
 	
 	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=105mm]{MatlabGraph1.jpg}
 		\end{center}
 	\end{figure}
+	
+	We can see that it reaches the saturation voltage once the pressure is 0.3Atm, wich is what we were looking for.
 	
 	\lstinputlisting{codiMatlab.m}
 	
@@ -325,7 +361,7 @@
 	
 	The expected values from the arduino measurement acquisition should be inside the interval
 	\[
-		[\frac{V_0}{5}\cdot1023, \frac{V_{0.3}}{5}\cdot1023] = [\frac{1.96}{5}\cdot1023, \frac{2.00}{5}\cdot1023] = [401.0,409.2]
+		[\frac{V_0}{5}\cdot1023, \frac{V_{0.3}}{5}\cdot1023] = [\frac{3.31}{5}\cdot1023, \frac{4.4}{5}\cdot1023] = [677.2, 900.24]
 	\]
 	
 	\textcolor{blue}{Question 3.14:} \textbf{Explain briefly what is the purpose of the following functions, used in the sketch of Fig. 4.5: Serial.begin(), analogRead(), Serial.println() and delay(). }
@@ -346,50 +382,107 @@
 	 \hline
 		 Preassure[Atm] & Arduino output \\ [0.5ex] 
 	 \hline\hline
-	 	 0 		& 391  \\
-		 0.1 		& 392  \\ 
-		 0.15 	& 392  \\ 
-		 0.2 		& 393  \\
-		 0.25 	& 394  \\ 
-		 0.3 		& 395  \\
-		 0.35 	& 396  \\ 
-		 0.4 		& 397  \\
-		 0.45 	& 399  \\ 
-		 0.5 		& 399  \\ [1ex] 
+	 	 0 		& 665  \\
+		 0.05		& 724  \\ 
+		 0.15 	& 757  \\ 
+		 0.2 		& 790  \\
+		 0.25 	& 820  \\ 
+		 0.3 		& 849  \\
+		 0.35 	& 882  \\ 
+		 0.4 		& 893  \\
+		 0.45 	& 895  \\ 
+		 0.5 		& 892  \\ [1ex] 
 	 \hline
 	\end{tabular}
 	\caption{Arduino output respect to Preassure input}
 	\end{table}
 	
-	FALTA EXPLICAR PERQUE NO ES IGUAL A LA PREGUNTA 3.13\\
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=105mm]{ExcelGraph3.png}
+		\end{center}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=105mm]{MatlabGraph3.jpg}
+		\end{center}
+	\end{figure}
+	
+	We can see they are almost the same, there is a small atenuation thought that can be produced by the resistance in the cable conected from the arduino to the computer.
 
 	\textcolor{blue}{Question 3.16:} \textbf{Include a picture of the initial and final Gantt diagrams of WP3, making a reflexion about the progress and explaining any delay in the development of the tasks. }
 	
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=150mm]{WP3-8-10-2020.jpg}
+		\includegraphics[width=135mm]{WP3_ini}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP3_fin}
 		\end{center}
 	\end{figure}
 	
-	We completed the work in time because everything turned out as planned. We distributed the questions among the members before going to the lab and, once there, we knew exactly what to do and could benefit from the two hours to finish all the practical tasks. 
-	
+	\textbf{Reflexion: }Some activities in this WP could be done remotely from home so we could finish them before going to laboratory, despite of the same problem mentioned before we’ve delayed for two weeks some activities, fortunately these activities consisted in making short measurements and we could finish them quickly.
+	\newpage
 	\section{WP4 - Communications}
 	
 	\textcolor{blue}{Question 4.1:} \textbf{Encode in plain binary (2 bytes) the following measured value: 663. Determine the pressure corresponding to this value.}
 	
-	We can see that $663_{10} = (2^0 + 2^1 + 2^2 + 2^5 + 2^8)_{10} = 10010111_2$\\
+	We can see that $663_{10} = (2^0 + 2^1 + 2^2 + 2^4 + 2^7 + 2^9)_{10} = 1010010111_2$\\
 
 	\textcolor{blue}{Question 4.2:}  \textbf{Encode in ASCII the following measurement data: 25, 663, 1012.}
-	
-		25: 50 53
-		
-		663: 54 54 51
-		
-		1012: 49 48 49 50\\
+
+	\begin{table}[H]
+	\centering
+	\begin{tabular}{||c c ||} 
+	 \hline
+		Number & Ascii encoded number \\ [0.5ex] 
+	 \hline\hline
+	 	 25		& 50 53  \\
+		 663		& 54 54 51  \\ 
+		 1012 	& 49 48 49 50  \\ 
+	 \hline
+	\end{tabular}
+	\end{table}
 		
 	\textcolor{blue}{Question 4.3:} \textbf{Go to the Arduino language reference and identify which types are suitable to work with the numeric data provided by the A/D converters. What code length (in bytes) corresponds to each type?}
+	
+	\begin{table}[H]
+	\centering
+	\begin{tabular}{||c c ||} 
+	 \hline
+		Type of Data & Lenght(Byte) \\ [0.5ex] 
+	 \hline\hline
+	 	 Byte		& 1  \\
+		 Double	& 4  \\ 
+		 Float 	& 4  \\ 
+		 Int 		& 2  \\
+		 Long 	& 4  \\ 
+		 Short 	& 2  \\
+		 ASCII 	& 3  \\ 
+	 \hline
+	\end{tabular}
+	\end{table}
 
 	\textcolor{blue}{Question 4.4:} \textbf{Compare the screen captures obtained and explain the differences found. What sequence of bytes is really sent in each case?}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=105mm]{pregunta4_4_1.png}
+		\end{center}
+		\caption{Code executed using println()}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=105mm]{pregunta4_4_2.png}
+		\end{center}
+		\caption{Code executed using print()}
+	\end{figure}
+	
+	The difference between the two codes is that Serial.println() shows each value in a new line, whereas Serial.print() prints them in the same line, one after the other without spaces. The first command is easier for us to understand and see the different values.
 
 	\textcolor{blue}{Question 4.5:}  \textbf{List the serial port(s) COMx available in your computer. }
 	
@@ -421,6 +514,13 @@
 
 
 	\textcolor{blue}{Question 4.7:}  \textbf{Calculate which time-base must be selected in the oscilloscope to see 10 bits on the screen at the transmission rate selected by default in Terminal. }
+	
+	\[
+	\text{Trans.rate} = \frac{1}{9600}
+	\]
+	\[
+	t = 10\cdot \text{Trans.rate} = \frac{10}{9600} = 1.04 \text{ms}
+	\]\\
 
 	\textcolor{blue}{Question 4.8:} \textbf{Capture the waveform displayed on the oscilloscope. Determine the voltage levels, bit period and the number of bits per character. Which level indicates the idle state? Using an ASCII table explain the waveforms displayed for 3 different characters.}
 	
@@ -505,6 +605,19 @@
 
 	\textcolor{blue}{Question 4.17:} \textbf{Include a picture of the initial and final Gantt diagrams of WP4, making a reflexion about the progress and explaining any delay in the development of the tasks.}
 	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP4_ini}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP4_fin}
+		\end{center}
+	\end{figure}
+	
+	\textbf{Reflexion: }We’ve achieved to complete all activities without delay, despite of we initially planned to do most of them on 22th October we could just start completing them on 5th November cause the delay suffered at the beginning of the project so we redesigned the plan, this is the reason that we can’t consider this as delay.
+	
 	\newpage
 	
 	\section{WP5 - Nom}
@@ -533,9 +646,17 @@
 	
 	\textcolor{blue}{Question 5.6:} \textbf{Develop the whole Matlab code to display depth real-time data (depth vs. time). It is important that you apply some way of avoid noisy points in the graph. Explain your solution. It is also interesting to record (and plot) the maximum and minimum depth during ROUV journey.}
 	
-	\lstinputlisting{pregunta5_6.m}
+	In order to avoid noisy points in the graph we will compare each value we receive with the previous one, and if the difference is bigger than 300, then we will assume that it is a noisy point and will assign it to the value gotten the itteration before.
+	
+	\lstinputlisting{completeFinal.m}
 	
 	\textcolor{blue}{Question 5.7:} \textbf{Paste a couple of representative graphs obtained from Maltab plots.}
+	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=100mm]{pregunta5_7.png}
+		\end{center}
+	\end{figure}
 	
 	\textcolor{blue}{Question 5.8:} \textbf{Develop the Matlab code to represent data from “resultats.txt” (open, read, plot and close instructions should be used).}
 	
@@ -543,6 +664,18 @@
 	
 	\textcolor{blue}{Question 5.9:} \textbf{Include a picture of the initial and final Gantt diagrams of WP5, making a reflexion about the progress and explaining any delay in the development of the tasks.}
 	
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP5_ini}
+		\end{center}
+	\end{figure}
+	\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=135mm]{WP5_fin}
+		\end{center}
+	\end{figure}
+	
+	\textbf{Reflexion: } There wasn’t delay on the development of this WP, every task was completed on time.	
 	
 	\section{Part A Conclussion}
 	
