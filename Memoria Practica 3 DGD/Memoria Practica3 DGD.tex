@@ -173,7 +173,7 @@ begin
 	    case estat is 
 	    when inicial => if ast = '1' then estat <= intro_data; end if;
 	    when intro_data => if coi = '1' and ast = '0' then estat <= mostrar_resultat;
-						   elsif ast = '1' then estat <= inicial; end if;
+			elsif ast = '1' then estat <= inicial; end if;
 	    when mostrar_resultat => if ast = '1' then estat <= inicial;
 				elsif netx = '1' then estat <= mostrar_resultat;
 				elsif bcd = '1' then estat <= intro_data;

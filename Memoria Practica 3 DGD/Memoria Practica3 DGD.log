@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  17 DEC 2020 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  17 DEC 2020 20:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1224,11 +1224,6 @@ Overfull \hbox (1.59674pt too wide) in paragraph at lines 175--176
  []
 
 
-Overfull \hbox (36.79645pt too wide) in paragraph at lines 176--177
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
 Overfull \hbox (5.9967pt too wide) in paragraph at lines 186--188
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
@@ -1488,7 +1483,7 @@ texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist
 /fonts/type1/public/lm/lmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
 1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
 /lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb>
-Output written on "Memoria Practica3 DGD.pdf" (24 pages, 2651251 bytes).
+Output written on "Memoria Practica3 DGD.pdf" (24 pages, 2651254 bytes).
 PDF statistics:
  807 PDF objects out of 1000 (max. 8388607)
  718 compressed objects within 8 object streams
