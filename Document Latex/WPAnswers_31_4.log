@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  29 NOV 2020 22:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  7 DEC 2020 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1394,18 +1394,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 592--593
  []
 
 [26 <./images/CodiCpp.png>]
-<./images/WP4_ini.png, id=263, 674.52pt x 308.15125pt>
+<./images/placa1_entic.png, id=263, 1132.23pt x 739.563pt>
+File: ./images/placa1_entic.png Graphic file (type png)
+<use ./images/placa1_entic.png>
+Package pdftex.def Info: ./images/placa1_entic.png  used on input line 608.
+(pdftex.def)             Requested size: 398.33858pt x 260.18254pt.
+
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 608--609
+ [] 
+ []
+
+<./images/placa2_entic.png, id=264, 1132.23pt x 739.563pt>
+File: ./images/placa2_entic.png Graphic file (type png)
+<use ./images/placa2_entic.png>
+Package pdftex.def Info: ./images/placa2_entic.png  used on input line 614.
+(pdftex.def)             Requested size: 341.43306pt x 223.02167pt.
+[27 <./images/placa1_entic.png>]
+<./images/WP4_ini.png, id=270, 674.52pt x 308.15125pt>
 File: ./images/WP4_ini.png Graphic file (type png)
 <use ./images/WP4_ini.png>
-Package pdftex.def Info: ./images/WP4_ini.png  used on input line 610.
+Package pdftex.def Info: ./images/WP4_ini.png  used on input line 622.
 (pdftex.def)             Requested size: 384.1122pt x 175.48346pt.
-<./images/WP4_fin.png, id=264, 677.53125pt x 240.9pt>
+<./images/WP4_fin.png, id=271, 677.53125pt x 240.9pt>
 File: ./images/WP4_fin.png Graphic file (type png)
 <use ./images/WP4_fin.png>
-Package pdftex.def Info: ./images/WP4_fin.png  used on input line 615.
+Package pdftex.def Info: ./images/WP4_fin.png  used on input line 627.
 (pdftex.def)             Requested size: 384.1122pt x 136.57558pt.
- [27 <./images/WP4_ini.png>] [28 <./images/WP4_fin.png>] (./pregunta5_1.m)
-Overfull \hbox (15.79033pt too wide) in paragraph at lines 628--629
+ [28 <./images/placa2_entic.png> <./images/WP4_ini.png>] [29 <./images/WP4_fin.
+png>] (./pregunta5_1.m)
+Overfull \hbox (15.79033pt too wide) in paragraph at lines 640--641
 \OT1/lmr/bx/n/12 za-ti-on with the sketch run-ning in the Ar-dui-no (ENTIC-Anal
 og2Serial-
  []
@@ -1419,7 +1436,7 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 3.
 )
-(./pregunta5_3.m [29]) (./pregunta5_4.m) (./pregunta5_5.m [30])
+(./pregunta5_3.m [30]) (./pregunta5_4.m) (./pregunta5_5.m [31])
 (./completeFinal.m
 LaTeX Font Info:    Trying to load font information for OML+lmr on input line 1
 6.
@@ -1429,38 +1446,38 @@ File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
 (Font)              Font shape `OML/lmm/m/it' tried instead on input line 16.
 
-[31])
-<./images/pregunta5_7.png, id=359, 562.1pt x 421.575pt>
+[32])
+<./images/pregunta5_7.png, id=367, 562.1pt x 421.575pt>
 File: ./images/pregunta5_7.png Graphic file (type png)
 <use ./images/pregunta5_7.png>
-Package pdftex.def Info: ./images/pregunta5_7.png  used on input line 657.
+Package pdftex.def Info: ./images/pregunta5_7.png  used on input line 669.
 (pdftex.def)             Requested size: 284.52756pt x 213.39221pt.
- [32 <./images/pregunta5_7.png (PNG copy)>] (./pregunta5_8.m)
-<./images/WP5_ini.png, id=381, 684.5575pt x 163.61125pt>
+ [33 <./images/pregunta5_7.png (PNG copy)>] (./pregunta5_8.m)
+<./images/WP5_ini.png, id=389, 684.5575pt x 163.61125pt>
 File: ./images/WP5_ini.png Graphic file (type png)
 <use ./images/WP5_ini.png>
-Package pdftex.def Info: ./images/WP5_ini.png  used on input line 669.
+Package pdftex.def Info: ./images/WP5_ini.png  used on input line 681.
 (pdftex.def)             Requested size: 384.1122pt x 91.80641pt.
-<./images/WP5_fin.png, id=382, 675.52374pt x 145.54375pt>
+<./images/WP5_fin.png, id=390, 675.52374pt x 145.54375pt>
 File: ./images/WP5_fin.png Graphic file (type png)
 <use ./images/WP5_fin.png>
-Package pdftex.def Info: ./images/WP5_fin.png  used on input line 674.
+Package pdftex.def Info: ./images/WP5_fin.png  used on input line 686.
 (pdftex.def)             Requested size: 384.1122pt x 82.7587pt.
- [33 <./images/WP5_ini.png> <./images/WP5_fin.png>] [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
+ [34 <./images/WP5_ini.png> <./images/WP5_fin.png>] [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 700.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 700.
  (./WPAnswers_31_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 688.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 700.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 700.
 Package rerunfilecheck Info: File `WPAnswers_31_4.out' has not changed.
 (rerunfilecheck)             Checksum: 98E7EC3B635426A30D217C2E0E712E15;774.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 688.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 700.
  ) 
 Here is how much of TeX's memory you used:
- 43296 strings out of 480608
- 976748 string characters out of 5903630
- 1725394 words of memory out of 5000000
- 58338 multiletter control sequences out of 15000+600000
+ 43309 strings out of 480608
+ 977057 string characters out of 5903630
+ 1728394 words of memory out of 5000000
+ 58348 multiletter control sequences out of 15000+600000
  597640 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  64i,12n,103p,956b,2753s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1477,10 +1494,10 @@ dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
 type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
-Output written on WPAnswers_31_4.pdf (34 pages, 4326868 bytes).
+Output written on WPAnswers_31_4.pdf (35 pages, 4850069 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 351 compressed objects within 4 object streams
- 160 named destinations out of 1000 (max. 500000)
- 345 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 354 compressed objects within 4 object streams
+ 161 named destinations out of 1000 (max. 500000)
+ 355 words of extra memory for PDF output out of 10000 (max. 10000000)
 
