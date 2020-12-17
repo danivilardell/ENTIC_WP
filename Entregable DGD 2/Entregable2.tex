@@ -255,7 +255,7 @@ end arc;
 	
 	\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=130mm]{cronogramaC.jpeg}
+		\includegraphics[width=130mm]{cronogramaBo.jpeg}
 		\end{center}
 	\end{figure}
 	
@@ -275,7 +275,8 @@ type machine is ( st_obert , st_tancat );
 signal le : std_logic_vector(7 down to 0) ;  
 signal state : machine;
 begin
-   process(clk , nrst)   begin
+   process(clk , nrst)
+   begin
        case state is
             when st_obert => leds <= "11111111";
             when st_tancat  => leds <="00000000" ;
