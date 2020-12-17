@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  17 DEC 2020 21:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  17 DEC 2020 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1284,204 +1284,151 @@ Package pdftex.def Info: ./Imatges/simulacioJoc.jpeg  used on input line 363.
 <./Imatges/informeJoc.jpeg, id=375, 450.68375pt x 366.36874pt>
 File: ./Imatges/informeJoc.jpeg Graphic file (type jpg)
 <use ./Imatges/informeJoc.jpeg>
-Package pdftex.def Info: ./Imatges/informeJoc.jpeg  used on input line 368.
+Package pdftex.def Info: ./Imatges/informeJoc.jpeg  used on input line 371.
 (pdftex.def)             Requested size: 369.88582pt x 300.70383pt.
  [12 <./Imatges/joc.jpeg> <./Imatges/simulacioJoc.jpeg>]
 <./Imatges/jocPlaca.jpeg, id=380, 1205.50375pt x 517.935pt>
 File: ./Imatges/jocPlaca.jpeg Graphic file (type jpg)
 <use ./Imatges/jocPlaca.jpeg>
-Package pdftex.def Info: ./Imatges/jocPlaca.jpeg  used on input line 381.
+Package pdftex.def Info: ./Imatges/jocPlaca.jpeg  used on input line 384.
 (pdftex.def)             Requested size: 369.88582pt x 158.91435pt.
  [13 <./Imatges/informeJoc.jpeg>] [14 <./Imatges/jocPlaca.jpeg>]
-Overfull \hbox (5.9967pt too wide) in paragraph at lines 419--420
+[15]
+Overfull \hbox (5.9967pt too wide) in paragraph at lines 426--427
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-<./Imatges/informeComptadorBCDextra.jpeg, id=390, 457.71pt x 378.41376pt>
+<./Imatges/informeComptadorBCDextra.jpeg, id=405, 457.71pt x 378.41376pt>
 File: ./Imatges/informeComptadorBCDextra.jpeg Graphic file (type jpg)
 <use ./Imatges/informeComptadorBCDextra.jpeg>
 Package pdftex.def Info: ./Imatges/informeComptadorBCDextra.jpeg  used on input
- line 438.
+ line 445.
 (pdftex.def)             Requested size: 369.88582pt x 305.81479pt.
-[15] [16 <./Imatges/informeComptadorBCDextra.jpeg>]
-<./Imatges/simularioRegistreExtra.jpeg, id=463, 527.9725pt x 199.74625pt>
+[16 <./Imatges/informeComptadorBCDextra.jpeg>]
+<./Imatges/simularioRegistreExtra.jpeg, id=437, 527.9725pt x 199.74625pt>
 File: ./Imatges/simularioRegistreExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/simularioRegistreExtra.jpeg>
 Package pdftex.def Info: ./Imatges/simularioRegistreExtra.jpeg  used on input l
-ine 477.
+ine 486.
 (pdftex.def)             Requested size: 369.88582pt x 139.93723pt.
-<./Imatges/informeRegsExtra.jpeg, id=464, 446.66875pt x 349.305pt>
+<./Imatges/informeRegsExtra.jpeg, id=438, 446.66875pt x 349.305pt>
 File: ./Imatges/informeRegsExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/informeRegsExtra.jpeg>
-Package pdftex.def Info: ./Imatges/informeRegsExtra.jpeg  used on input line 48
-3.
+Package pdftex.def Info: ./Imatges/informeRegsExtra.jpeg  used on input line 49
+4.
 (pdftex.def)             Requested size: 369.88582pt x 289.26215pt.
- [17 <./Imatges/simularioRegistreExtra.jpeg> <./Imatges/informeRegsExtra.jpeg>]
-
-Overfull \hbox (1.59674pt too wide) in paragraph at lines 509--510
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (1.59674pt too wide) in paragraph at lines 510--511
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (142.39557pt too wide) in paragraph at lines 511--512
+ [17 <./Imatges/simularioRegistreExtra.jpeg>]
+Overfull \hbox (1.59674pt too wide) in paragraph at lines 523--524
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][] 
  []
 
-
-Overfull \hbox (54.3963pt too wide) in paragraph at lines 512--513
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (54.3963pt too wide) in paragraph at lines 513--514
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (54.3963pt too wide) in paragraph at lines 514--515
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (54.3963pt too wide) in paragraph at lines 515--516
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][] 
- []
-
-<./Imatges/simulacioKeyGroupExtra.jpeg, id=470, 889.3225pt x 210.7875pt>
+[18 <./Imatges/informeRegsExtra.jpeg>]
+<./Imatges/simulacioKeyGroupExtra.jpeg, id=499, 889.3225pt x 210.7875pt>
 File: ./Imatges/simulacioKeyGroupExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/simulacioKeyGroupExtra.jpeg>
 Package pdftex.def Info: ./Imatges/simulacioKeyGroupExtra.jpeg  used on input l
-ine 528.
+ine 544.
 (pdftex.def)             Requested size: 369.88582pt x 87.66815pt.
-<./Imatges/informeKeyGroupExtra.jpeg, id=471, 453.695pt x 379.4175pt>
+<./Imatges/informeKeyGroupExtra.jpeg, id=500, 453.695pt x 379.4175pt>
 File: ./Imatges/informeKeyGroupExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/informeKeyGroupExtra.jpeg>
 Package pdftex.def Info: ./Imatges/informeKeyGroupExtra.jpeg  used on input lin
-e 534.
+e 552.
 (pdftex.def)             Requested size: 369.88582pt x 309.32964pt.
-[18 <./Imatges/simulacioKeyGroupExtra.jpeg>]
-Overfull \hbox (1.59674pt too wide) in paragraph at lines 564--565
+ [19 <./Imatges/simulacioKeyGroupExtra.jpeg>] [20 <./Imatges/informeKeyGroupExt
+ra.jpeg>]
+Overfull \hbox (1.59674pt too wide) in paragraph at lines 584--585
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (1.59674pt too wide) in paragraph at lines 565--566
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (32.39648pt too wide) in paragraph at lines 567--568
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-[19 <./Imatges/informeKeyGroupExtra.jpeg>]
-Overfull \hbox (32.39648pt too wide) in paragraph at lines 582--583
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][] 
- []
-
-
-Overfull \hbox (5.9967pt too wide) in paragraph at lines 588--590
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-] 
- []
-
-<./Imatges/informeControlExtra.jpeg, id=536, 481.8pt x 368.37625pt>
+<./Imatges/informeControlExtra.jpeg, id=533, 481.8pt x 368.37625pt>
 File: ./Imatges/informeControlExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/informeControlExtra.jpeg>
 Package pdftex.def Info: ./Imatges/informeControlExtra.jpeg  used on input line
- 609.
+ 631.
 (pdftex.def)             Requested size: 369.88582pt x 282.81868pt.
-[20]
-<./Imatges/informeTrampes.jpeg, id=575, 443.6575pt x 376.40625pt>
+[21]
+<./Imatges/informeTrampes.jpeg, id=585, 443.6575pt x 376.40625pt>
 File: ./Imatges/informeTrampes.jpeg Graphic file (type jpg)
 <use ./Imatges/informeTrampes.jpeg>
-Package pdftex.def Info: ./Imatges/informeTrampes.jpeg  used on input line 643.
+Package pdftex.def Info: ./Imatges/informeTrampes.jpeg  used on input line 666.
 
 (pdftex.def)             Requested size: 369.88582pt x 313.81276pt.
- [21 <./Imatges/informeControlExtra.jpeg>] [22 <./Imatges/informeTrampes.jpeg>]
-<./Imatges/informeLeds.jpeg, id=631, 456.70625pt x 380.42125pt>
+ [22 <./Imatges/informeControlExtra.jpeg>] [23 <./Imatges/informeTrampes.jpeg>]
+<./Imatges/informeLeds.jpeg, id=637, 456.70625pt x 380.42125pt>
 File: ./Imatges/informeLeds.jpeg Graphic file (type jpg)
 <use ./Imatges/informeLeds.jpeg>
-Package pdftex.def Info: ./Imatges/informeLeds.jpeg  used on input line 689.
+Package pdftex.def Info: ./Imatges/informeLeds.jpeg  used on input line 713.
 (pdftex.def)             Requested size: 369.88582pt x 308.11049pt.
- [23 <./Imatges/informeLeds.jpeg>]
-<./Imatges/informeTemporitzador.jpeg, id=658, 460.72125pt x 391.4625pt>
+ [24 <./Imatges/informeLeds.jpeg>]
+<./Imatges/informeTemporitzador.jpeg, id=652, 460.72125pt x 391.4625pt>
 File: ./Imatges/informeTemporitzador.jpeg Graphic file (type jpg)
 <use ./Imatges/informeTemporitzador.jpeg>
 Package pdftex.def Info: ./Imatges/informeTemporitzador.jpeg  used on input lin
-e 735.
+e 761.
 (pdftex.def)             Requested size: 369.88582pt x 314.28143pt.
- [24 <./Imatges/informeTemporitzador.jpeg>]
-<./Imatges/informeSlowTimer.jpeg, id=685, 437.635pt x 372.39125pt>
+ [25] [26 <./Imatges/informeTemporitzador.jpeg>]
+<./Imatges/informeSlowTimer.jpeg, id=711, 437.635pt x 372.39125pt>
 File: ./Imatges/informeSlowTimer.jpeg Graphic file (type jpg)
 <use ./Imatges/informeSlowTimer.jpeg>
-Package pdftex.def Info: ./Imatges/informeSlowTimer.jpeg  used on input line 77
-7.
+Package pdftex.def Info: ./Imatges/informeSlowTimer.jpeg  used on input line 80
+6.
 (pdftex.def)             Requested size: 369.88582pt x 314.74416pt.
-<./Imatges/jocExtra.jpeg, id=686, 1140.26pt x 533.995pt>
+<./Imatges/jocExtra.jpeg, id=712, 1140.26pt x 533.995pt>
 File: ./Imatges/jocExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/jocExtra.jpeg>
-Package pdftex.def Info: ./Imatges/jocExtra.jpeg  used on input line 786.
+Package pdftex.def Info: ./Imatges/jocExtra.jpeg  used on input line 815.
 (pdftex.def)             Requested size: 369.88582pt x 173.2204pt.
- [25 <./Imatges/informeSlowTimer.jpeg>]
-<./Imatges/SimulacioJocExtra.jpeg, id=717, 1181.41376pt x 216.81pt>
+ [27 <./Imatges/informeSlowTimer.jpeg>]
+<./Imatges/SimulacioJocExtra.jpeg, id=732, 1181.41376pt x 216.81pt>
 File: ./Imatges/SimulacioJocExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/SimulacioJocExtra.jpeg>
-Package pdftex.def Info: ./Imatges/SimulacioJocExtra.jpeg  used on input line 7
-93.
+Package pdftex.def Info: ./Imatges/SimulacioJocExtra.jpeg  used on input line 8
+22.
 (pdftex.def)             Requested size: 369.88582pt x 67.87866pt.
-<./Imatges/informeJocExtra.jpeg, id=718, 438.63875pt x 355.3275pt>
+<./Imatges/informeJocExtra.jpeg, id=733, 438.63875pt x 355.3275pt>
 File: ./Imatges/informeJocExtra.jpeg Graphic file (type jpg)
 <use ./Imatges/informeJocExtra.jpeg>
-Package pdftex.def Info: ./Imatges/informeJocExtra.jpeg  used on input line 801
+Package pdftex.def Info: ./Imatges/informeJocExtra.jpeg  used on input line 830
 .
 (pdftex.def)             Requested size: 369.88582pt x 299.63875pt.
- [26 <./Imatges/jocExtra.jpeg> <./Imatges/SimulacioJocExtra.jpeg>]
-<./Imatges/JocExtraPlaca.jpeg, id=724, 1158.3275pt x 561.09625pt>
+ [28 <./Imatges/jocExtra.jpeg> <./Imatges/SimulacioJocExtra.jpeg>]
+<./Imatges/JocExtraPlaca.jpeg, id=738, 1158.3275pt x 561.09625pt>
 File: ./Imatges/JocExtraPlaca.jpeg Graphic file (type jpg)
 <use ./Imatges/JocExtraPlaca.jpeg>
-Package pdftex.def Info: ./Imatges/JocExtraPlaca.jpeg  used on input line 811.
+Package pdftex.def Info: ./Imatges/JocExtraPlaca.jpeg  used on input line 840.
 (pdftex.def)             Requested size: 369.88582pt x 179.16919pt.
- [27 <./Imatges/informeJocExtra.jpeg>] [28 <./Imatges/JocExtraPlaca.jpeg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 816.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 816.
+ [29 <./Imatges/informeJocExtra.jpeg>]
+[30 <./Imatges/JocExtraPlaca.jpeg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 845.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 845.
  (./Memoria Practica3 DGD.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 816.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 816.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 845.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 845.
 Package rerunfilecheck Info: File `"Memoria Practica3 DGD".out' has not changed
 .
 (rerunfilecheck)             Checksum: DE635C88D453D8B42D86C3B36AB92122;2326.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 816.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 845.
  ) 
 Here is how much of TeX's memory you used:
- 44300 strings out of 480608
- 1012453 string characters out of 5903630
- 1554207 words of memory out of 5000000
+ 44308 strings out of 480608
+ 1012559 string characters out of 5903630
+ 1560207 words of memory out of 5000000
  59024 multiletter control sequences out of 15000+600000
  602904 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,7n,103p,965b,2254s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,7n,103p,1071b,2254s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local
 /texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2020/
 texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2020/texmf-dist
 /fonts/type1/public/lm/lmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type
 1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm
 /lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr6.pfb>
-Output written on "Memoria Practica3 DGD.pdf" (28 pages, 2703149 bytes).
+Output written on "Memoria Practica3 DGD.pdf" (30 pages, 2708088 bytes).
 PDF statistics:
- 856 PDF objects out of 1000 (max. 8388607)
- 762 compressed objects within 8 object streams
- 478 named destinations out of 1000 (max. 500000)
+ 871 PDF objects out of 1000 (max. 8388607)
+ 775 compressed objects within 8 object streams
+ 486 named destinations out of 1000 (max. 500000)
  460 words of extra memory for PDF output out of 10000 (max. 10000000)
 
