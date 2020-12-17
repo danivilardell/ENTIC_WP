@@ -118,8 +118,7 @@ end compte;
 	
 	Podem veure que la simulació ja que quan arriba a 99 torna a començar al 0 i segueix contant.
 	
-	FALTA CANVIAR SIMULACIO
-\begin{figure}[H]
+	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{informeComptador.jpeg}
 		\end{center}
@@ -220,9 +219,13 @@ end arcControl;
 		
 		\end{lstlisting}
 		
-		FALTA SIMULACIO CONTROL
+		
 
-	
+		\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{simulacioControl.jpeg}
+		\end{center}
+	\end{figure}	
 	
 	\begin{figure}[H]
 		\begin{center}
@@ -319,7 +322,7 @@ end arq;
 	
 	\subsection{Leds}
 	
-	El component Leds transforma 3 bits a 8 bits .
+El component leds passa la informació que rep del programa principal a la representació esperada per a la practica, es a dir dels tres bits a la representació de 8 bits que iluminara 8 leds.
 	
 		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 		
@@ -360,7 +363,7 @@ end arq;
 	\end{figure}	
 			\begin{figure}[H]
 		\begin{center}
-		\includegraphics[width=130mm]{simulacioJoc.jpeg}
+		\includegraphics[width=130mm]{simulacioJocNou.jpeg}
 		\end{center}
 	\end{figure}	
 	
@@ -833,6 +836,10 @@ end dni;
 	
 
 \subsection{Joc Extra Placa}
+	Per a acabar tenim el joc posat a la placa. Per a fer aixo hem reusat el fet per la part 1 i hi hem afegit tres moduls: slow\_timer, temporitzador i trampes. També hem actualitzat els blocs del programa principal i el de leds. 
+El bloc trampes ens donara la xifra a mostrar per pantalla en el cas que control dins de ppal estigui en algun dels estats trampaA o trampaB. 
+El bloc temporitzador rebra el clk modificat de slow\_timer i anira descomptant xifres segon per segon. 
+Finalment leds\_extra ens donara, a mes de si el nombre es mes gran, igual o mes petit, el nombre de partides que portem guanyades.
 
 	\begin{figure}[H]
 	
@@ -840,6 +847,7 @@ end dni;
 		\includegraphics[width=130mm]{JocExtraPlaca.jpeg}
 		\end{center}
 	\end{figure}
+
 	
 	
 \end{document}
