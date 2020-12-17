@@ -290,9 +290,9 @@ begin
 process (nkey, k)
 begin
 	if (nkey = '0' and (k = "0000" or k = "0001" or k = "0010" or
-						k = "0011" or k = "0100" or k = "0101" or
-						k = "0110" or k = "0111" or k = "1000" or
-						k = "1001")) then bcd <= '1'; ast <= '0'; coi <= '0';
+				k = "0011" or k = "0100" or k = "0101" or
+				k = "0110" or k = "0111" or k = "1000" or
+				k = "1001")) then bcd <= '1'; ast <= '0'; coi <= '0';
 	elsif(nkey = '0' and k = "1110")
 			then bcd <= '0'; ast <= '1'; coi <= '0';
 	elsif(nkey = '0' and k = "1111")
@@ -317,6 +317,38 @@ end arq;
 		\end{center}
 	\end{figure}	
 	
+	\subsection{Leds}
+	
+	El component Leds transforma 3 bits a 8 bits .
+	
+		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
+		
+	library ieee;
+use ieee.std_logic_1164.all;
+
+entity leds is
+	port(led: in std_logic_vector(2 downto 0);
+		 led_green : out std_logic_vector(7 downto 0));
+end leds;
+
+architecture arq of leds is
+begin
+	led_green <= "11111111" when led = "111" else
+				 "11110000" when led = "100" else
+				 "00001111" when led = "001" else
+				 "00111100" when led = "010" else
+				 "00000000" when led = "000";
+				 
+end arq;
+
+		\end{lstlisting}
+		
+		
+			\begin{figure}[H]
+		\begin{center}
+		\includegraphics[width=130mm]{informeLeds1.jpeg}
+		\end{center}
+	\end{figure}
 	
 	\subsection{Joc}
 	Aquest es el programa principal breument explicat al inici de la practica. Consta de tots els components mencionats anteriorment i els ajunta per a controlar la part principal del joc. La entrada es passa per keygroup que ens diu quin tipus d'entrada es, que s'envia a control. En funció de en quin estat control es trobi aturara el contador, mostrara si el valor introduit es mes gran o igual o mes petit o actialitzarà el valor de regs. Com a entrades rebrà si s'esta clicant una tecla, quina tecla s'esta pitjant, nrst i clk. Com a sortida indicarà quins leds iluminar junt amb el nombre introduit per l'usuari.
@@ -614,7 +646,7 @@ end arq;
 
 			
 			
-\subsection{Leds}
+\subsection{Leds Extra}
 
 	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 	library ieee;
