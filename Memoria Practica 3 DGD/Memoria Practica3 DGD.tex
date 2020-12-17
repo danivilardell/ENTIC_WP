@@ -61,8 +61,17 @@
 	\newpage
 	\section{Part 1}
 	\subsection{Diseny Jerarquic}
+	El diseny te l'objectiu de implementar un joc que es basa en endivinar nombres aleatoris amb la informacio de si el nombre entrat es mes gran o mes petit al nombre buscat. Un cop s'endevina s'ha de mostrar el nombre i es pot tornar a començar. Per tal de fer aixo hem creat un programa principal que consta dels seguents components: keygroup, control, comptadorBCD, comparadorBCD i regs\_v. 
+	
+	Quan es clica una tecla de la placa ho rep keygroup que informa a control si la entrada es un nombre, un asterisc o un coixinet. Control decideix, en funció del moment en que es trobi de la partida(inici, introduccio de dades o final) que fa. En el cas de estar en inici i si s'entra un asterisc el joc comença i es selecciona un nombre aleatori que no es mostra indicant a comptador que pari de contar. Despres si s'entren nombres es van emmagatzemant dins de regs\_v i es van comparant amb el nombre introduit. Nomes quan es clica la tecla coixinet es mostra si el nombre es mes gran o no al buscat.
+	
+	El component control es l'encarregat de gestionar les fases del joc i decidir que fer en cada moment mentres que comptador es el que decideix el nombre aleatori i comparador retorna si un nombre es mes gran que un altre, i regs de emmagatzemar els nombres introduits.
+	
+	\newpage
 	
 	\subsection{ComptadorBCD}
+	
+	El component comptador es el encarregat de decidir el nombre aleatori. Ho fa de la següent manera: Conte un contador que va augmentant cada flanc de pujada de clk, per tant molt rapidament, i nomes s'atura si ecnt es 0. Com que compta molt rapidament, podem "assegurar" que el nombre escollit sera aleatori. La entrada ecnt la rebrà de control en el moment en que estiguem a fase inicial i es pitgi la tecla asterisc.
 	
 		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 		library ieee;
@@ -106,6 +115,10 @@ end compte;
 		\includegraphics[width=130mm]{simulacioComptador.jpeg}
 		\end{center}
 	\end{figure}
+	
+	Podem veure que la simulació ja que quan arriba a 99 torna a començar al 0 i segueix contant.
+	
+	FALTA CANVIAR SIMULACIO
 \begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{informeComptador.jpeg}
@@ -115,7 +128,7 @@ end compte;
 	
 \subsection{ComparadorBCD}
 
-
+	El bloc comparador també es ben senzill, el que fa es mirar entre dos nombres d'entrada quin es mes gran i donar això a la sortida. Si num > numx aleshores ngtx (n greater than x) serà 1, sin num < numx nltx (n less than x) serà 1 i finalment si son iguals netx(number equal to x) serà 1.
 		
 	\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 	library ieee;
@@ -139,7 +152,9 @@ end comparador;
 		\begin{center}
 		\includegraphics[width=130mm]{simulacioComparador.jpeg}
 		\end{center}
-	\end{figure}
+\end{figure}
+
+Podem veure que es comporta com hem comentat que faria. En el nostre joc els nombres seran de nomes dos digits, tot i això el component funciona per alguns nombres de 3 digits.
 
 
 
@@ -151,6 +166,14 @@ end comparador;
 
 
 \subsection{Control}
+
+	El bloc control es l'encarregat de organitzar les fases del joc i el mes complicat de tots. Aquest bloc conté tres estats. Inicial, Introducció de dades i mostrar resultats. Com a entrades rep si la tecla premuda es un asterisc, un nombre bcd o el coixinet junt amb la relació entre els nombres que s'estan comparant.
+	
+	\begin{itemize}
+		\item \textbf{Inicial:} Per defecte la sortida que indica al contador si seguir contant esta desactivada. Si la entrada es un asterisc indica la atura del comptador posant el bit ecnt a 0 i també canvia l'estat a introduccio de dades.
+		\item \textbf{Introducció de dades: }  En aquest estat si la entrada es un nombre bcd, s'indica via la sortida eshft que s'actualitzi el valor del digit dins de regs, on s'emmagatzemen aquests. Si es clica l'asterisc es torna al estat inicial. Si es clica coixinet s'indica a partir de la sortida led i amb la informacio de les entrades ngtx nltx netx si el valor introduit es major, menor o igual i es canvia el estat a mostrar resultats.
+		\item \textbf{Mostrar resultats: } En aquest estat control no gestiona res, simplement indica a la sortida eshft que s'han de mostrar els resultats per pantalla (si es major, menor o igual).
+	\end{itemize}
 		
 		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 		
@@ -197,7 +220,7 @@ end arcControl;
 		
 		\end{lstlisting}
 		
-		Aqui falte simulacio de Control 
+		FALTA SIMULACIO CONTROL
 
 	
 	
@@ -209,6 +232,9 @@ end arcControl;
 		
 		
 \subsection{Registres}
+
+	Registres funciona igual que a la ultima practica, es un mòdul seqüencial síncron que te com a finalitat carregar i memoritzar els digits introduits opA i opB. Aquest, si la entrada intro es 1 i clk esta en el flanc de pujada i nrst esta activat, actualitzara els valors de opA i opB, posant a opA el valor entrat per keycode i a opB el antic valor de opA.
+	
 		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 
 library ieee;
@@ -244,10 +270,11 @@ end arq;
 		\end{center}
 	\end{figure}	
 
-		
-		
 
 \subsection{keygroup}
+
+	Aquest component també es igual a la practica anterior i te com a finalitat indicarnos si la tecla premuda es un nombre bcd, un asterisc o un coixinet.
+	
 		\begin{lstlisting}[style=vhdl, frame=single, basicstyle=\tiny]
 	library ieee;
 use ieee.std_logic_1164.all;
@@ -281,7 +308,7 @@ end arq;
 		\includegraphics[width=130mm]{simulaciokeygroup.jpeg}
 		\end{center}
 	\end{figure}	
-	
+	Veiem que funciona ja que s'activa coi quan la entrada es F, bcd quan la entrada es 4 i 8 i ast quan la entrada es E.
 	
 	
 			\begin{figure}[H]
@@ -292,7 +319,7 @@ end arq;
 	
 	
 	\subsection{Joc}
-	
+	Aquest es el programa principal breument explicat al inici de la practica. Consta de tots els components mencionats anteriorment i els ajunta per a controlar la part principal del joc. La entrada es passa per keygroup que ens diu quin tipus d'entrada es, que s'envia a control. En funció de en quin estat control es trobi aturara el contador, mostrara si el valor introduit es mes gran o igual o mes petit o actialitzarà el valor de regs. Com a entrades rebrà si s'esta clicant una tecla, quina tecla s'esta pitjant, nrst i clk. Com a sortida indicarà quins leds iluminar junt amb el nombre introduit per l'usuari.
 	
 				\begin{figure}[H]
 		\begin{center}
@@ -313,17 +340,24 @@ end arq;
 		
 	\subsection{Joc Placa}
 	
+	Un cop ja hem testejat tots els components individualment amb simulacións ho ajuntem tot a un diagrama de blocs amb l'objectiu de mostrarho i interectuar a la placa. 
 	
+	Aquest diagrama funciona de la seguent manera, keytest s'encarrega de indicar quina tecla s'està prement i la introdueix al programa principal indicat anteriorment. Aquest ens indicara el nombre entrat per l'usuari a mostrar per la sortida entr i els leds a iluminar led. El component leds que s'encarregara de transformar la sortida led de 3 bits a una sortida de 7 que indicarà els leds a iluminar. El component hex\_disp transforma els nombres de la entrada a 7 segments per a mostrar a la placa els valors.
 	
-				\begin{figure}[H]
+	\begin{figure}[H]
 		\begin{center}
 		\includegraphics[width=130mm]{jocPlaca.jpeg}
 		\end{center}
 	\end{figure}	
 
-
+\newpage
 
 \section{Part Extra}
+
+Un cop tenim el joc basic hem decidit ampliarlo de la seguent forma. Primer hem introduit un altre digit al joc, es a dir, en contes d'adivinar un nombre de 2 digits s'ha d'endivinar un nombre de 3. Com que això podria arribar a ser aburrit hem havilitat una forma de fer trampes: pitjant la tecla B es pot veure el valor de les desenes del nombre buscat i la tecla A per a veure les unitats. Aixi doncs nomes faltaria un  nombre per a adivinar, el de les centenes. 
+A mes d'això hem havilitat un sistema que fa un conta enrere i un contador de punts a base de leds per tal de competir a contrarellotge i intentar fer els maxims punts en un temps donat.
+
+Per a fer aquesta part hem hagut de fer moltes modificacions a la primera part del progecte, algunes d'aquestes son les seguents. Hem modificat contador per a que conti fins a les centenes
 
 \subsection{ComptadorBCD Extra}
 
@@ -745,11 +779,6 @@ end dni;
 		\includegraphics[width=130mm]{JocExtraPlaca.jpeg}
 		\end{center}
 	\end{figure}
-
-
-
-
-
 	
 	
 \end{document}
