@@ -1,5 +1,5 @@
 fclose(instrfindall);
-serialPort = serial('COM8','BaudRate',9600,'Terminator','CR/LF');
+serialPort = serial('/dev/cu.usbserial-FT476NI9','BaudRate',9600,'Terminator','CR/LF');
 samples = 150;
 x = zeros(1,samples);
 depth = zeros(1,samples);
@@ -8,7 +8,7 @@ max_depth = 0;
 min_depth = 0;
 t=1:samples;
 
- fopen(serialPort);
+fopen(serialPort);
 for n = 1:samples
     fprintf(serialPort,'%s\n','S');
     a=fscanf(serialPort,'%d');

@@ -3,5 +3,5 @@
 \contentsline {section}{\numberline {2}WP2 - Electrical}{6}{section.2}%
 \contentsline {section}{\numberline {3}WP3 - Electronics}{10}{section.3}%
 \contentsline {section}{\numberline {4}WP4 - Communications}{19}{section.4}%
-\contentsline {section}{\numberline {5}WP5 - Nom}{29}{section.5}%
-\contentsline {section}{\numberline {6}Part A Conclussion}{34}{section.6}%
+\contentsline {section}{\numberline {5}WP5 - Nom}{30}{section.5}%
+\contentsline {section}{\numberline {6}Part A Conclussion}{35}{section.6}%
