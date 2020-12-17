@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.19)  17 NOV 2020 19:01
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  13 NOV 2020 14:45
->>>>>>> 8a00f0276702a6407f92e6a33976c81382a2b67a
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.18)  29 NOV 2020 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,7 +992,7 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks47
 \inpenc@posthook=\toks48
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
 
 
 LaTeX Warning: Unused global option(s):
@@ -1005,34 +1001,34 @@ LaTeX Warning: Unused global option(s):
 (./WPAnswers_31_4.aux)
 \openout1 = `WPAnswers_31_4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
-LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
-1.
+2.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Info: Redefining \l on input line 41.
-LaTeX Info: Redefining \L on input line 41.
+LaTeX Info: Redefining \l on input line 42.
+LaTeX Info: Redefining \L on input line 42.
 \AtBeginShipoutBox=\box86
-Package hyperref Info: Link coloring ON on input line 41.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1046,9 +1042,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count346
 )
-LaTeX Info: Redefining \ref on input line 41.
-LaTeX Info: Redefining \pageref on input line 41.
-LaTeX Info: Redefining \nameref on input line 41.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
  (./WPAnswers_31_4.out) (./WPAnswers_31_4.out)
 \@outlinefile=\write6
 \openout6 = `WPAnswers_31_4.out'.
@@ -1086,49 +1082,49 @@ e
 
 ABD: EveryShipout initializing macros
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
-1.
+2.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-41.
+42.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-41.
+42.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 41.
+(Font)              <12> on input line 42.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 41.
+(Font)              <8> on input line 42.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 41.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 41.
+(Font)              <6> on input line 42.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 41.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-41.
+42.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-41.
+42.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1137,215 +1133,279 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 62.
+(Font)              <14.4> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 62.
+(Font)              <10> on input line 63.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 62.
+(Font)              <7> on input line 63.
+<./images/LogoSenseBlanc.png, id=67, 449.68pt x 461.725pt>
+File: ./images/LogoSenseBlanc.png Graphic file (type png)
+<use ./images/LogoSenseBlanc.png>
+Package pdftex.def Info: ./images/LogoSenseBlanc.png  used on input line 65.
+(pdftex.def)             Requested size: 256.0748pt x 262.94644pt.
+ [1
 
-(./WPAnswers_31_4.toc)
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/LogoSenseBlanc.png>] (./WPAnswers_31_4.toc)
 \tf@toc=\write7
 \openout7 = `WPAnswers_31_4.toc'.
 
- [1
+ [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
+4.
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-6.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
+(/usr/local/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
+) [3]
+Underfull \hbox (badness 10000) in paragraph at lines 141--142
 
  []
 
-[3]
-<./images/WP1-1-10-2020.jpg, id=94, 555.57562pt x 182.93344pt>
-File: ./images/WP1-1-10-2020.jpg Graphic file (type jpg)
-<use ./images/WP1-1-10-2020.jpg>
-Package pdftex.def Info: ./images/WP1-1-10-2020.jpg  used on input line 139.
-(pdftex.def)             Requested size: 426.79134pt x 140.5298pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 139--140
- [] 
- []
-
-[4 <./images/WP1-1-10-2020.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+[4]
+<./images/WP1_ini.png, id=101, 695.59875pt x 224.84pt>
+File: ./images/WP1_ini.png Graphic file (type png)
+<use ./images/WP1_ini.png>
+Package pdftex.def Info: ./images/WP1_ini.png  used on input line 147.
+(pdftex.def)             Requested size: 384.1122pt x 124.1564pt.
+<./images/WP1_fin.png, id=102, 685.56125pt x 160.6pt>
+File: ./images/WP1_fin.png Graphic file (type png)
+<use ./images/WP1_fin.png>
+Package pdftex.def Info: ./images/WP1_fin.png  used on input line 152.
+(pdftex.def)             Requested size: 384.1122pt x 89.98439pt.
+ [5 <./images/WP1_ini.png> <./images/WP1_fin.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 163.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 175.
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
-[5]
-<./images/Cirquit1WP2.png, id=106, 468.75125pt x 565.11125pt>
-File: ./images/Cirquit1WP2.png Graphic file (type png)
-<use ./images/Cirquit1WP2.png>
-Package pdftex.def Info: ./images/Cirquit1WP2.png  used on input line 171.
-(pdftex.def)             Requested size: 227.62204pt x 274.4063pt.
- [6 <./images/Cirquit1WP2.png>]
-<./images/Cirquit2WP2.png, id=113, 998.73125pt x 557.08125pt>
-File: ./images/Cirquit2WP2.png Graphic file (type png)
-<use ./images/Cirquit2WP2.png>
-Package pdftex.def Info: ./images/Cirquit2WP2.png  used on input line 180.
-(pdftex.def)             Requested size: 426.79134pt x 238.0612pt.
+[6]
+<./images/pregunta2_4.jpeg, id=116, 716.6775pt x 194.7275pt>
+File: ./images/pregunta2_4.jpeg Graphic file (type jpg)
+<use ./images/pregunta2_4.jpeg>
+Package pdftex.def Info: ./images/pregunta2_4.jpeg  used on input line 183.
+(pdftex.def)             Requested size: 398.33858pt x 108.2325pt.
 
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 180--181
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 183--184
  [] 
  []
 
-<./images/DB9Subs.jpeg, id=114, 424.58624pt x 225.84375pt>
+<./images/pregunta2_5.png, id=117, 257.96375pt x 207.77625pt>
+File: ./images/pregunta2_5.png Graphic file (type png)
+<use ./images/pregunta2_5.png>
+Package pdftex.def Info: ./images/pregunta2_5.png  used on input line 191.
+(pdftex.def)             Requested size: 227.62204pt x 183.34457pt.
+File: ./images/pregunta2_4.jpeg Graphic file (type jpg)
+<use ./images/pregunta2_4.jpeg>
+Package pdftex.def Info: ./images/pregunta2_4.jpeg  used on input line 197.
+(pdftex.def)             Requested size: 369.88582pt x 100.50119pt.
+[7 <./images/pregunta2_4.jpeg> <./images/pregunta2_5.png>]
+<./images/DB9Subs.jpeg, id=124, 424.58624pt x 225.84375pt>
 File: ./images/DB9Subs.jpeg Graphic file (type jpg)
 <use ./images/DB9Subs.jpeg>
-Package pdftex.def Info: ./images/DB9Subs.jpeg  used on input line 185.
+Package pdftex.def Info: ./images/DB9Subs.jpeg  used on input line 203.
 (pdftex.def)             Requested size: 256.0748pt x 136.21718pt.
-[7 <./images/Cirquit2WP2.png> <./images/DB9Subs.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+<./images/WP2_ini.png, id=125, 607.26875pt x 313.17pt>
+File: ./images/WP2_ini.png Graphic file (type png)
+<use ./images/WP2_ini.png>
+Package pdftex.def Info: ./images/WP2_ini.png  used on input line 211.
+(pdftex.def)             Requested size: 384.1122pt x 198.09137pt.
+<./images/WP2_fin.png, id=126, 679.53876pt x 241.90375pt>
+File: ./images/WP2_fin.png Graphic file (type png)
+<use ./images/WP2_fin.png>
+Package pdftex.def Info: ./images/WP2_fin.png  used on input line 216.
+(pdftex.def)             Requested size: 384.1122pt x 136.73492pt.
+ [8 <./images/DB9Subs.jpeg>] [9 <./images/WP2_ini.png> <./images/WP2_fin.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--254
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
-[9]
-<./images/CirquitWP3.png, id=132, 630.355pt x 363.3575pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+[11]
+<./images/CirquitWP3.png, id=148, 630.355pt x 363.3575pt>
 File: ./images/CirquitWP3.png Graphic file (type png)
 <use ./images/CirquitWP3.png>
-Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 280.
+Package pdftex.def Info: ./images/CirquitWP3.png  used on input line 313.
 (pdftex.def)             Requested size: 298.75394pt x 172.21404pt.
- [10 <./images/CirquitWP3.png>]
-<./images/ExcelGraph2.png, id=138, 363.3575pt x 218.8175pt>
-File: ./images/ExcelGraph2.png Graphic file (type png)
-<use ./images/ExcelGraph2.png>
-Package pdftex.def Info: ./images/ExcelGraph2.png  used on input line 311.
-(pdftex.def)             Requested size: 363.3566pt x 218.81696pt.
-<./images/MatlabGraph1.jpg, id=139, 1124.2pt x 843.15pt>
+ [12 <./images/CirquitWP3.png>]
+<./images/ExcelGraph.png, id=154, 469.755pt x 334.24875pt>
+File: ./images/ExcelGraph.png Graphic file (type png)
+<use ./images/ExcelGraph.png>
+Package pdftex.def Info: ./images/ExcelGraph.png  used on input line 344.
+(pdftex.def)             Requested size: 298.75394pt x 212.572pt.
+<./images/MatlabGraph1.jpg, id=155, 562.1pt x 421.575pt>
 File: ./images/MatlabGraph1.jpg Graphic file (type jpg)
 <use ./images/MatlabGraph1.jpg>
-Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 317.
+Package pdftex.def Info: ./images/MatlabGraph1.jpg  used on input line 351.
 (pdftex.def)             Requested size: 298.75394pt x 224.06409pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{table.1})
+ [13pdfTeX warning (ext4): destination with the same identifier (name{table.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.320 	
-        <./images/ExcelGraph2.png>]
+l.354 	
+        <./images/ExcelGraph.png>]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 321.
- (./codiMatlab.m) [12 <./images/MatlabGraph1.jpg>] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
-
- []
-
-<./images/WP3-8-10-2020.jpg, id=174, 551.81157pt x 174.6525pt>
-File: ./images/WP3-8-10-2020.jpg Graphic file (type jpg)
-<use ./images/WP3-8-10-2020.jpg>
-Package pdftex.def Info: ./images/WP3-8-10-2020.jpg  used on input line 370.
-(pdftex.def)             Requested size: 426.79134pt x 135.08778pt.
-
-Overfull \hbox (36.79134pt too wide) in paragraph at lines 370--371
- [] 
- []
-
-[14pdfTeX warning (ext4): destination with the same identifier (name{table.2}) 
-has been already used, duplicate ignored
+nput line 357.
+ (./codiMatlab.m [14 <./images/MatlabGraph1.jpg>]) [15]
+<./images/ExcelGraph3.png, id=191, 478.78876pt x 299.1175pt>
+File: ./images/ExcelGraph3.png Graphic file (type png)
+<use ./images/ExcelGraph3.png>
+Package pdftex.def Info: ./images/ExcelGraph3.png  used on input line 402.
+(pdftex.def)             Requested size: 298.75394pt x 186.64217pt.
+<./images/MatlabGraph3.jpg, id=192, 562.1pt x 421.575pt>
+File: ./images/MatlabGraph3.jpg Graphic file (type jpg)
+<use ./images/MatlabGraph3.jpg>
+Package pdftex.def Info: ./images/MatlabGraph3.jpg  used on input line 408.
+(pdftex.def)             Requested size: 298.75394pt x 224.06409pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{table.2})
+ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.379 	
-        <./images/WP3-8-10-2020.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+l.411 	
+        <./images/ExcelGraph3.png>]
+<./images/WP3_ini.png, id=199, 687.56876pt x 225.84375pt>
+File: ./images/WP3_ini.png Graphic file (type png)
+<use ./images/WP3_ini.png>
+Package pdftex.def Info: ./images/WP3_ini.png  used on input line 418.
+(pdftex.def)             Requested size: 384.1122pt x 126.16837pt.
+<./images/WP3_fin.png, id=200, 684.5575pt x 161.60374pt>
+File: ./images/WP3_fin.png Graphic file (type png)
+<use ./images/WP3_fin.png>
+Package pdftex.def Info: ./images/WP3_fin.png  used on input line 423.
+(pdftex.def)             Requested size: 384.1122pt x 90.67995pt.
+ [17 <./images/MatlabGraph3.jpg> <./images/WP3_ini.png>] [18 <./images/WP3_fin.
+png>]
+Underfull \hbox (badness 10000) in paragraph at lines 433--434
 
  []
 
+<./images/pregunta4_4_1.png, id=211, 455.7025pt x 474.77374pt>
+File: ./images/pregunta4_4_1.png Graphic file (type png)
+<use ./images/pregunta4_4_1.png>
+Package pdftex.def Info: ./images/pregunta4_4_1.png  used on input line 473.
+(pdftex.def)             Requested size: 298.75394pt x 311.26523pt.
+[19]
+<./images/pregunta4_4_2.png, id=217, 524.96124pt x 118.4425pt>
+File: ./images/pregunta4_4_2.png Graphic file (type png)
+<use ./images/pregunta4_4_2.png>
+Package pdftex.def Info: ./images/pregunta4_4_2.png  used on input line 480.
+(pdftex.def)             Requested size: 298.75394pt x 67.4081pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.1}
+) has been already used, duplicate ignored
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--389
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.487 	\textcolor{blue}{Question 4.5:}
+                                        \textbf{List the serial port(s) COMx...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
 
- []
-
-[15]
-<./images/Foto4_6.png, id=185, 388.45125pt x 326.21875pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.487 	\textcolor{blue}{Question 4.5:}
+                                        \textbf{List the serial port(s) COMx...
+ <./images/pregunta4_4_1.png> <./images/pregunta4_4_2.png>]
+<./images/Foto4_6.png, id=226, 388.45125pt x 326.21875pt>
 File: ./images/Foto4_6.png Graphic file (type png)
 <use ./images/Foto4_6.png>
-Package pdftex.def Info: ./images/Foto4_6.png  used on input line 418.
+Package pdftex.def Info: ./images/Foto4_6.png  used on input line 511.
 (pdftex.def)             Requested size: 369.88582pt x 310.63776pt.
-<./images/LletraA4_8.png, id=186, 515.9275pt x 329.23pt>
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 523--524
+
+ []
+
+<./images/LletraA4_8.png, id=231, 515.9275pt x 329.23pt>
 File: ./images/LletraA4_8.png Graphic file (type png)
 <use ./images/LletraA4_8.png>
-Package pdftex.def Info: ./images/LletraA4_8.png  used on input line 431.
+Package pdftex.def Info: ./images/LletraA4_8.png  used on input line 531.
 (pdftex.def)             Requested size: 227.62204pt x 145.25348pt.
- [16 <./images/Foto4_6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 437--438
+[22 <./images/Foto4_6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
-<./images/LletraA_Arduino.png, id=192, 503.8825pt x 435.6275pt>
+<./images/LletraA_Arduino.png, id=237, 503.8825pt x 435.6275pt>
 File: ./images/LletraA_Arduino.png Graphic file (type png)
 <use ./images/LletraA_Arduino.png>
-Package pdftex.def Info: ./images/LletraA_Arduino.png  used on input line 443.
+Package pdftex.def Info: ./images/LletraA_Arduino.png  used on input line 543.
 (pdftex.def)             Requested size: 227.62204pt x 196.78833pt.
-[17 <./images/LletraA4_8.png> <./images/LletraA_Arduino.png>]
-<./images/tinycadWP4.png, id=199, 641.39626pt x 581.17125pt>
+[23 <./images/LletraA4_8.png>]
+<./images/tinycadWP4.png, id=243, 641.39626pt x 581.17125pt>
 File: ./images/tinycadWP4.png Graphic file (type png)
 <use ./images/tinycadWP4.png>
-Package pdftex.def Info: ./images/tinycadWP4.png  used on input line 459.
+Package pdftex.def Info: ./images/tinycadWP4.png  used on input line 559.
 (pdftex.def)             Requested size: 284.52756pt x 257.81784pt.
-<./images/CapMan.png, id=200, 438.63875pt x 145.54375pt>
+ [24 <./images/LletraA_Arduino.png>]
+<./images/CapMan.png, id=249, 438.63875pt x 145.54375pt>
 File: ./images/CapMan.png Graphic file (type png)
 <use ./images/CapMan.png>
-Package pdftex.def Info: ./images/CapMan.png  used on input line 467.
+Package pdftex.def Info: ./images/CapMan.png  used on input line 567.
 (pdftex.def)             Requested size: 284.52756pt x 94.40909pt.
- [18 <./images/tinycadWP4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 473--474
+
+Underfull \hbox (badness 10000) in paragraph at lines 573--574
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+[25 <./images/tinycadWP4.png> <./images/CapMan.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 577--578
 
  []
 
-<./images/CodiCpp.png, id=206, 504.88625pt x 356.33125pt>
+<./images/CodiCpp.png, id=257, 504.88625pt x 356.33125pt>
 File: ./images/CodiCpp.png Graphic file (type png)
 <use ./images/CodiCpp.png>
-Package pdftex.def Info: ./images/CodiCpp.png  used on input line 483.
+Package pdftex.def Info: ./images/CodiCpp.png  used on input line 583.
 (pdftex.def)             Requested size: 284.52756pt x 200.81099pt.
-[19 <./images/CapMan.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--593
 
  []
 
-[20 <./images/CodiCpp.png>] [21] (./pregunta5_1.m)
-Overfull \hbox (15.79033pt too wide) in paragraph at lines 515--516
+[26 <./images/CodiCpp.png>]
+<./images/WP4_ini.png, id=263, 674.52pt x 308.15125pt>
+File: ./images/WP4_ini.png Graphic file (type png)
+<use ./images/WP4_ini.png>
+Package pdftex.def Info: ./images/WP4_ini.png  used on input line 610.
+(pdftex.def)             Requested size: 384.1122pt x 175.48346pt.
+<./images/WP4_fin.png, id=264, 677.53125pt x 240.9pt>
+File: ./images/WP4_fin.png Graphic file (type png)
+<use ./images/WP4_fin.png>
+Package pdftex.def Info: ./images/WP4_fin.png  used on input line 615.
+(pdftex.def)             Requested size: 384.1122pt x 136.57558pt.
+ [27 <./images/WP4_ini.png>] [28 <./images/WP4_fin.png>] (./pregunta5_1.m)
+Overfull \hbox (15.79033pt too wide) in paragraph at lines 628--629
 \OT1/lmr/bx/n/12 za-ti-on with the sketch run-ning in the Ar-dui-no (ENTIC-Anal
 og2Serial-
  []
@@ -1359,34 +1419,51 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 3.
 )
-(./pregunta5_3.m [22]) (./pregunta5_4.m) (./pregunta5_5.m [23])
-(./pregunta5_6.m
+(./pregunta5_3.m [29]) (./pregunta5_4.m) (./pregunta5_5.m [30])
+(./completeFinal.m
 LaTeX Font Info:    Trying to load font information for OML+lmr on input line 1
-5.
+6.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/lm/omllmr.fd
 File: omllmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OML/lmr/m/n' in size <12> not available
-(Font)              Font shape `OML/lmm/m/it' tried instead on input line 15.
+(Font)              Font shape `OML/lmm/m/it' tried instead on input line 16.
 
-[24]) (./pregunta5_8.m) [25]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 555.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 555.
+[31])
+<./images/pregunta5_7.png, id=359, 562.1pt x 421.575pt>
+File: ./images/pregunta5_7.png Graphic file (type png)
+<use ./images/pregunta5_7.png>
+Package pdftex.def Info: ./images/pregunta5_7.png  used on input line 657.
+(pdftex.def)             Requested size: 284.52756pt x 213.39221pt.
+ [32 <./images/pregunta5_7.png (PNG copy)>] (./pregunta5_8.m)
+<./images/WP5_ini.png, id=381, 684.5575pt x 163.61125pt>
+File: ./images/WP5_ini.png Graphic file (type png)
+<use ./images/WP5_ini.png>
+Package pdftex.def Info: ./images/WP5_ini.png  used on input line 669.
+(pdftex.def)             Requested size: 384.1122pt x 91.80641pt.
+<./images/WP5_fin.png, id=382, 675.52374pt x 145.54375pt>
+File: ./images/WP5_fin.png Graphic file (type png)
+<use ./images/WP5_fin.png>
+Package pdftex.def Info: ./images/WP5_fin.png  used on input line 674.
+(pdftex.def)             Requested size: 384.1122pt x 82.7587pt.
+ [33 <./images/WP5_ini.png> <./images/WP5_fin.png>] [34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 688.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 688.
  (./WPAnswers_31_4.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 555.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 555.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 688.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 688.
 Package rerunfilecheck Info: File `WPAnswers_31_4.out' has not changed.
 (rerunfilecheck)             Checksum: 98E7EC3B635426A30D217C2E0E712E15;774.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 555.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 688.
  ) 
 Here is how much of TeX's memory you used:
- 43182 strings out of 480608
- 974594 string characters out of 5903630
- 1727394 words of memory out of 5000000
- 58245 multiletter control sequences out of 15000+600000
+ 43296 strings out of 480608
+ 976748 string characters out of 5903630
+ 1725394 words of memory out of 5000000
+ 58338 multiletter control sequences out of 15000+600000
  597640 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,12n,103p,956b,2184s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,103p,956b,2753s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/lo
 cal/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/20
 20/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local/texlive/2020/texmf-dis
@@ -1400,10 +1477,10 @@ dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
 type1/public/lm/lmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
 /lm/lmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmsy10.p
 fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtk10.pfb>
-Output written on WPAnswers_31_4.pdf (25 pages, 1598805 bytes).
+Output written on WPAnswers_31_4.pdf (34 pages, 4326868 bytes).
 PDF statistics:
- 400 PDF objects out of 1000 (max. 8388607)
- 311 compressed objects within 4 object streams
- 143 named destinations out of 1000 (max. 500000)
- 275 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 476 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
+ 160 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 
